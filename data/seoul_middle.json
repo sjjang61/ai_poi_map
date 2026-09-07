@@ -2,6 +2,8 @@
   {
     "id": "B000008256",
     "name": "방산중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 오금로29길 31",
     "address_jiban": "서울특별시 송파구 방이동 220",
     "lat": 37.50937287,
@@ -12,6 +14,8 @@
   {
     "id": "B000008365",
     "name": "봉은중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 영동대로128길 59",
     "address_jiban": "서울특별시 강남구 삼성동 82-7",
     "lat": 37.51897667,
@@ -22,6 +26,8 @@
   {
     "id": "B000008184",
     "name": "선유중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 선유로 213",
     "address_jiban": "서울특별시 영등포구 양평동3가 82",
     "lat": 37.53328647,
@@ -32,6 +38,8 @@
   {
     "id": "B000008269",
     "name": "세륜중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 양재대로72길 41",
     "address_jiban": "서울특별시 송파구 오금동 7-3",
     "lat": 37.50893314,
@@ -42,6 +50,8 @@
   {
     "id": "B000008405",
     "name": "남서울중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 남부순환로172길 97",
     "address_jiban": "서울특별시 관악구 신림동 1690-3",
     "lat": 37.48213625,
@@ -52,6 +62,8 @@
   {
     "id": "B000008343",
     "name": "원촌중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 사평대로45길 10",
     "address_jiban": "서울특별시 서초구 반포동 22",
     "lat": 37.5063251,
@@ -62,6 +74,8 @@
   {
     "id": "B000008281",
     "name": "정신여자중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 올림픽로4길 16",
     "address_jiban": "서울특별시 송파구 잠실동 50-4",
     "lat": 37.50945384,
@@ -72,6 +86,8 @@
   {
     "id": "B000025291",
     "name": "송례중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 위례순환로 429",
     "address_jiban": "서울특별시 송파구 장지동 899",
     "lat": 37.47783301,
@@ -82,6 +98,8 @@
   {
     "id": "B000008385",
     "name": "남성중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 남부순환로269길 166",
     "address_jiban": "서울특별시 동작구 사당동 304-45",
     "lat": 37.47900822,
@@ -92,6 +110,8 @@
   {
     "id": "B000008258",
     "name": "오륜중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 양재대로 1242",
     "address_jiban": "서울특별시 송파구 방이동 89-7",
     "lat": 37.51632395,
@@ -102,6 +122,8 @@
   {
     "id": "B000008237",
     "name": "상명대학교사범대학부속여자중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 홍지문2길 20",
     "address_jiban": "서울특별시 종로구 홍지동 7-1",
     "lat": 37.60410891,
@@ -112,6 +134,8 @@
   {
     "id": "B000008313",
     "name": "목동중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동동로 172",
     "address_jiban": "서울특별시 양천구 신정동 85-168",
     "lat": 37.5209572,
@@ -122,6 +146,8 @@
   {
     "id": "B000008238",
     "name": "중앙중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 창덕궁길 164",
     "address_jiban": "서울특별시 종로구 계동 1",
     "lat": 37.58378822,
@@ -132,6 +158,8 @@
   {
     "id": "B000008177",
     "name": "안천중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 한내로 69-44",
     "address_jiban": "서울특별시 금천구 독산동 1089",
     "lat": 37.45952426,
@@ -142,6 +170,8 @@
   {
     "id": "B000008318",
     "name": "봉영여자중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동동로2길 68",
     "address_jiban": "서울특별시 양천구 신정동 325-8",
     "lat": 37.50921598,
@@ -152,6 +182,8 @@
   {
     "id": "B000008319",
     "name": "등명중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 공항대로39길 39",
     "address_jiban": "서울특별시 강서구 등촌동 690-4",
     "lat": 37.56019335,
@@ -162,6 +194,8 @@
   {
     "id": "B000008352",
     "name": "세화여자중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 신반포로 56-7",
     "address_jiban": "서울특별시 서초구 반포동 753",
     "lat": 37.5019828,
@@ -172,6 +206,8 @@
   {
     "id": "B000008255",
     "name": "성심여자중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 원효로19길 49",
     "address_jiban": "서울특별시 용산구 원효로4가 1-1",
     "lat": 37.53420937,
@@ -182,6 +218,8 @@
   {
     "id": "B000008399",
     "name": "인헌중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 인헌9길 35",
     "address_jiban": "서울특별시 관악구 봉천동 1647",
     "lat": 37.47269621,
@@ -192,6 +230,8 @@
   {
     "id": "B000025376",
     "name": "위례솔중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 위례북로2길 10",
     "address_jiban": "서울특별시 송파구 거여동 649",
     "lat": 37.48701307,
@@ -202,6 +242,8 @@
   {
     "id": "B000008271",
     "name": "오주중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 동남로 281",
     "address_jiban": "서울특별시 송파구 오금동 59",
     "lat": 37.50150661,
@@ -212,6 +254,8 @@
   {
     "id": "B000008386",
     "name": "장승중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 장승배기로10가길 25",
     "address_jiban": "서울특별시 동작구 상도동 175-1",
     "lat": 37.50314858,
@@ -222,6 +266,8 @@
   {
     "id": "B000008302",
     "name": "신목중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동중앙로 88",
     "address_jiban": "서울특별시 양천구 목동 902-1",
     "lat": 37.53702399,
@@ -232,6 +278,8 @@
   {
     "id": "B000008222",
     "name": "중원중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 공릉로 420",
     "address_jiban": "서울특별시 노원구 중계동 511-3",
     "lat": 37.64423868,
@@ -242,6 +290,8 @@
   {
     "id": "B000008400",
     "name": "신관중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 신림로48길 17-16",
     "address_jiban": "서울특별시 관악구 신림동 87-81",
     "lat": 37.48020125,
@@ -252,6 +302,8 @@
   {
     "id": "B000008209",
     "name": "태랑중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 화랑로51나길 51",
     "address_jiban": "서울특별시 노원구 공릉동 117",
     "lat": 37.62698409,
@@ -262,6 +314,8 @@
   {
     "id": "B000008373",
     "name": "단국대학교사범대학부속중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 도곡로64길 21",
     "address_jiban": "서울특별시 강남구 대치동 1013",
     "lat": 37.49561749,
@@ -272,6 +326,8 @@
   {
     "id": "B000008377",
     "name": "은성중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 남부순환로359길 36",
     "address_jiban": "서울특별시 강남구 도곡동 938-10",
     "lat": 37.48837857,
@@ -282,6 +338,8 @@
   {
     "id": "B000008267",
     "name": "방이중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 오금로11길 64",
     "address_jiban": "서울특별시 송파구 방이동 53",
     "lat": 37.51501058,
@@ -292,6 +350,8 @@
   {
     "id": "B000008230",
     "name": "서울대학교사범대학부설여자중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 대학로 64",
     "address_jiban": "서울특별시 종로구 이화동 149",
     "lat": 37.5775997,
@@ -302,6 +362,8 @@
   {
     "id": "B000008369",
     "name": "역삼중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 도곡로43길 10",
     "address_jiban": "서울특별시 강남구 역삼동 767-20",
     "lat": 37.49593388,
@@ -312,6 +374,8 @@
   {
     "id": "B000008372",
     "name": "휘문중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 역삼로 541",
     "address_jiban": "서울특별시 강남구 대치동 952-1",
     "lat": 37.50528945,
@@ -322,6 +386,8 @@
   {
     "id": "B000026185",
     "name": "항동중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 연동로 239-2",
     "address_jiban": "서울특별시 구로구 항동 22-5",
     "lat": 37.48285456,
@@ -332,6 +398,8 @@
   {
     "id": "B000008120",
     "name": "연신중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 연서로33길 16-32",
     "address_jiban": "서울특별시 은평구 불광동 400-4",
     "lat": 37.62353926,
@@ -342,6 +410,8 @@
   {
     "id": "B000008123",
     "name": "덕산중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 가좌로 400",
     "address_jiban": "서울특별시 은평구 신사동 265-4",
     "lat": 37.6022574,
@@ -352,6 +422,8 @@
   {
     "id": "B000008308",
     "name": "신원중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 가로공원로55길 19",
     "address_jiban": "서울특별시 양천구 신월동 43-4",
     "lat": 37.5370925,
@@ -362,6 +434,8 @@
   {
     "id": "B000008436",
     "name": "월곡중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 장월로 6",
     "address_jiban": "서울특별시 성북구 상월곡동 35-1",
     "lat": 37.60698163,
@@ -372,6 +446,8 @@
   {
     "id": "B000008087",
     "name": "전일중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 사가정로13길 67",
     "address_jiban": "서울특별시 동대문구 전농동 60-1",
     "lat": 37.58250018,
@@ -382,6 +458,8 @@
   {
     "id": "B000008200",
     "name": "창일중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 노해로66길 60",
     "address_jiban": "서울특별시 도봉구 창동 369",
     "lat": 37.64898751,
@@ -392,6 +470,8 @@
   {
     "id": "B000008268",
     "name": "가락중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 송이로 45",
     "address_jiban": "서울특별시 송파구 송파동 168",
     "lat": 37.50248553,
@@ -402,6 +482,8 @@
   {
     "id": "B000008157",
     "name": "홍익대학교사범대학부속여자중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 성미산로 51",
     "address_jiban": "서울특별시 마포구 성산동 산11-31",
     "lat": 37.55964474,
@@ -412,6 +494,8 @@
   {
     "id": "B000008158",
     "name": "동도중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 백범로 139",
     "address_jiban": "서울특별시 마포구 염리동 150",
     "lat": 37.54670177,
@@ -422,6 +506,8 @@
   {
     "id": "B000008092",
     "name": "전동중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 장안벚꽃로 291",
     "address_jiban": "서울특별시 동대문구 휘경동 49-295",
     "lat": 37.58619359,
@@ -432,6 +518,8 @@
   {
     "id": "B000008266",
     "name": "거원중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 양산로2길 30",
     "address_jiban": "서울특별시 송파구 거여동 296",
     "lat": 37.48772386,
@@ -442,6 +530,8 @@
   {
     "id": "B000008170",
     "name": "우신중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 부일로 917",
     "address_jiban": "서울특별시 구로구 궁동 230",
     "lat": 37.49490231,
@@ -452,6 +542,8 @@
   {
     "id": "B000008097",
     "name": "휘경여자중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 한천로 247",
     "address_jiban": "서울특별시 동대문구 휘경동 43-7",
     "lat": 37.58190052,
@@ -462,6 +554,8 @@
   {
     "id": "B000008329",
     "name": "방원중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 금낭화로 268",
     "address_jiban": "서울특별시 강서구 방화동 808",
     "lat": 37.57597576,
@@ -472,6 +566,8 @@
   {
     "id": "B000008101",
     "name": "봉화중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 망우로70길 89",
     "address_jiban": "서울특별시 중랑구 망우동 122-1",
     "lat": 37.59582753,
@@ -482,6 +578,8 @@
   {
     "id": "B000008270",
     "name": "오금중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 오금로35길 20",
     "address_jiban": "서울특별시 송파구 오금동 34",
     "lat": 37.50527064,
@@ -492,6 +590,8 @@
   {
     "id": "B000008347",
     "name": "서운중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 서운로 115",
     "address_jiban": "서울특별시 서초구 서초동 1325-1",
     "lat": 37.49394851,
@@ -502,6 +602,8 @@
   {
     "id": "B000008160",
     "name": "신도림중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 경인로63길 74",
     "address_jiban": "서울특별시 구로구 신도림동 311-1",
     "lat": 37.51074073,
@@ -512,6 +614,8 @@
   {
     "id": "B000008330",
     "name": "염창중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 양천로67가길 83",
     "address_jiban": "서울특별시 강서구 염창동 85",
     "lat": 37.55426407,
@@ -522,6 +626,8 @@
   {
     "id": "B000008398",
     "name": "관악중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 남부순환로237길 60",
     "address_jiban": "서울특별시 관악구 봉천동 100-569",
     "lat": 37.48125828,
@@ -532,6 +638,8 @@
   {
     "id": "B000008125",
     "name": "대성중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 갈현로29길 51-24",
     "address_jiban": "서울특별시 은평구 갈현동 267-17",
     "lat": 37.62314228,
@@ -542,6 +650,8 @@
   {
     "id": "B000008381",
     "name": "동작중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 동작대로39가길 83",
     "address_jiban": "서울특별시 동작구 동작동 59-1",
     "lat": 37.49546195,
@@ -552,6 +662,8 @@
   {
     "id": "B000008279",
     "name": "영파여자중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 올림픽로 565",
     "address_jiban": "서울특별시 송파구 풍납동 501",
     "lat": 37.53273562,
@@ -562,6 +674,8 @@
   {
     "id": "B000008275",
     "name": "문현중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 충민로 99",
     "address_jiban": "서울특별시 송파구 장지동 838-3",
     "lat": 37.48058417,
@@ -572,6 +686,8 @@
   {
     "id": "B000008143",
     "name": "이화여자대학교사범대학부속이화·금란중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 성산로 520",
     "address_jiban": "서울특별시 서대문구 대신동 47",
     "lat": 37.56264282,
@@ -582,6 +698,8 @@
   {
     "id": "B000008367",
     "name": "신구중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 압구정로36길 17",
     "address_jiban": "서울특별시 강남구 신사동 621",
     "lat": 37.52744229,
@@ -592,6 +710,8 @@
   {
     "id": "B000008401",
     "name": "신림중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 신림로 40",
     "address_jiban": "서울특별시 관악구 신림동 133",
     "lat": 37.47032734,
@@ -602,6 +722,8 @@
   {
     "id": "B000008380",
     "name": "국사봉중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 양녕로20길 20",
     "address_jiban": "서울특별시 동작구 상도동 214-437",
     "lat": 37.49353263,
@@ -612,6 +734,8 @@
   {
     "id": "B000008211",
     "name": "상계중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 노원로 398",
     "address_jiban": "서울특별시 노원구 상계동 195-5",
     "lat": 37.65260154,
@@ -622,6 +746,8 @@
   {
     "id": "B000008397",
     "name": "봉원중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 관악로24가길 15",
     "address_jiban": "서울특별시 관악구 봉천동 25-19",
     "lat": 37.48410274,
@@ -632,6 +758,8 @@
   {
     "id": "B000008414",
     "name": "동마중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 마조로11길 18",
     "address_jiban": "서울특별시 성동구 마장동 405-45",
     "lat": 37.56280251,
@@ -642,6 +770,8 @@
   {
     "id": "B000008265",
     "name": "송파중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 동남로 203",
     "address_jiban": "서울특별시 송파구 가락동 139",
     "lat": 37.49592462,
@@ -652,6 +782,8 @@
   {
     "id": "B000008410",
     "name": "무학중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 행당로 120",
     "address_jiban": "서울특별시 성동구 행당동 322-1",
     "lat": 37.55768336,
@@ -662,6 +794,8 @@
   {
     "id": "B000008339",
     "name": "등촌중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 공항대로 484-12",
     "address_jiban": "서울특별시 강서구 등촌동 534-9",
     "lat": 37.55248221,
@@ -672,6 +806,8 @@
   {
     "id": "B000008178",
     "name": "문일중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 시흥대로47길 45",
     "address_jiban": "서울특별시 금천구 시흥동 559-1",
     "lat": 37.44891526,
@@ -682,6 +818,8 @@
   {
     "id": "B000008095",
     "name": "동국대학교사범대학부속중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 장안벚꽃로 201",
     "address_jiban": "서울특별시 동대문구 장안동 328",
     "lat": 37.57804718,
@@ -692,6 +830,8 @@
   {
     "id": "B000008403",
     "name": "난우중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 난곡로16길 32",
     "address_jiban": "서울특별시 관악구 신림동 652-156",
     "lat": 37.46680396,
@@ -702,6 +842,8 @@
   {
     "id": "B000008378",
     "name": "강남중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 대방동15길 29",
     "address_jiban": "서울특별시 동작구 대방동 390-6",
     "lat": 37.50276263,
@@ -712,6 +854,8 @@
   {
     "id": "B000008228",
     "name": "청원중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 한글비석로 506",
     "address_jiban": "서울특별시 노원구 상계동 641",
     "lat": 37.66525155,
@@ -722,6 +866,8 @@
   {
     "id": "B000008387",
     "name": "강현중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 상도로13라길 22",
     "address_jiban": "서울특별시 동작구 상도동 335-5",
     "lat": 37.50311599,
@@ -732,6 +878,8 @@
   {
     "id": "B000008210",
     "name": "한천중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 공릉로 265",
     "address_jiban": "서울특별시 노원구 공릉동 481",
     "lat": 37.63131395,
@@ -742,6 +890,8 @@
   {
     "id": "B000008206",
     "name": "하계중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 노원로 261-8",
     "address_jiban": "서울특별시 노원구 하계동 231-4",
     "lat": 37.64136991,
@@ -752,6 +902,8 @@
   {
     "id": "B000008086",
     "name": "장평중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 답십리로72길 158",
     "address_jiban": "서울특별시 동대문구 장안동 352",
     "lat": 37.56685961,
@@ -762,6 +914,8 @@
   {
     "id": "B000008204",
     "name": "상원중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 수락산로 182",
     "address_jiban": "서울특별시 노원구 상계동 632",
     "lat": 37.67176621,
@@ -772,6 +926,8 @@
   {
     "id": "B000008096",
     "name": "정화여자중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 홍릉로15길 50",
     "address_jiban": "서울특별시 동대문구 제기동 293",
     "lat": 37.58604864,
@@ -782,6 +938,8 @@
   {
     "id": "B000008354",
     "name": "서문여자중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 동광로12길 84",
     "address_jiban": "서울특별시 서초구 방배동 1514",
     "lat": 37.48891973,
@@ -792,6 +950,8 @@
   {
     "id": "B000008412",
     "name": "성수중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 서울숲길 18",
     "address_jiban": "서울특별시 성동구 성수동1가 685-143",
     "lat": 37.54734181,
@@ -802,6 +962,8 @@
   {
     "id": "B000008353",
     "name": "동덕여자중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 효령로2길 123-5",
     "address_jiban": "서울특별시 서초구 방배동 산82",
     "lat": 37.47587863,
@@ -812,6 +974,8 @@
   {
     "id": "B000008408",
     "name": "광신중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 광신길 141",
     "address_jiban": "서울특별시 관악구 신림동 328",
     "lat": 37.4644762,
@@ -822,6 +986,8 @@
   {
     "id": "B000008264",
     "name": "석촌중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 송이로15길 13",
     "address_jiban": "서울특별시 송파구 가락동 43",
     "lat": 37.50145499,
@@ -832,6 +998,8 @@
   {
     "id": "B000008332",
     "name": "화원중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 강서로17나길 86",
     "address_jiban": "서울특별시 강서구 화곡동 351-94",
     "lat": 37.53621409,
@@ -842,6 +1010,8 @@
   {
     "id": "B000008165",
     "name": "고척중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 중앙로3길 20",
     "address_jiban": "서울특별시 구로구 고척동 76-2",
     "lat": 37.49974083,
@@ -852,6 +1022,8 @@
   {
     "id": "B000008136",
     "name": "홍은중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 연희로41길 94",
     "address_jiban": "서울특별시 서대문구 홍은동 182",
     "lat": 37.59189151,
@@ -862,6 +1034,8 @@
   {
     "id": "B000008088",
     "name": "전농중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 사가정로13길 71",
     "address_jiban": "서울특별시 동대문구 전농동 54-6",
     "lat": 37.58204428,
@@ -872,6 +1046,8 @@
   {
     "id": "B000008368",
     "name": "압구정중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 압구정로 225",
     "address_jiban": "서울특별시 강남구 압구정동 471",
     "lat": 37.53024224,
@@ -882,6 +1058,8 @@
   {
     "id": "B000008163",
     "name": "개봉중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 고척로21나길 68",
     "address_jiban": "서울특별시 구로구 개봉동 24-2",
     "lat": 37.50352932,
@@ -892,6 +1070,8 @@
   {
     "id": "B000008434",
     "name": "서울대학교사범대학부설중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 월곡로 36",
     "address_jiban": "서울특별시 성북구 종암동 7-10",
     "lat": 37.59582047,
@@ -902,6 +1082,8 @@
   {
     "id": "B000008388",
     "name": "문창중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 여의대방로22나길 40",
     "address_jiban": "서울특별시 동작구 신대방동 364-58",
     "lat": 37.49580287,
@@ -912,6 +1094,8 @@
   {
     "id": "B000008355",
     "name": "언북중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 도산대로38길 27",
     "address_jiban": "서울특별시 강남구 논현동 69",
     "lat": 37.51942855,
@@ -922,6 +1106,8 @@
   {
     "id": "B000008375",
     "name": "숙명여자중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 남부순환로 2807",
     "address_jiban": "서울특별시 강남구 도곡동 91",
     "lat": 37.49147536,
@@ -932,6 +1118,8 @@
   {
     "id": "B000008342",
     "name": "경원중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 신반포로33길 39",
     "address_jiban": "서울특별시 서초구 잠원동 66-1",
     "lat": 37.5115816,
@@ -942,6 +1130,8 @@
   {
     "id": "B000008263",
     "name": "잠실중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 올림픽로35길 130",
     "address_jiban": "서울특별시 송파구 신천동 7-1",
     "lat": 37.51781757,
@@ -952,6 +1142,8 @@
   {
     "id": "B000008314",
     "name": "금옥중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 신정로 213",
     "address_jiban": "서울특별시 양천구 신정동 729",
     "lat": 37.51096532,
@@ -962,6 +1154,8 @@
   {
     "id": "B000008227",
     "name": "상명중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 덕릉로 553",
     "address_jiban": "서울특별시 노원구 중계동 515",
     "lat": 37.64954781,
@@ -972,6 +1166,8 @@
   {
     "id": "B000008149",
     "name": "신수중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 신수로 49",
     "address_jiban": "서울특별시 마포구 신수동 371-28",
     "lat": 37.545923,
@@ -982,6 +1178,8 @@
   {
     "id": "B000008364",
     "name": "언주중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 선릉로116길 57",
     "address_jiban": "서울특별시 강남구 삼성동 28",
     "lat": 37.51465316,
@@ -992,6 +1190,8 @@
   {
     "id": "B000008105",
     "name": "원묵중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 신내로23길 57",
     "address_jiban": "서울특별시 중랑구 묵동 12",
     "lat": 37.61777209,
@@ -1002,6 +1202,8 @@
   {
     "id": "B000008448",
     "name": "한성여자중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 삼선교로16길 118",
     "address_jiban": "서울특별시 성북구 삼선동2가 391-4",
     "lat": 37.5830649,
@@ -1012,6 +1214,8 @@
   {
     "id": "B000008161",
     "name": "경인중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 경인로 301",
     "address_jiban": "서울특별시 구로구 개봉동 143-4",
     "lat": 37.49846566,
@@ -1022,6 +1226,8 @@
   {
     "id": "B000008307",
     "name": "신월중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 남부순환로29길 25",
     "address_jiban": "서울특별시 양천구 신월동 17-6",
     "lat": 37.54046194,
@@ -1032,6 +1238,8 @@
   {
     "id": "B000008384",
     "name": "사당중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 사당로9가길 58",
     "address_jiban": "서울특별시 동작구 사당동 209-16",
     "lat": 37.48776119,
@@ -1042,6 +1250,8 @@
   {
     "id": "B000008259",
     "name": "가원중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 중대로10길 40-18",
     "address_jiban": "서울특별시 송파구 가락동 106-3",
     "lat": 37.49099949,
@@ -1052,6 +1262,8 @@
   {
     "id": "B000008361",
     "name": "대명중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 역삼로87길 26",
     "address_jiban": "서울특별시 강남구 대치동 952",
     "lat": 37.50633641,
@@ -1062,6 +1274,8 @@
   {
     "id": "B000008249",
     "name": "한강중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 녹사평대로 73",
     "address_jiban": "서울특별시 용산구 서빙고동 4-1",
     "lat": 37.52361192,
@@ -1072,6 +1286,8 @@
   {
     "id": "B000008437",
     "name": "숭곡중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 종암로 208",
     "address_jiban": "서울특별시 성북구 하월곡동 87-1",
     "lat": 37.60847848,
@@ -1082,6 +1298,8 @@
   {
     "id": "B000008393",
     "name": "중앙대학교사범대학부속중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 서달로 124",
     "address_jiban": "서울특별시 동작구 흑석동 86",
     "lat": 37.50362942,
@@ -1092,6 +1310,8 @@
   {
     "id": "B000008406",
     "name": "남강중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 난곡로34길 80",
     "address_jiban": "서울특별시 관악구 신림동 627-1",
     "lat": 37.47137567,
@@ -1102,6 +1322,8 @@
   {
     "id": "B000008396",
     "name": "구암중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 성현로 53",
     "address_jiban": "서울특별시 관악구 봉천동 1712-5",
     "lat": 37.49277532,
@@ -1112,6 +1334,8 @@
   {
     "id": "B000008217",
     "name": "월계중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 월계로45가길 54",
     "address_jiban": "서울특별시 노원구 월계동 602-1",
     "lat": 37.63113114,
@@ -1122,6 +1346,8 @@
   {
     "id": "B000008235",
     "name": "덕성여자중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 율곡로3길 49",
     "address_jiban": "서울특별시 종로구 송현동 34",
     "lat": 37.57778598,
@@ -1132,6 +1358,8 @@
   {
     "id": "B000008336",
     "name": "명덕여자중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 강서로47길 34-10",
     "address_jiban": "서울특별시 강서구 내발산동 169-1",
     "lat": 37.55394399,
@@ -1142,6 +1370,8 @@
   {
     "id": "B000008341",
     "name": "이수중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 방배중앙로3길 32",
     "address_jiban": "서울특별시 서초구 방배동 974-22",
     "lat": 37.48063003,
@@ -1152,6 +1382,8 @@
   {
     "id": "B000008274",
     "name": "아주중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 올림픽로4길 69",
     "address_jiban": "서울특별시 송파구 잠실동 115",
     "lat": 37.50523028,
@@ -1162,6 +1394,8 @@
   {
     "id": "B000008349",
     "name": "서초중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 반포대로13길 48",
     "address_jiban": "서울특별시 서초구 서초동 1528",
     "lat": 37.48553868,
@@ -1172,6 +1406,8 @@
   {
     "id": "B000008245",
     "name": "대경중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 매봉18길 111",
     "address_jiban": "서울특별시 중구 신당동 333-579",
     "lat": 37.55637326,
@@ -1182,6 +1418,8 @@
   {
     "id": "B000008442",
     "name": "종암중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 종암로5길 80-17",
     "address_jiban": "서울특별시 성북구 종암동 32-3",
     "lat": 37.593111,
@@ -1192,6 +1430,8 @@
   {
     "id": "B000008305",
     "name": "신남중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 중앙로29길 109",
     "address_jiban": "서울특별시 양천구 신월동 609-7",
     "lat": 37.52077389,
@@ -1202,6 +1442,8 @@
   {
     "id": "B000008419",
     "name": "행당중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 왕십리로 189",
     "address_jiban": "서울특별시 성동구 행당동 66-3",
     "lat": 37.55455404,
@@ -1212,6 +1454,8 @@
   {
     "id": "B000008094",
     "name": "경희중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 경희대로 26",
     "address_jiban": "서울특별시 동대문구 회기동 1-5",
     "lat": 37.59394914,
@@ -1222,6 +1466,8 @@
   {
     "id": "B000008460",
     "name": "신일중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 솔매로49길 20",
     "address_jiban": "서울특별시 강북구 미아동 193-1",
     "lat": 37.62796722,
@@ -1232,6 +1478,8 @@
   {
     "id": "B000008366",
     "name": "수서중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 광평로59길 57",
     "address_jiban": "서울특별시 강남구 수서동 710",
     "lat": 37.49120377,
@@ -1242,6 +1490,8 @@
   {
     "id": "B000008152",
     "name": "성산중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 성지1길 32-13",
     "address_jiban": "서울특별시 마포구 합정동 365-1",
     "lat": 37.54731637,
@@ -1252,6 +1502,8 @@
   {
     "id": "B000008201",
     "name": "창북중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 노해로62길 33",
     "address_jiban": "서울특별시 도봉구 창동 683-7",
     "lat": 37.64911577,
@@ -1262,6 +1514,8 @@
   {
     "id": "B000008221",
     "name": "을지중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 덕릉로 580",
     "address_jiban": "서울특별시 노원구 중계동 360-19",
     "lat": 37.64978791,
@@ -1272,6 +1526,8 @@
   {
     "id": "B000008445",
     "name": "홍익대학교사범대학부속중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 성북로14가길 23",
     "address_jiban": "서울특별시 성북구 성북동 151",
     "lat": 37.59366662,
@@ -1282,6 +1538,8 @@
   {
     "id": "B000008085",
     "name": "숭인중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 천호대로47길 34",
     "address_jiban": "서울특별시 동대문구 답십리동 463-1",
     "lat": 37.57392046,
@@ -1292,6 +1550,8 @@
   {
     "id": "B000008459",
     "name": "서라벌중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 삼양로155길 37-9",
     "address_jiban": "서울특별시 강북구 우이동 103-9",
     "lat": 37.65698403,
@@ -1302,6 +1562,8 @@
   {
     "id": "B000008430",
     "name": "동국대학교사범대학부속가람중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 광나루로36길 47",
     "address_jiban": "서울특별시 광진구 구의동 238-1",
     "lat": 37.54192936,
@@ -1312,6 +1574,8 @@
   {
     "id": "B000008292",
     "name": "강일중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 고덕로27길 12",
     "address_jiban": "서울특별시 강동구 암사동 414-17",
     "lat": 37.5553497,
@@ -1322,6 +1586,8 @@
   {
     "id": "B000008441",
     "name": "북악중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 정릉로12길 41",
     "address_jiban": "서울특별시 성북구 정릉동 640-3",
     "lat": 37.60700905,
@@ -1332,6 +1598,8 @@
   {
     "id": "B000008183",
     "name": "문래중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 선유서로13길 6",
     "address_jiban": "서울특별시 영등포구 문래동6가 44",
     "lat": 37.52041829,
@@ -1342,6 +1610,8 @@
   {
     "id": "B000008454",
     "name": "솔샘중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 인수봉로 39",
     "address_jiban": "서울특별시 강북구 미아동 837-734",
     "lat": 37.62366717,
@@ -1352,6 +1622,8 @@
   {
     "id": "B000008283",
     "name": "천일중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 천중로 57",
     "address_jiban": "서울특별시 강동구 천호동 313-5",
     "lat": 37.54590987,
@@ -1362,6 +1634,8 @@
   {
     "id": "B000008426",
     "name": "광양중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 자양로3길 7",
     "address_jiban": "서울특별시 광진구 자양동 674",
     "lat": 37.53089134,
@@ -1372,6 +1646,8 @@
   {
     "id": "B000008098",
     "name": "경희여자중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 경희대로 26",
     "address_jiban": "서울특별시 동대문구 회기동 1-5",
     "lat": 37.59394914,
@@ -1382,6 +1658,8 @@
   {
     "id": "B000008180",
     "name": "영원중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 영등포로62길 31",
     "address_jiban": "서울특별시 영등포구 영등포동 576-6",
     "lat": 37.51497419,
@@ -1392,6 +1670,8 @@
   {
     "id": "B000008456",
     "name": "인수중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 인수봉로75길 10",
     "address_jiban": "서울특별시 강북구 수유동 551",
     "lat": 37.64386667,
@@ -1402,6 +1682,8 @@
   {
     "id": "B000008223",
     "name": "중평중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 동일로203길 87",
     "address_jiban": "서울특별시 노원구 하계동 271-2",
     "lat": 37.63697638,
@@ -1412,6 +1694,8 @@
   {
     "id": "B000008166",
     "name": "오류중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 고척로27바길 19",
     "address_jiban": "서울특별시 구로구 고척동 243",
     "lat": 37.50786222,
@@ -1422,6 +1706,8 @@
   {
     "id": "B000008169",
     "name": "영서중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 도림로20길 35",
     "address_jiban": "서울특별시 구로구 구로동 145-20",
     "lat": 37.48911393,
@@ -1432,6 +1718,8 @@
   {
     "id": "B000008133",
     "name": "신연중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 모래내로 408",
     "address_jiban": "서울특별시 서대문구 연희동 1-107",
     "lat": 37.58271543,
@@ -1442,6 +1730,8 @@
   {
     "id": "B000008252",
     "name": "배문중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 효창원로 258",
     "address_jiban": "서울특별시 용산구 서계동 259-3",
     "lat": 37.54991872,
@@ -1452,6 +1742,8 @@
   {
     "id": "B000008338",
     "name": "덕원중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 강서로45길 91-44",
     "address_jiban": "서울특별시 강서구 내발산동 산59-2",
     "lat": 37.54862258,
@@ -1462,6 +1754,8 @@
   {
     "id": "B000008326",
     "name": "송정중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 남부순환로 121",
     "address_jiban": "서울특별시 강서구 공항동 768-1",
     "lat": 37.55315807,
@@ -1472,6 +1766,8 @@
   {
     "id": "B000008176",
     "name": "난곡중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 문성로 67",
     "address_jiban": "서울특별시 금천구 독산동 906-41",
     "lat": 37.47804558,
@@ -1482,6 +1778,8 @@
   {
     "id": "B000008452",
     "name": "강북중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 한천로150길 67",
     "address_jiban": "서울특별시 강북구 수유동 694",
     "lat": 37.6449159,
@@ -1492,6 +1790,8 @@
   {
     "id": "B000008420",
     "name": "한양대학교사범대학부속중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 마조로 42",
     "address_jiban": "서울특별시 성동구 사근동 223",
     "lat": 37.56191884,
@@ -1502,6 +1802,8 @@
   {
     "id": "B000008225",
     "name": "광운중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 광운로1길 24",
     "address_jiban": "서울특별시 노원구 월계동 500",
     "lat": 37.61923977,
@@ -1512,6 +1814,8 @@
   {
     "id": "B000008260",
     "name": "문정중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 문정로 73",
     "address_jiban": "서울특별시 송파구 문정동 12-1",
     "lat": 37.48848095,
@@ -1522,6 +1826,8 @@
   {
     "id": "B000008167",
     "name": "구로중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 구로중앙로 48",
     "address_jiban": "서울특별시 구로구 구로동 90",
     "lat": 37.49485972,
@@ -1532,6 +1838,8 @@
   {
     "id": "B000008390",
     "name": "동양중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 흑석로9길 94",
     "address_jiban": "서울특별시 동작구 흑석동 198-79",
     "lat": 37.51022314,
@@ -1542,6 +1850,8 @@
   {
     "id": "B000008455",
     "name": "번동중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 오현로35길 87",
     "address_jiban": "서울특별시 강북구 번동 231",
     "lat": 37.63244533,
@@ -1552,6 +1862,8 @@
   {
     "id": "B000008172",
     "name": "문성중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 독산로102길 78",
     "address_jiban": "서울특별시 금천구 독산동 61",
     "lat": 37.4754682,
@@ -1562,6 +1874,8 @@
   {
     "id": "B000008277",
     "name": "배명중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 삼학사로 11",
     "address_jiban": "서울특별시 송파구 삼전동 172-1",
     "lat": 37.4976895,
@@ -1572,6 +1886,8 @@
   {
     "id": "B000008428",
     "name": "용곡중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 용마산로22길 76",
     "address_jiban": "서울특별시 광진구 중곡동 176-77",
     "lat": 37.56595126,
@@ -1582,6 +1898,8 @@
   {
     "id": "B000008418",
     "name": "옥정중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 한림말길 11",
     "address_jiban": "서울특별시 성동구 옥수동 227",
     "lat": 37.54167037,
@@ -1592,6 +1910,8 @@
   {
     "id": "B000008110",
     "name": "장안중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 동일로 780",
     "address_jiban": "서울특별시 중랑구 중화동 288-26",
     "lat": 37.60077444,
@@ -1602,6 +1922,8 @@
   {
     "id": "B000008261",
     "name": "신천중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 백제고분로 11",
     "address_jiban": "서울특별시 송파구 잠실동 19-4",
     "lat": 37.51625001,
@@ -1612,6 +1934,8 @@
   {
     "id": "B000008382",
     "name": "상도중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 사당로2가길 72",
     "address_jiban": "서울특별시 동작구 사당동 181-20",
     "lat": 37.4909219,
@@ -1622,6 +1946,8 @@
   {
     "id": "B000008108",
     "name": "신현중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 봉화산로 162",
     "address_jiban": "서울특별시 중랑구 상봉동 483",
     "lat": 37.60441346,
@@ -1632,6 +1958,8 @@
   {
     "id": "B000008337",
     "name": "신정여자중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 등촌로13아길 20",
     "address_jiban": "서울특별시 강서구 화곡동 477-1",
     "lat": 37.53838143,
@@ -1642,6 +1970,8 @@
   {
     "id": "B000008427",
     "name": "광진중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 뚝섬로64길 45",
     "address_jiban": "서울특별시 광진구 자양동 693",
     "lat": 37.53221959,
@@ -1652,6 +1982,8 @@
   {
     "id": "B000008333",
     "name": "등원중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 화곡로65길 50",
     "address_jiban": "서울특별시 강서구 등촌동 707-4",
     "lat": 37.55971763,
@@ -1662,6 +1994,8 @@
   {
     "id": "B000008371",
     "name": "개원중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 영동대로 101",
     "address_jiban": "서울특별시 강남구 개포동 184",
     "lat": 37.49163975,
@@ -1672,6 +2006,8 @@
   {
     "id": "B000008322",
     "name": "수명중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 수명로2길 16",
     "address_jiban": "서울특별시 강서구 내발산동 757",
     "lat": 37.54856699,
@@ -1682,6 +2018,8 @@
   {
     "id": "B000008351",
     "name": "신동중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 나루터로 27",
     "address_jiban": "서울특별시 서초구 잠원동 54-6",
     "lat": 37.5169159,
@@ -1692,6 +2030,8 @@
   {
     "id": "B000008432",
     "name": "건국대학교사범대학부속중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 자양로 145-1",
     "address_jiban": "서울특별시 광진구 화양동 1",
     "lat": 37.54172407,
@@ -1702,6 +2042,8 @@
   {
     "id": "B000022771",
     "name": "천왕중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 천왕로 63",
     "address_jiban": "서울특별시 구로구 천왕동 273-1",
     "lat": 37.48265442,
@@ -1712,6 +2054,8 @@
   {
     "id": "B000008219",
     "name": "상계제일중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 덕릉로86길 29-15",
     "address_jiban": "서울특별시 노원구 중계동 132",
     "lat": 37.6610756,
@@ -1722,6 +2066,8 @@
   {
     "id": "B000008363",
     "name": "도곡중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 언주로57길 31",
     "address_jiban": "서울특별시 강남구 도곡동 541-2",
     "lat": 37.49230771,
@@ -1732,6 +2078,8 @@
   {
     "id": "B000008391",
     "name": "성남중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 대방동길 74",
     "address_jiban": "서울특별시 동작구 대방동 375-1",
     "lat": 37.50528157,
@@ -1742,6 +2090,8 @@
   {
     "id": "B000008293",
     "name": "천호중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 상암로 153",
     "address_jiban": "서울특별시 강동구 천호동 38-1",
     "lat": 37.54651926,
@@ -1752,6 +2102,8 @@
   {
     "id": "B000008370",
     "name": "청담중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 압구정로61길 36",
     "address_jiban": "서울특별시 강남구 청담동 143",
     "lat": 37.52865979,
@@ -1762,6 +2114,8 @@
   {
     "id": "B000008191",
     "name": "북서울중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 도봉로169가길 33",
     "address_jiban": "서울특별시 도봉구 도봉동 585",
     "lat": 37.68154186,
@@ -1772,6 +2126,8 @@
   {
     "id": "B000008443",
     "name": "고명중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 북악산로 870",
     "address_jiban": "서울특별시 성북구 돈암동 45-88",
     "lat": 37.59767468,
@@ -1782,6 +2138,8 @@
   {
     "id": "B000008220",
     "name": "중계중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 덕릉로76길 23",
     "address_jiban": "서울특별시 노원구 중계동 358-3",
     "lat": 37.65563822,
@@ -1792,6 +2150,8 @@
   {
     "id": "B000008107",
     "name": "상봉중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 상봉중앙로8나길 28",
     "address_jiban": "서울특별시 중랑구 상봉동 282",
     "lat": 37.60152799,
@@ -1802,6 +2162,8 @@
   {
     "id": "B000008207",
     "name": "불암중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 한글비석로5길 45",
     "address_jiban": "서울특별시 노원구 하계동 288-3",
     "lat": 37.64573547,
@@ -1812,6 +2174,8 @@
   {
     "id": "B000008224",
     "name": "신상중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 동일로216길 42",
     "address_jiban": "서울특별시 노원구 상계동 754-4",
     "lat": 37.65190308,
@@ -1822,6 +2186,8 @@
   {
     "id": "B000008126",
     "name": "숭실중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 은평터널로7길 6",
     "address_jiban": "서울특별시 은평구 신사동 300-88",
     "lat": 37.59327482,
@@ -1832,6 +2198,8 @@
   {
     "id": "B000008182",
     "name": "당산서중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 당산로41길 12",
     "address_jiban": "서울특별시 영등포구 당산동5가 5",
     "lat": 37.53248394,
@@ -1842,6 +2210,8 @@
   {
     "id": "B000008402",
     "name": "삼성중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 신림로3가길 39-24",
     "address_jiban": "서울특별시 관악구 신림동 220-1",
     "lat": 37.4676059,
@@ -1852,6 +2222,8 @@
   {
     "id": "B000008435",
     "name": "삼선중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 동소문로3길 69",
     "address_jiban": "서울특별시 성북구 동소문동1가 140-1",
     "lat": 37.59174763,
@@ -1862,6 +2234,8 @@
   {
     "id": "B000008127",
     "name": "선일여자중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 갈현로29길 27",
     "address_jiban": "서울특별시 은평구 갈현동 240-1",
     "lat": 37.62030421,
@@ -1872,6 +2246,8 @@
   {
     "id": "B000008439",
     "name": "개운중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 북악산로 935",
     "address_jiban": "서울특별시 성북구 돈암동 83-145",
     "lat": 37.59462665,
@@ -1882,6 +2258,8 @@
   {
     "id": "B000008112",
     "name": "영란여자중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 망우로73길 56",
     "address_jiban": "서울특별시 중랑구 망우동 220",
     "lat": 37.6031324,
@@ -1892,6 +2270,8 @@
   {
     "id": "B000008231",
     "name": "청운중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 창의문로 51",
     "address_jiban": "서울특별시 종로구 청운동 89-143",
     "lat": 37.58916985,
@@ -1902,6 +2282,8 @@
   {
     "id": "B000008429",
     "name": "구의중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 광나루로30길 80",
     "address_jiban": "서울특별시 광진구 화양동 303-18",
     "lat": 37.5428503,
@@ -1912,6 +2294,8 @@
   {
     "id": "B000008194",
     "name": "방학중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 시루봉로 188",
     "address_jiban": "서울특별시 도봉구 방학동 313",
     "lat": 37.66546957,
@@ -1922,6 +2306,8 @@
   {
     "id": "B000008099",
     "name": "대광중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 안암로 6",
     "address_jiban": "서울특별시 동대문구 신설동 53-3",
     "lat": 37.57795467,
@@ -1932,6 +2318,8 @@
   {
     "id": "B000008205",
     "name": "상경중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 동일로227길 61",
     "address_jiban": "서울특별시 노원구 상계동 653",
     "lat": 37.66714877,
@@ -1942,6 +2330,8 @@
   {
     "id": "B000008181",
     "name": "당산중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 버드나루로 160",
     "address_jiban": "서울특별시 영등포구 당산동 121",
     "lat": 37.53203308,
@@ -1952,6 +2342,8 @@
   {
     "id": "B000008254",
     "name": "보성여자중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 신흥로3가길 66",
     "address_jiban": "서울특별시 용산구 용산동2가 1-1123",
     "lat": 37.54308154,
@@ -1962,6 +2354,8 @@
   {
     "id": "B000008253",
     "name": "신광여자중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 청파로 263",
     "address_jiban": "서울특별시 용산구 청파동3가 100",
     "lat": 37.54289988,
@@ -1972,6 +2366,8 @@
   {
     "id": "B000008131",
     "name": "충암중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 가좌로5길 5",
     "address_jiban": "서울특별시 은평구 응암동 272-113",
     "lat": 37.58464029,
@@ -1982,6 +2378,8 @@
   {
     "id": "B000008140",
     "name": "동명여자중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 독립문로 49",
     "address_jiban": "서울특별시 서대문구 천연동 31-1",
     "lat": 37.56861542,
@@ -1992,6 +2390,8 @@
   {
     "id": "B000008109",
     "name": "중랑중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 동일로140길 33",
     "address_jiban": "서울특별시 중랑구 중화동 276-1",
     "lat": 37.60535089,
@@ -2002,6 +2402,8 @@
   {
     "id": "B000008174",
     "name": "가산중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 시흥대로115길 48",
     "address_jiban": "서울특별시 금천구 독산동 300-21",
     "lat": 37.46877706,
@@ -2012,6 +2414,8 @@
   {
     "id": "B000008257",
     "name": "서울체육중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 강동대로 232",
     "address_jiban": "서울특별시 송파구 방이동 88-14",
     "lat": 37.52233038,
@@ -2022,6 +2426,8 @@
   {
     "id": "B000008444",
     "name": "용문중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 고려대로17가길 46",
     "address_jiban": "서울특별시 성북구 안암동2가 96-1",
     "lat": 37.58869033,
@@ -2032,6 +2438,8 @@
   {
     "id": "B000008407",
     "name": "서울문영여자중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 관악로 85",
     "address_jiban": "서울특별시 관악구 봉천동 1695",
     "lat": 37.47290457,
@@ -2042,6 +2450,8 @@
   {
     "id": "B000008440",
     "name": "장위중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 장위로4길 70",
     "address_jiban": "서울특별시 성북구 장위동 231-623",
     "lat": 37.61129251,
@@ -2052,6 +2462,8 @@
   {
     "id": "B000008093",
     "name": "휘경중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 망우로18나길 20",
     "address_jiban": "서울특별시 동대문구 휘경동 286-66",
     "lat": 37.58709299,
@@ -2062,6 +2474,8 @@
   {
     "id": "B000008453",
     "name": "삼각산중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 삼양로19길 141",
     "address_jiban": "서울특별시 강북구 미아동 1353-10",
     "lat": 37.61614897,
@@ -2072,6 +2486,8 @@
   {
     "id": "B000008276",
     "name": "보성중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 양재대로 1278",
     "address_jiban": "서울특별시 송파구 방이동 89-22",
     "lat": 37.52008989,
@@ -2082,6 +2498,8 @@
   {
     "id": "B000008321",
     "name": "삼정중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 금낭화로 210",
     "address_jiban": "서울특별시 강서구 방화동 856",
     "lat": 37.5814869,
@@ -2092,6 +2510,8 @@
   {
     "id": "B000008309",
     "name": "양서중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 남부순환로 380",
     "address_jiban": "서울특별시 양천구 신월동 169-4",
     "lat": 37.53262929,
@@ -2102,6 +2522,8 @@
   {
     "id": "B000008312",
     "name": "강신중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 남부순환로 604",
     "address_jiban": "서울특별시 양천구 신월동 1010",
     "lat": 37.51513716,
@@ -2112,6 +2534,8 @@
   {
     "id": "B000008247",
     "name": "용산중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 두텁바위로 74",
     "address_jiban": "서울특별시 용산구 용산동2가 1-1623",
     "lat": 37.54600281,
@@ -2122,6 +2546,8 @@
   {
     "id": "B000008154",
     "name": "숭문중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 숭문길 99",
     "address_jiban": "서울특별시 마포구 대흥동 28-14",
     "lat": 37.55089081,
@@ -2132,6 +2558,8 @@
   {
     "id": "B000008134",
     "name": "연북중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 연희로36길 32",
     "address_jiban": "서울특별시 서대문구 연희동 141",
     "lat": 37.57758095,
@@ -2142,6 +2570,8 @@
   {
     "id": "B000008346",
     "name": "서일중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 서운로21길 2",
     "address_jiban": "서울특별시 서초구 서초동 1313",
     "lat": 37.49852986,
@@ -2152,6 +2582,8 @@
   {
     "id": "B000008421",
     "name": "자양중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 뚝섬로41길 33",
     "address_jiban": "서울특별시 광진구 자양동 520-3",
     "lat": 37.53539805,
@@ -2162,6 +2594,8 @@
   {
     "id": "B000008422",
     "name": "광장중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 광장로1길 1",
     "address_jiban": "서울특별시 광진구 광장동 394-5",
     "lat": 37.54717752,
@@ -2172,6 +2606,8 @@
   {
     "id": "B000008320",
     "name": "성재중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 허준로 36",
     "address_jiban": "서울특별시 강서구 가양동 1463",
     "lat": 37.56944938,
@@ -2182,6 +2618,8 @@
   {
     "id": "B000008451",
     "name": "수송중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 한천로122길 21",
     "address_jiban": "서울특별시 강북구 번동 456-1",
     "lat": 37.63680065,
@@ -2192,6 +2630,8 @@
   {
     "id": "B000008203",
     "name": "선덕중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 시루봉로 53",
     "address_jiban": "서울특별시 도봉구 쌍문동 263",
     "lat": 37.65634868,
@@ -2202,6 +2642,8 @@
   {
     "id": "B000008144",
     "name": "명지중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 명지2길 56",
     "address_jiban": "서울특별시 서대문구 홍은동 361-30",
     "lat": 37.58491135,
@@ -2212,6 +2654,8 @@
   {
     "id": "B000008317",
     "name": "양정중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 안양천로 1039",
     "address_jiban": "서울특별시 양천구 목동 911-2",
     "lat": 37.53538402,
@@ -2222,6 +2666,8 @@
   {
     "id": "B000008350",
     "name": "언남중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 동산로 55",
     "address_jiban": "서울특별시 서초구 양재동 310",
     "lat": 37.47240137,
@@ -2232,6 +2678,8 @@
   {
     "id": "B000008156",
     "name": "경성중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 성미산로 111",
     "address_jiban": "서울특별시 마포구 연남동 369-1",
     "lat": 37.56351064,
@@ -2242,6 +2690,8 @@
   {
     "id": "B000008324",
     "name": "경서중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 양천로59길 31",
     "address_jiban": "서울특별시 강서구 가양동 1483",
     "lat": 37.56124186,
@@ -2252,6 +2702,8 @@
   {
     "id": "B000008212",
     "name": "온곡중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 노원로 492",
     "address_jiban": "서울특별시 노원구 상계동 687",
     "lat": 37.66058142,
@@ -2262,6 +2714,8 @@
   {
     "id": "B000008213",
     "name": "노원중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 동일로213길 26",
     "address_jiban": "서울특별시 노원구 상계동 743",
     "lat": 37.64936114,
@@ -2272,6 +2726,8 @@
   {
     "id": "B000022766",
     "name": "마곡중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 마곡중앙5로 58",
     "address_jiban": "서울특별시 강서구 마곡동 736-1",
     "lat": 37.56790712,
@@ -2282,6 +2738,8 @@
   {
     "id": "B000008304",
     "name": "목일중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동동로8길 70",
     "address_jiban": "서울특별시 양천구 신정동 330-2",
     "lat": 37.51354095,
@@ -2292,6 +2750,8 @@
   {
     "id": "B000008273",
     "name": "풍성중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 강동대로2길 27",
     "address_jiban": "서울특별시 송파구 풍납동 388-16",
     "lat": 37.52543858,
@@ -2302,6 +2762,8 @@
   {
     "id": "B000008106",
     "name": "태릉중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 공릉로2길 60-25",
     "address_jiban": "서울특별시 중랑구 묵동 121-278",
     "lat": 37.61253191,
@@ -2312,6 +2774,8 @@
   {
     "id": "B000008135",
     "name": "서연중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 연희로11마길 9-6",
     "address_jiban": "서울특별시 서대문구 연희동 267-1",
     "lat": 37.56822527,
@@ -2322,6 +2786,8 @@
   {
     "id": "B000008461",
     "name": "창문여자중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 월계로 61",
     "address_jiban": "서울특별시 강북구 미아동 8-6",
     "lat": 37.6134057,
@@ -2332,6 +2798,8 @@
   {
     "id": "B000008122",
     "name": "상신중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 증산로15길 61",
     "address_jiban": "서울특별시 은평구 신사동 141",
     "lat": 37.58978547,
@@ -2342,6 +2810,8 @@
   {
     "id": "B000024510",
     "name": "세곡중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 자곡로 81",
     "address_jiban": "서울특별시 강남구 자곡동 617",
     "lat": 37.47198073,
@@ -2352,6 +2822,8 @@
   {
     "id": "B000008345",
     "name": "방배중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 동광로 144",
     "address_jiban": "서울특별시 서초구 반포동 586-1",
     "lat": 37.49486827,
@@ -2362,6 +2834,8 @@
   {
     "id": "B000008233",
     "name": "동성중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 대학로 156",
     "address_jiban": "서울특별시 종로구 혜화동 90-7",
     "lat": 37.58496996,
@@ -2372,6 +2846,8 @@
   {
     "id": "B000008416",
     "name": "경일중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 성수일로 27",
     "address_jiban": "서울특별시 성동구 성수동1가 22-27",
     "lat": 37.54382982,
@@ -2382,6 +2858,8 @@
   {
     "id": "B000008446",
     "name": "남대문중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 한천로 660-30",
     "address_jiban": "서울특별시 성북구 장위동 322-1",
     "lat": 37.61865113,
@@ -2392,6 +2870,8 @@
   {
     "id": "B000008155",
     "name": "광성중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 신수로8길 20",
     "address_jiban": "서울특별시 마포구 신수동 91-20",
     "lat": 37.54869756,
@@ -2402,6 +2882,8 @@
   {
     "id": "B000008214",
     "name": "노일중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 동일로231길 24",
     "address_jiban": "서울특별시 노원구 상계동 1044",
     "lat": 37.67260103,
@@ -2412,6 +2894,8 @@
   {
     "id": "B000022778",
     "name": "가재울중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 수색로 100-75",
     "address_jiban": "서울특별시 서대문구 북가좌동 472",
     "lat": 37.57517186,
@@ -2422,6 +2906,8 @@
   {
     "id": "B000008374",
     "name": "중동중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 일원로8길 37",
     "address_jiban": "서울특별시 강남구 일원동 692",
     "lat": 37.48851679,
@@ -2432,6 +2918,8 @@
   {
     "id": "B000008242",
     "name": "장원중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 동호로15길 93-34",
     "address_jiban": "서울특별시 중구 신당동 432-35",
     "lat": 37.55396452,
@@ -2442,6 +2930,8 @@
   {
     "id": "B000008362",
     "name": "대치중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 남부순환로378길 39",
     "address_jiban": "서울특별시 강남구 도곡동 460",
     "lat": 37.48457751,
@@ -2452,6 +2942,8 @@
   {
     "id": "B000008128",
     "name": "예일여자중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 연서로 117",
     "address_jiban": "서울특별시 은평구 구산동 8-3",
     "lat": 37.6109459,
@@ -2462,6 +2954,8 @@
   {
     "id": "B000008358",
     "name": "대청중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 양재천로 321",
     "address_jiban": "서울특별시 강남구 대치동 502",
     "lat": 37.49043056,
@@ -2472,6 +2966,8 @@
   {
     "id": "B000008327",
     "name": "백석중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 등촌로51나길 35",
     "address_jiban": "서울특별시 강서구 등촌동 520-5",
     "lat": 37.54829091,
@@ -2482,6 +2978,8 @@
   {
     "id": "B000008090",
     "name": "성일중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 왕산로23길 55",
     "address_jiban": "서울특별시 동대문구 제기동 271-41",
     "lat": 37.58185023,
@@ -2492,6 +2990,8 @@
   {
     "id": "B000008142",
     "name": "정원여자중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 연희로37안길 51",
     "address_jiban": "서울특별시 서대문구 홍은동 산11-141",
     "lat": 37.58538212,
@@ -2502,6 +3002,8 @@
   {
     "id": "B000008129",
     "name": "선정중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 서오릉로20길 19",
     "address_jiban": "서울특별시 은평구 갈현동 227-5",
     "lat": 37.61870451,
@@ -2512,6 +3014,8 @@
   {
     "id": "B000023966",
     "name": "환일중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 환일길 47",
     "address_jiban": "서울특별시 중구 만리동2가 218-2",
     "lat": 37.55360775,
@@ -2522,6 +3026,8 @@
   {
     "id": "B000008173",
     "name": "세일중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 시흥대로147길 34",
     "address_jiban": "서울특별시 금천구 독산동 147-2",
     "lat": 37.47459441,
@@ -2532,6 +3038,8 @@
   {
     "id": "B000008102",
     "name": "중화중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 용마산로 364",
     "address_jiban": "서울특별시 중랑구 면목동 83",
     "lat": 37.58450379,
@@ -2542,6 +3050,8 @@
   {
     "id": "B000008202",
     "name": "정의여자중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 노해로49길 69",
     "address_jiban": "서울특별시 도봉구 쌍문동 150-1",
     "lat": 37.65335584,
@@ -2552,6 +3062,8 @@
   {
     "id": "B000008359",
     "name": "구룡중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 선릉로 103",
     "address_jiban": "서울특별시 강남구 개포동 650",
     "lat": 37.48615258,
@@ -2562,6 +3074,8 @@
   {
     "id": "B000008193",
     "name": "신방학중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 시루봉로 156",
     "address_jiban": "서울특별시 도봉구 방학동 307-1",
     "lat": 37.66414043,
@@ -2572,6 +3086,8 @@
   {
     "id": "B000008145",
     "name": "서울여자중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 백범로25길 34",
     "address_jiban": "서울특별시 마포구 염리동 128-2",
     "lat": 37.5477805,
@@ -2582,6 +3098,8 @@
   {
     "id": "B000008100",
     "name": "동원중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 양원역로 32",
     "address_jiban": "서울특별시 중랑구 망우동 85-3",
     "lat": 37.60380725,
@@ -2592,6 +3110,8 @@
   {
     "id": "B000008117",
     "name": "진관중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 진관4로 36",
     "address_jiban": "서울특별시 은평구 진관동 16",
     "lat": 37.64425564,
@@ -2602,6 +3122,8 @@
   {
     "id": "B000008450",
     "name": "고려대학교사범대학부속중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 정릉로 161",
     "address_jiban": "서울특별시 성북구 정릉동 660",
     "lat": 37.60783857,
@@ -2612,6 +3134,8 @@
   {
     "id": "B000008216",
     "name": "녹천중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 월계로 376",
     "address_jiban": "서울특별시 노원구 월계동 321-7",
     "lat": 37.63108361,
@@ -2622,6 +3146,8 @@
   {
     "id": "B000008190",
     "name": "여의도중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 국제금융로7길 46",
     "address_jiban": "서울특별시 영등포구 여의도동 40-1",
     "lat": 37.5239802,
@@ -2632,6 +3158,8 @@
   {
     "id": "B000008187",
     "name": "양화중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 당산로 56",
     "address_jiban": "서울특별시 영등포구 문래동3가 48",
     "lat": 37.5196596,
@@ -2642,6 +3170,8 @@
   {
     "id": "B000008113",
     "name": "혜원여자중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 봉우재로58길 39",
     "address_jiban": "서울특별시 중랑구 망우동 519",
     "lat": 37.59327987,
@@ -2652,6 +3182,8 @@
   {
     "id": "B000008164",
     "name": "개웅중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 개봉로11길 81",
     "address_jiban": "서울특별시 구로구 개봉동 273-15",
     "lat": 37.4875269,
@@ -2662,6 +3194,8 @@
   {
     "id": "B000008103",
     "name": "면목중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 용마산로70길 37",
     "address_jiban": "서울특별시 중랑구 면목동 490",
     "lat": 37.58321586,
@@ -2672,6 +3206,8 @@
   {
     "id": "B000008138",
     "name": "인창중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 경기대로 65",
     "address_jiban": "서울특별시 서대문구 충정로2가 70",
     "lat": 37.56488513,
@@ -2682,6 +3218,8 @@
   {
     "id": "B000008389",
     "name": "대방중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 여의대방로10길 24",
     "address_jiban": "서울특별시 동작구 신대방동 492-200",
     "lat": 37.49543678,
@@ -2692,6 +3230,8 @@
   {
     "id": "B000008262",
     "name": "잠신중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 잠실로 12",
     "address_jiban": "서울특별시 송파구 잠실동 22-1",
     "lat": 37.51613937,
@@ -2702,6 +3242,8 @@
   {
     "id": "B000008335",
     "name": "화곡중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 강서로45길 70",
     "address_jiban": "서울특별시 강서구 내발산동 715",
     "lat": 37.5484056,
@@ -2712,6 +3254,8 @@
   {
     "id": "B000008150",
     "name": "아현중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 마포대로 247",
     "address_jiban": "서울특별시 마포구 아현동 267-1",
     "lat": 37.55640071,
@@ -2722,6 +3266,8 @@
   {
     "id": "B000008315",
     "name": "월촌중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동서로 31",
     "address_jiban": "서울특별시 양천구 목동 909",
     "lat": 37.53706518,
@@ -2732,6 +3278,8 @@
   {
     "id": "B000008226",
     "name": "염광중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 월계로45가길 9",
     "address_jiban": "서울특별시 노원구 월계동 820",
     "lat": 37.6302165,
@@ -2742,6 +3290,8 @@
   {
     "id": "B000008298",
     "name": "성덕여자중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 구천면로 396",
     "address_jiban": "서울특별시 강동구 천호동 23-3",
     "lat": 37.54996367,
@@ -2752,6 +3302,8 @@
   {
     "id": "B000008250",
     "name": "용강중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 이촌로65가길 91",
     "address_jiban": "서울특별시 용산구 이촌동 301-78",
     "lat": 37.52157693,
@@ -2762,6 +3314,8 @@
   {
     "id": "B000008241",
     "name": "덕수중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 마른내로9길 10",
     "address_jiban": "서울특별시 중구 인현동2가 3",
     "lat": 37.56557957,
@@ -2772,6 +3326,8 @@
   {
     "id": "B000008433",
     "name": "길음중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 길음로 144",
     "address_jiban": "서울특별시 성북구 길음동 635-7",
     "lat": 37.61409036,
@@ -2782,6 +3338,8 @@
   {
     "id": "B000008091",
     "name": "청량중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 왕산로 301",
     "address_jiban": "서울특별시 동대문구 청량리동 14",
     "lat": 37.58821921,
@@ -2792,6 +3350,8 @@
   {
     "id": "B000008328",
     "name": "방화중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 개화동로27길 9",
     "address_jiban": "서울특별시 강서구 방화동 636-1",
     "lat": 37.56433471,
@@ -2802,6 +3362,8 @@
   {
     "id": "B000008395",
     "name": "당곡중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 봉천로13길 101",
     "address_jiban": "서울특별시 관악구 봉천동 682",
     "lat": 37.4923589,
@@ -2812,6 +3374,8 @@
   {
     "id": "B000008287",
     "name": "명일중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 양재대로156길 57",
     "address_jiban": "서울특별시 강동구 고덕동 489",
     "lat": 37.55759545,
@@ -2822,6 +3386,8 @@
   {
     "id": "B000008239",
     "name": "창덕여자중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 정동길 22",
     "address_jiban": "서울특별시 중구 정동 27-3",
     "lat": 37.5664328,
@@ -2832,6 +3398,8 @@
   {
     "id": "B000008179",
     "name": "동일중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 탑골로10길 45",
     "address_jiban": "서울특별시 금천구 시흥동 산100-4",
     "lat": 37.45193626,
@@ -2842,6 +3410,8 @@
   {
     "id": "B000008311",
     "name": "양천중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 지양로7길 32",
     "address_jiban": "서울특별시 양천구 신월동 948",
     "lat": 37.51900116,
@@ -2852,6 +3422,8 @@
   {
     "id": "B000008130",
     "name": "영락중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 백련산로 134-6",
     "address_jiban": "서울특별시 은평구 응암동 226-13",
     "lat": 37.5969603,
@@ -2862,6 +3434,8 @@
   {
     "id": "B000008379",
     "name": "상현중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 사당로2길 2-19",
     "address_jiban": "서울특별시 동작구 상도동 111-52",
     "lat": 37.49398955,
@@ -2872,6 +3446,8 @@
   {
     "id": "B000008198",
     "name": "효문중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 우이천로 432",
     "address_jiban": "서울특별시 도봉구 쌍문동 468",
     "lat": 37.65269871,
@@ -2882,6 +3458,8 @@
   {
     "id": "B000008438",
     "name": "석관중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 한천로 526",
     "address_jiban": "서울특별시 성북구 석관동 88-2",
     "lat": 37.60814014,
@@ -2892,6 +3470,8 @@
   {
     "id": "B000008116",
     "name": "신도중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 진관1로 77-30",
     "address_jiban": "서울특별시 은평구 진관동 115",
     "lat": 37.63298366,
@@ -2902,6 +3482,8 @@
   {
     "id": "B000008244",
     "name": "한양중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 을지로 299",
     "address_jiban": "서울특별시 중구 신당동 224-2",
     "lat": 37.5658716,
@@ -2912,6 +3494,8 @@
   {
     "id": "B000022787",
     "name": "영동중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 성촌길 14",
     "address_jiban": "서울특별시 서초구 우면동 680",
     "lat": 37.46598629,
@@ -2922,6 +3506,8 @@
   {
     "id": "B000008272",
     "name": "풍납중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 올림픽로43길 20",
     "address_jiban": "서울특별시 송파구 풍납동 390",
     "lat": 37.52536544,
@@ -2932,6 +3518,8 @@
   {
     "id": "B000008376",
     "name": "진선여자중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 선릉로85길 27",
     "address_jiban": "서울특별시 강남구 역삼동 713",
     "lat": 37.50232303,
@@ -2942,6 +3530,8 @@
   {
     "id": "B000008413",
     "name": "경수중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 뚝섬로13길 14",
     "address_jiban": "서울특별시 성동구 성수동2가 268",
     "lat": 37.53950904,
@@ -2952,6 +3542,8 @@
   {
     "id": "B000008146",
     "name": "성사중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 모래내로9길 16",
     "address_jiban": "서울특별시 마포구 성산동 124",
     "lat": 37.5680911,
@@ -2962,6 +3554,8 @@
   {
     "id": "B000008462",
     "name": "성암여자중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 도봉로29길 52",
     "address_jiban": "서울특별시 강북구 미아동 320-1",
     "lat": 37.62041353,
@@ -2972,6 +3566,8 @@
   {
     "id": "B000008383",
     "name": "영등포중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 등용로8길 5",
     "address_jiban": "서울특별시 동작구 대방동 13-2",
     "lat": 37.5080846,
@@ -2982,6 +3578,8 @@
   {
     "id": "B000008303",
     "name": "신서중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 중앙로 206",
     "address_jiban": "서울특별시 양천구 신정동 310-6",
     "lat": 37.51596644,
@@ -2992,6 +3590,8 @@
   {
     "id": "B000008280",
     "name": "잠실여자중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 송파대로38길 8",
     "address_jiban": "서울특별시 송파구 송파동 99-2",
     "lat": 37.50177714,
@@ -3002,6 +3602,8 @@
   {
     "id": "B000008392",
     "name": "숭의여자중학교",
+    "school_type": "middle",
+    "district": "동작구",
     "address_road": "서울특별시 동작구 여의대방로36길 79",
     "address_jiban": "서울특별시 동작구 대방동 15-46",
     "lat": 37.50736414,
@@ -3012,6 +3614,8 @@
   {
     "id": "B000008295",
     "name": "배재중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 고덕로 227",
     "address_jiban": "서울특별시 강동구 고덕동 313",
     "lat": 37.55505939,
@@ -3022,6 +3626,8 @@
   {
     "id": "B000008424",
     "name": "광남중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 아차산로70길 17-62",
     "address_jiban": "서울특별시 광진구 광장동 554-15",
     "lat": 37.54083041,
@@ -3032,6 +3638,8 @@
   {
     "id": "B000008236",
     "name": "배화여자중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 필운대로1길 34",
     "address_jiban": "서울특별시 종로구 필운동 12",
     "lat": 37.57954401,
@@ -3042,6 +3650,8 @@
   {
     "id": "B000008124",
     "name": "연서중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 증산서길 125-6",
     "address_jiban": "서울특별시 은평구 증산동 193-21",
     "lat": 37.58704446,
@@ -3052,6 +3662,8 @@
   {
     "id": "B000008215",
     "name": "수락중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 동일로 1729",
     "address_jiban": "서울특별시 노원구 상계동 1254",
     "lat": 37.68314469,
@@ -3062,6 +3674,8 @@
   {
     "id": "B000008197",
     "name": "신도봉중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 도봉로115길 16",
     "address_jiban": "서울특별시 도봉구 쌍문동 94-1",
     "lat": 37.64959473,
@@ -3072,6 +3686,8 @@
   {
     "id": "B000008159",
     "name": "구일중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 구일로 90-133",
     "address_jiban": "서울특별시 구로구 구로동 685-161",
     "lat": 37.49530091,
@@ -3082,6 +3698,8 @@
   {
     "id": "B000008278",
     "name": "보인중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 오금로49길 18",
     "address_jiban": "서울특별시 송파구 오금동 162",
     "lat": 37.4975692,
@@ -3092,6 +3710,8 @@
   {
     "id": "B000008310",
     "name": "양강중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 중앙로 319",
     "address_jiban": "서울특별시 양천구 신월동 499-2",
     "lat": 37.52491016,
@@ -3102,6 +3722,8 @@
   {
     "id": "B000008218",
     "name": "신창중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 월계로45길 92",
     "address_jiban": "서울특별시 노원구 월계동 805-5",
     "lat": 37.6285588,
@@ -3112,6 +3734,8 @@
   {
     "id": "B000008409",
     "name": "성보중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 남부순환로156길 39",
     "address_jiban": "서울특별시 관악구 신림동 1690",
     "lat": 37.48072837,
@@ -3122,6 +3746,8 @@
   {
     "id": "B000008188",
     "name": "대영중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 도림로80가길 14",
     "address_jiban": "서울특별시 영등포구 신길동 342-49",
     "lat": 37.50343784,
@@ -3132,6 +3758,8 @@
   {
     "id": "B000008119",
     "name": "불광중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 불광로 180",
     "address_jiban": "서울특별시 은평구 불광동 173",
     "lat": 37.62320355,
@@ -3142,6 +3770,8 @@
   {
     "id": "B000008139",
     "name": "한성중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 북아현로1길 24",
     "address_jiban": "서울특별시 서대문구 북아현동 170-1",
     "lat": 37.55909644,
@@ -3152,6 +3782,8 @@
   {
     "id": "B000008285",
     "name": "강동중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 풍산로 237",
     "address_jiban": "서울특별시 강동구 강일동 669",
     "lat": 37.56965025,
@@ -3162,6 +3794,8 @@
   {
     "id": "B000008423",
     "name": "양진중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 워커힐로 32",
     "address_jiban": "서울특별시 광진구 광장동 414-1",
     "lat": 37.54457517,
@@ -3172,6 +3806,8 @@
   {
     "id": "B000008248",
     "name": "선린중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 원효로97길 33-4",
     "address_jiban": "서울특별시 용산구 청파동3가 131-2",
     "lat": 37.54296872,
@@ -3182,6 +3818,8 @@
   {
     "id": "B000008153",
     "name": "상암중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 상암산로1길 26",
     "address_jiban": "서울특별시 마포구 상암동 1657",
     "lat": 37.57905692,
@@ -3192,6 +3830,8 @@
   {
     "id": "B000008417",
     "name": "성원중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 성덕정9가길 13",
     "address_jiban": "서울특별시 성동구 성수동2가 333-17",
     "lat": 37.53945182,
@@ -3202,6 +3842,8 @@
   {
     "id": "B000008111",
     "name": "송곡중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 양원역로 67",
     "address_jiban": "서울특별시 중랑구 망우동 252-1",
     "lat": 37.60668904,
@@ -3212,6 +3854,8 @@
   {
     "id": "B000008115",
     "name": "증산중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 증산로5길 27-30",
     "address_jiban": "서울특별시 은평구 증산동 207-21",
     "lat": 37.58344275,
@@ -3222,6 +3866,8 @@
   {
     "id": "B000008334",
     "name": "마포중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 화곡로 403",
     "address_jiban": "서울특별시 강서구 등촌동 82-1",
     "lat": 37.55998867,
@@ -3232,6 +3878,8 @@
   {
     "id": "B000008357",
     "name": "대왕중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 광평로20길 7",
     "address_jiban": "서울특별시 강남구 수서동 750",
     "lat": 37.48346033,
@@ -3242,6 +3890,8 @@
   {
     "id": "B000008186",
     "name": "대림중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 시흥대로185길 6",
     "address_jiban": "서울특별시 영등포구 대림동 959",
     "lat": 37.49231887,
@@ -3252,6 +3902,8 @@
   {
     "id": "B000008195",
     "name": "창동중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 방학로 32",
     "address_jiban": "서울특별시 도봉구 방학동 722-27",
     "lat": 37.66322957,
@@ -3262,6 +3914,8 @@
   {
     "id": "B000008114",
     "name": "구산중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 갈현로15길 20-23",
     "address_jiban": "서울특별시 은평구 구산동 182-45",
     "lat": 37.60987202,
@@ -3272,6 +3926,8 @@
   {
     "id": "B000008447",
     "name": "동구여자중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 성북로8길 71",
     "address_jiban": "서울특별시 성북구 성북동 168-275",
     "lat": 37.5941935,
@@ -3282,6 +3938,8 @@
   {
     "id": "B000008141",
     "name": "중앙여자중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 북아현로11가길 7",
     "address_jiban": "서울특별시 서대문구 북아현동 190-1",
     "lat": 37.56317672,
@@ -3292,6 +3950,8 @@
   {
     "id": "B000008404",
     "name": "미성중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 문성로16길 40",
     "address_jiban": "서울특별시 관악구 신림동 745-24",
     "lat": 37.47538281,
@@ -3302,6 +3962,8 @@
   {
     "id": "B000008411",
     "name": "광희중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 독서당로62길 46",
     "address_jiban": "서울특별시 성동구 응봉동 193",
     "lat": 37.55115453,
@@ -3312,6 +3974,8 @@
   {
     "id": "B000008301",
     "name": "양동중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동중앙북로 49",
     "address_jiban": "서울특별시 양천구 목동 600-6",
     "lat": 37.54836875,
@@ -3322,6 +3986,8 @@
   {
     "id": "B000008246",
     "name": "장충중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 동호로15길 93",
     "address_jiban": "서울특별시 중구 신당동 432-460",
     "lat": 37.5535149,
@@ -3332,6 +3998,8 @@
   {
     "id": "B000008291",
     "name": "신암중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 고덕로 65",
     "address_jiban": "서울특별시 강동구 암사동 444",
     "lat": 37.55636169,
@@ -3342,6 +4010,8 @@
   {
     "id": "B000008199",
     "name": "노곡중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 노해로70길 95",
     "address_jiban": "서울특별시 도봉구 창동 32",
     "lat": 37.64880251,
@@ -3352,6 +4022,8 @@
   {
     "id": "B000008290",
     "name": "성내중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 성안로7길 36",
     "address_jiban": "서울특별시 강동구 성내동 530",
     "lat": 37.52906191,
@@ -3362,6 +4034,8 @@
   {
     "id": "B000008415",
     "name": "마장중학교",
+    "school_type": "middle",
+    "district": "성동구",
     "address_road": "서울특별시 성동구 마장로35나길 31",
     "address_jiban": "서울특별시 성동구 마장동 766-49",
     "lat": 37.56830949,
@@ -3372,6 +4046,8 @@
   {
     "id": "B000008331",
     "name": "염경중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 양천로69길 35",
     "address_jiban": "서울특별시 강서구 염창동 79-8",
     "lat": 37.55453781,
@@ -3382,6 +4058,8 @@
   {
     "id": "B000008208",
     "name": "공릉중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 노원로1길 42",
     "address_jiban": "서울특별시 노원구 공릉동 250",
     "lat": 37.62222778,
@@ -3392,6 +4070,8 @@
   {
     "id": "B000008151",
     "name": "중암중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 월드컵북로38길 25",
     "address_jiban": "서울특별시 마포구 중동 63",
     "lat": 37.57243177,
@@ -3402,6 +4082,8 @@
   {
     "id": "B000008185",
     "name": "영남중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 대림로31나길 17",
     "address_jiban": "서울특별시 영등포구 대림동 735",
     "lat": 37.49787218,
@@ -3412,6 +4094,8 @@
   {
     "id": "B000008192",
     "name": "도봉중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 마들로 671",
     "address_jiban": "서울특별시 도봉구 도봉동 622-40",
     "lat": 37.67088384,
@@ -3422,6 +4106,8 @@
   {
     "id": "B000008431",
     "name": "대원국제중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 용마산로22길 26",
     "address_jiban": "서울특별시 광진구 중곡동 176-124",
     "lat": 37.56249279,
@@ -3432,6 +4118,8 @@
   {
     "id": "B000008168",
     "name": "영림중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 가마산로27길 17",
     "address_jiban": "서울특별시 구로구 구로동 105-2",
     "lat": 37.49721962,
@@ -3442,6 +4130,8 @@
   {
     "id": "B000008147",
     "name": "창천중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 백범로1길 56",
     "address_jiban": "서울특별시 마포구 노고산동 33-1",
     "lat": 37.55498958,
@@ -3452,6 +4142,8 @@
   {
     "id": "B000008284",
     "name": "둔촌중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 진황도로61길 25-30",
     "address_jiban": "서울특별시 강동구 둔촌동 19-1",
     "lat": 37.53083609,
@@ -3462,6 +4154,8 @@
   {
     "id": "B000008299",
     "name": "한영중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 동남로 832",
     "address_jiban": "서울특별시 강동구 상일동 166",
     "lat": 37.54914056,
@@ -3472,6 +4166,8 @@
   {
     "id": "B000008196",
     "name": "백운중학교",
+    "school_type": "middle",
+    "district": "도봉구",
     "address_road": "서울특별시 도봉구 도봉로129길 50",
     "address_jiban": "서울특별시 도봉구 쌍문동 68-2",
     "lat": 37.65640592,
@@ -3482,6 +4178,8 @@
   {
     "id": "B000008234",
     "name": "경신중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 혜화로 74",
     "address_jiban": "서울특별시 종로구 혜화동 5-119",
     "lat": 37.59220227,
@@ -3492,6 +4190,8 @@
   {
     "id": "B000027170",
     "name": "마곡하늬중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 마곡서1로 16",
     "address_jiban": "서울특별시 강서구 마곡동 749",
     "lat": 37.55812766,
@@ -3502,6 +4202,8 @@
   {
     "id": "B000008251",
     "name": "오산중학교",
+    "school_type": "middle",
+    "district": "용산구",
     "address_road": "서울특별시 용산구 보광로7길 17",
     "address_jiban": "서울특별시 용산구 보광동 168-4",
     "lat": 37.52358051,
@@ -3512,6 +4214,8 @@
   {
     "id": "B000008148",
     "name": "성서중학교",
+    "school_type": "middle",
+    "district": "마포구",
     "address_road": "서울특별시 마포구 성산로4길 42",
     "address_jiban": "서울특별시 마포구 성산동 587-4",
     "lat": 37.5627873,
@@ -3522,6 +4226,8 @@
   {
     "id": "B000008282",
     "name": "강명중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 상일로12길 56",
     "address_jiban": "서울특별시 강동구 상일동 537",
     "lat": 37.5554045,
@@ -3532,6 +4238,8 @@
   {
     "id": "B000008394",
     "name": "봉림중학교",
+    "school_type": "middle",
+    "district": "관악구",
     "address_road": "서울특별시 관악구 장군봉길 72",
     "address_jiban": "서울특별시 관악구 봉천동 1531-38",
     "lat": 37.48119817,
@@ -3542,6 +4250,8 @@
   {
     "id": "B000008458",
     "name": "화계중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 화계사길 63",
     "address_jiban": "서울특별시 강북구 수유동 491-28",
     "lat": 37.63251806,
@@ -3552,6 +4262,8 @@
   {
     "id": "B000026209",
     "name": "한울중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 독산로50길 60",
     "address_jiban": "서울특별시 금천구 시흥동 792-1",
     "lat": 37.46240099,
@@ -3562,6 +4274,8 @@
   {
     "id": "B000008457",
     "name": "수유중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 인수봉로37길 40",
     "address_jiban": "서울특별시 강북구 수유동 491-61",
     "lat": 37.6315652,
@@ -3572,6 +4286,8 @@
   {
     "id": "B000008162",
     "name": "오남중학교",
+    "school_type": "middle",
+    "district": "구로구",
     "address_road": "서울특별시 구로구 오리로9길 25",
     "address_jiban": "서울특별시 구로구 오류동 214-4",
     "lat": 37.48705969,
@@ -3582,6 +4298,8 @@
   {
     "id": "B000008325",
     "name": "공항중학교",
+    "school_type": "middle",
+    "district": "강서구",
     "address_road": "서울특별시 강서구 방화대로 241",
     "address_jiban": "서울특별시 강서구 공항동 12-3",
     "lat": 37.56217751,
@@ -3592,6 +4310,8 @@
   {
     "id": "B000008463",
     "name": "영훈국제중학교",
+    "school_type": "middle",
+    "district": "강북구",
     "address_road": "서울특별시 강북구 도봉로13가길 19",
     "address_jiban": "서울특별시 강북구 미아동 471-2",
     "lat": 37.61468187,
@@ -3602,6 +4322,8 @@
   {
     "id": "B000008118",
     "name": "은평중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 갈현로17나길 12-1",
     "address_jiban": "서울특별시 은평구 구산동 182-44",
     "lat": 37.61061869,
@@ -3612,6 +4334,8 @@
   {
     "id": "B000008288",
     "name": "신명중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 명일로24길 25",
     "address_jiban": "서울특별시 강동구 길동 42",
     "lat": 37.54181449,
@@ -3622,6 +4346,8 @@
   {
     "id": "B000008232",
     "name": "대신중학교",
+    "school_type": "middle",
+    "district": "종로구",
     "address_road": "서울특별시 종로구 사직로 9",
     "address_jiban": "서울특별시 종로구 행촌동 171-1",
     "lat": 37.57310947,
@@ -3632,6 +4358,8 @@
   {
     "id": "B000008121",
     "name": "연천중학교",
+    "school_type": "middle",
+    "district": "은평구",
     "address_road": "서울특별시 은평구 연서로41길 30",
     "address_jiban": "서울특별시 은평구 불광동 441-1",
     "lat": 37.62754521,
@@ -3642,6 +4370,8 @@
   {
     "id": "B000008300",
     "name": "목운중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동동로 235",
     "address_jiban": "서울특별시 양천구 목동 922",
     "lat": 37.52700952,
@@ -3652,6 +4382,8 @@
   {
     "id": "B000008296",
     "name": "동북중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 강동대로 305",
     "address_jiban": "서울특별시 강동구 둔촌동 180-2",
     "lat": 37.52024061,
@@ -3662,6 +4394,8 @@
   {
     "id": "B000008297",
     "name": "상일중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 천호대로219길 61",
     "address_jiban": "서울특별시 강동구 상일동 189",
     "lat": 37.54858748,
@@ -3672,6 +4406,8 @@
   {
     "id": "B000008344",
     "name": "신반포중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 신반포로19길 26",
     "address_jiban": "서울특별시 서초구 반포동 3-1",
     "lat": 37.50626532,
@@ -3682,6 +4418,8 @@
   {
     "id": "B000008289",
     "name": "한산중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 풍성로 251",
     "address_jiban": "서울특별시 강동구 둔촌동 161-1",
     "lat": 37.52890274,
@@ -3692,6 +4430,8 @@
   {
     "id": "B000025385",
     "name": "강빛중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 아리수로93다길 1",
     "address_jiban": "서울특별시 강동구 강일동 120-4",
     "lat": 37.57434332,
@@ -3702,6 +4442,8 @@
   {
     "id": "B000008137",
     "name": "인왕중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 세검정로4길 2",
     "address_jiban": "서울특별시 서대문구 홍제동 282-12",
     "lat": 37.59427355,
@@ -3712,6 +4454,8 @@
   {
     "id": "B000008189",
     "name": "윤중중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 여의동로3길 3",
     "address_jiban": "서울특별시 영등포구 여의도동 38-2",
     "lat": 37.51897848,
@@ -3722,6 +4466,8 @@
   {
     "id": "B000008316",
     "name": "영도중학교",
+    "school_type": "middle",
+    "district": "양천구",
     "address_road": "서울특별시 양천구 목동중앙남로 27",
     "address_jiban": "서울특별시 양천구 목동 735",
     "lat": 37.53631557,
@@ -3732,6 +4478,8 @@
   {
     "id": "B000008286",
     "name": "고덕중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 동남로82길 94",
     "address_jiban": "서울특별시 강동구 고덕동 223",
     "lat": 37.56036661,
@@ -3742,6 +4490,8 @@
   {
     "id": "B000025623",
     "name": "신길중학교",
+    "school_type": "middle",
+    "district": "영등포구",
     "address_road": "서울특별시 영등포구 신길로28길 43",
     "address_jiban": "서울특별시 영등포구 신길동 4948",
     "lat": 37.50201923,
@@ -3752,6 +4502,8 @@
   {
     "id": "B000008356",
     "name": "신사중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 압구정로 123",
     "address_jiban": "서울특별시 강남구 압구정동 410",
     "lat": 37.52469784,
@@ -3762,6 +4514,8 @@
   {
     "id": "B000008229",
     "name": "재현중학교",
+    "school_type": "middle",
+    "district": "노원구",
     "address_road": "서울특별시 노원구 덕릉로82길 64",
     "address_jiban": "서울특별시 노원구 중계동 129-2",
     "lat": 37.66126447,
@@ -3772,6 +4526,8 @@
   {
     "id": "B000008294",
     "name": "동신중학교",
+    "school_type": "middle",
+    "district": "강동구",
     "address_road": "서울특별시 강동구 진황도로 72",
     "address_jiban": "서울특별시 강동구 천호동 447-9",
     "lat": 37.53676952,
@@ -3782,6 +4538,8 @@
   {
     "id": "B000008089",
     "name": "동대문중학교",
+    "school_type": "middle",
+    "district": "동대문구",
     "address_road": "서울특별시 동대문구 사가정로 59",
     "address_jiban": "서울특별시 동대문구 전농동 322-5",
     "lat": 37.57452207,
@@ -3792,6 +4550,8 @@
   {
     "id": "B000008449",
     "name": "성신여자중학교",
+    "school_type": "middle",
+    "district": "성북구",
     "address_road": "서울특별시 성북구 북악산로 918",
     "address_jiban": "서울특별시 성북구 돈암동 173-1",
     "lat": 37.59462313,
@@ -3802,6 +4562,8 @@
   {
     "id": "B000008104",
     "name": "용마중학교",
+    "school_type": "middle",
+    "district": "중랑구",
     "address_road": "서울특별시 중랑구 면목로28길 18",
     "address_jiban": "서울특별시 중랑구 면목동 378-2",
     "lat": 37.5745074,
@@ -3812,6 +4574,8 @@
   {
     "id": "B000008425",
     "name": "신양중학교",
+    "school_type": "middle",
+    "district": "광진구",
     "address_road": "서울특별시 광진구 자양강변길 73",
     "address_jiban": "서울특별시 광진구 자양동 57-8",
     "lat": 37.53365227,
@@ -3822,6 +4586,8 @@
   {
     "id": "B000008240",
     "name": "금호중학교",
+    "school_type": "middle",
+    "district": "중구",
     "address_road": "서울특별시 중구 청구로 6",
     "address_jiban": "서울특별시 중구 신당동 36-227",
     "lat": 37.5580382,
@@ -3832,6 +4598,8 @@
   {
     "id": "B000008171",
     "name": "시흥중학교",
+    "school_type": "middle",
+    "district": "금천구",
     "address_road": "서울특별시 금천구 시흥대로38길 60",
     "address_jiban": "서울특별시 금천구 시흥동 산24-15",
     "lat": 37.44629507,
@@ -3842,6 +4610,8 @@
   {
     "id": "B000030582",
     "name": "개포중학교",
+    "school_type": "middle",
+    "district": "강남구",
     "address_road": "서울특별시 강남구 선릉로 9",
     "address_jiban": "서울특별시 강남구 개포동 660-37",
     "lat": 37.48078757,
@@ -3852,6 +4622,8 @@
   {
     "id": "B000027509",
     "name": "해누리중학교",
+    "school_type": "middle",
+    "district": "송파구",
     "address_road": "서울특별시 송파구 송파대로37길 95",
     "address_jiban": "서울특별시 송파구 가락동 909",
     "lat": 37.49824464,
@@ -3862,6 +4634,8 @@
   {
     "id": "B000026884",
     "name": "내곡중학교",
+    "school_type": "middle",
+    "district": "서초구",
     "address_road": "서울특별시 서초구 청계산로7길 9-20",
     "address_jiban": "서울특별시 서초구 신원동 294",
     "lat": 37.45200325,
@@ -3872,6 +4646,8 @@
   {
     "id": "B000008132",
     "name": "연희중학교",
+    "school_type": "middle",
+    "district": "서대문구",
     "address_road": "서울특별시 서대문구 증가로 170",
     "address_jiban": "서울특별시 서대문구 남가좌동 368-1",
     "lat": 37.57958728,
