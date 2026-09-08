@@ -184,6 +184,72 @@ HTML_TEMPLATE = r"""
   }
   #context-menu .menu-item:hover { background:#f0f7ff; }
   #context-menu .menu-item .icon { font-size:16px; }
+
+  /* === 즐겨찾기 기능 스타일 === */
+  .favorite-star {
+    cursor:pointer; font-size:16px; color:#ccc;
+    margin-right:6px; transition:color 0.2s, transform 0.2s;
+  }
+  .favorite-star:hover { transform:scale(1.2); color:#f1c40f; }
+  .favorite-star.favorited { color:#f1c40f; }
+  .favorites-filter {
+    display:flex; align-items:center; gap:8px;
+    margin-bottom:10px; padding:8px; background:#fffbea;
+    border-radius:6px; border:1px solid #f1c40f;
+  }
+  .favorites-filter label {
+    font-size:12px; cursor:pointer; display:flex; align-items:center; gap:6px;
+  }
+  .favorites-filter input[type="checkbox"] { accent-color:#f1c40f; }
+  #favorites-count { font-size:11px; color:#e67e22; font-weight:bold; }
+  #school-list li.favorited-item { background:#fffef0; }
+
+  /* === 학교 비교 기능 스타일 === */
+  .school-checkbox {
+    margin-right:6px; cursor:pointer; accent-color:#27ae60;
+    width:14px; height:14px;
+  }
+  #compare-btn {
+    display:none; width:100%; padding:10px; margin-bottom:8px;
+    background:#27ae60; color:#fff; border:none; border-radius:6px;
+    cursor:pointer; font-size:13px; font-weight:bold;
+  }
+  #compare-btn:hover { background:#219a52; }
+  #compare-modal {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:rgba(0,0,0,0.5); z-index:3000;
+    justify-content:center; align-items:center;
+  }
+  .compare-modal-content {
+    background:#fff; border-radius:12px; padding:24px;
+    max-width:90vw; max-height:80vh; overflow:auto; position:relative;
+  }
+  .compare-modal-close {
+    position:absolute; top:12px; right:16px;
+    font-size:24px; cursor:pointer; color:#666;
+  }
+  .compare-modal-close:hover { color:#333; }
+  .compare-grid {
+    display:flex; gap:16px; flex-wrap:wrap; justify-content:center;
+  }
+  .compare-card {
+    background:#f8f9fa; border-radius:8px; padding:16px;
+    min-width:180px; max-width:220px; flex:1;
+  }
+  .compare-card h3 {
+    font-size:14px; margin-bottom:12px; padding-bottom:8px;
+    border-bottom:2px solid #4a90d9; color:#333;
+  }
+  .compare-row {
+    display:flex; justify-content:space-between;
+    font-size:12px; padding:4px 0; border-bottom:1px solid #eee;
+  }
+  .compare-row span:first-child { color:#666; }
+  .compare-row span:last-child { font-weight:500; color:#333; }
+  .compare-row.highlight {
+    background:#e8f4fd; padding:6px 4px; border-radius:4px;
+    font-weight:bold; margin-top:8px; border:none;
+  }
 </style>
 </head>
 <body>
@@ -212,6 +278,12 @@ HTML_TEMPLATE = r"""
     <span class="mid">중학교</span>
     <span class="high">고등학교</span>
   </div>
+  <div class="favorites-filter">
+    <label>
+      <input type="checkbox" id="favorites-toggle" onchange="toggleFavoritesOnly()">
+      <span style="color:#f1c40f;">★</span> 즐겨찾기만 보기 <span id="favorites-count"></span>
+    </label>
+  </div>
   <div class="control-row">
     <label class="control-label" for="district-select">구 단위 조회</label>
     <select id="district-select">
@@ -228,12 +300,204 @@ HTML_TEMPLATE = r"""
     </select>
   </div>
   <input id="search-box" type="text" placeholder="학교명 검색 (예: 서울, 강남)" />
+  <button id="compare-btn" onclick="openCompareModal()">선택한 학교 비교</button>
   <ul id="school-list"></ul>
+</div>
+
+<!-- 학교 비교 모달 -->
+<div id="compare-modal" onclick="if(event.target===this)closeCompareModal()">
+  <div class="compare-modal-content">
+    <span class="compare-modal-close" onclick="closeCompareModal()">&times;</span>
+    <h2 style="margin-bottom:16px;color:#333;">📊 학교 비교</h2>
+    <div id="compare-content"></div>
+    <div style="text-align:center;margin-top:16px;">
+      <button onclick="clearSelection();closeCompareModal()" style="padding:8px 16px;background:#95a5a6;color:#fff;border:none;border-radius:4px;cursor:pointer;margin-right:8px;">선택 초기화</button>
+      <button onclick="closeCompareModal()" style="padding:8px 24px;background:#4a90d9;color:#fff;border:none;border-radius:4px;cursor:pointer;">닫기</button>
+    </div>
+  </div>
 </div>
 
 <script>
 const schools = {{ schools | tojson }};
 const dongsByDistrict = {{ dongs_by_district | tojson }};
+
+// === 즐겨찾기 및 비교 기능 상태 변수 ===
+const FAVORITES_KEY = 'seoul_school_favorites';
+let favorites = new Set();
+let selectedSchools = new Set();
+let showFavoritesOnly = false;
+
+// === localStorage 관리 함수 ===
+function loadFavorites() {
+  try {
+    const saved = localStorage.getItem(FAVORITES_KEY);
+    return saved ? JSON.parse(saved) : [];
+  } catch (e) {
+    console.error('Failed to load favorites:', e);
+    return [];
+  }
+}
+
+function saveFavorites() {
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+  } catch (e) {
+    console.error('Failed to save favorites:', e);
+  }
+}
+
+// === 즐겨찾기 기능 ===
+function toggleFavorite(schoolId, event) {
+  event.stopPropagation();
+  if (favorites.has(schoolId)) {
+    favorites.delete(schoolId);
+  } else {
+    favorites.add(schoolId);
+  }
+  saveFavorites();
+  updateFavoriteIcons();
+  if (showFavoritesOnly) {
+    applyFilters();
+  }
+}
+
+function updateFavoriteIcons() {
+  document.querySelectorAll('.favorite-star').forEach(star => {
+    const schoolId = star.dataset.schoolId;
+    if (favorites.has(schoolId)) {
+      star.textContent = '★';
+      star.classList.add('favorited');
+    } else {
+      star.textContent = '☆';
+      star.classList.remove('favorited');
+    }
+  });
+  // 즐겨찾기 개수 업데이트
+  const countEl = document.getElementById('favorites-count');
+  if (countEl) {
+    countEl.textContent = favorites.size > 0 ? `(${favorites.size})` : '';
+  }
+}
+
+function toggleFavoritesOnly() {
+  showFavoritesOnly = document.getElementById('favorites-toggle').checked;
+  applyFilters();
+}
+
+function initFavorites() {
+  favorites = new Set(loadFavorites());
+  updateFavoriteIcons();
+}
+
+// 팝업 즐겨찾기 버튼 상태 업데이트
+function updatePopupFavoriteButton(schoolId) {
+  const icon = document.getElementById(`popup-fav-icon-${schoolId}`);
+  const text = document.getElementById(`popup-fav-text-${schoolId}`);
+  const btn = document.getElementById(`popup-fav-btn-${schoolId}`);
+  if (!icon || !text || !btn) return;
+
+  if (favorites.has(schoolId)) {
+    icon.textContent = '★';
+    text.textContent = '즐겨찾기 해제';
+    btn.style.background = '#f1c40f';
+    btn.style.color = '#fff';
+    btn.style.borderColor = '#f1c40f';
+  } else {
+    icon.textContent = '☆';
+    text.textContent = '즐겨찾기 추가';
+    btn.style.background = '#fffbea';
+    btn.style.color = '#333';
+    btn.style.borderColor = '#f1c40f';
+  }
+}
+
+// 팝업에서 즐겨찾기 토글
+function togglePopupFavorite(schoolId) {
+  if (favorites.has(schoolId)) {
+    favorites.delete(schoolId);
+  } else {
+    favorites.add(schoolId);
+  }
+  saveFavorites();
+  updateFavoriteIcons();
+  updatePopupFavoriteButton(schoolId);
+  if (showFavoritesOnly) {
+    applyFilters();
+  }
+}
+
+// === 학교 비교 기능 ===
+function toggleSchoolSelection(schoolId, checkbox) {
+  if (checkbox.checked) {
+    if (selectedSchools.size >= 5) {
+      alert('최대 5개 학교까지 비교할 수 있습니다.');
+      checkbox.checked = false;
+      return;
+    }
+    selectedSchools.add(schoolId);
+  } else {
+    selectedSchools.delete(schoolId);
+  }
+  updateCompareButton();
+}
+
+function updateCompareButton() {
+  const btn = document.getElementById('compare-btn');
+  const count = selectedSchools.size;
+  if (count >= 2) {
+    btn.style.display = 'block';
+    btn.textContent = `선택한 ${count}개 학교 비교`;
+  } else {
+    btn.style.display = 'none';
+  }
+}
+
+function clearSelection() {
+  selectedSchools.clear();
+  document.querySelectorAll('.school-checkbox').forEach(cb => cb.checked = false);
+  updateCompareButton();
+}
+
+function openCompareModal() {
+  const modal = document.getElementById('compare-modal');
+  const content = document.getElementById('compare-content');
+  const selected = schools.filter(s => selectedSchools.has(s.id));
+  content.innerHTML = generateComparisonHTML(selected);
+  modal.style.display = 'flex';
+}
+
+function closeCompareModal() {
+  document.getElementById('compare-modal').style.display = 'none';
+}
+
+function generateComparisonHTML(schoolList) {
+  let html = '<div class="compare-grid">';
+  schoolList.forEach(s => {
+    const ratio = s.teachers > 0 ? (s.students / s.teachers).toFixed(1) : '-';
+    const typeLabel = s.school_type === 'elementary' ? '초등학교' :
+                      s.school_type === 'middle' ? '중학교' : '고등학교';
+    const typeColor = s.school_type === 'elementary' ? '#4a90d9' :
+                      s.school_type === 'middle' ? '#e67e22' : '#8e44ad';
+    const year = s.established ? s.established.split('-')[0] : '-';
+    const fundLabel = s.type || '공립';
+    const fundColor = s.type === '사립' ? '#e74c3c' : '#27ae60';
+
+    html += `
+      <div class="compare-card">
+        <h3 style="border-bottom-color:${typeColor};">${s.name}</h3>
+        <div class="compare-row"><span>학교급</span><span style="color:${typeColor};font-weight:bold;">${typeLabel}</span></div>
+        <div class="compare-row"><span>설립형태</span><span style="color:${fundColor};">${fundLabel}</span></div>
+        <div class="compare-row"><span>소재지</span><span>${s.district} ${s.dong || ''}</span></div>
+        <div class="compare-row"><span>설립연도</span><span>${year}년</span></div>
+        <div class="compare-row"><span>학생수</span><span style="color:#3498db;font-weight:bold;">${s.students || '-'}명</span></div>
+        <div class="compare-row"><span>교원수</span><span style="color:#27ae60;font-weight:bold;">${s.teachers || '-'}명</span></div>
+        <div class="compare-row highlight"><span>학생/교원 비율</span><span style="color:#e67e22;">${ratio}</span></div>
+      </div>
+    `;
+  });
+  html += '</div>';
+  return html;
+}
 
 const map = L.map('map', { center:[37.54, 126.99], zoom:12, zoomControl:true });
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -289,6 +553,11 @@ schools.forEach(s => {
           </div>
         </div>
       </div>
+      <div style="font-size:11px;margin-bottom:6px;">
+        <button id="popup-fav-btn-${s.id}" onclick="togglePopupFavorite('${s.id}')" style="width:100%;padding:6px;border:1px solid #f1c40f;background:#fffbea;border-radius:4px;cursor:pointer;font-size:11px;display:flex;align-items:center;justify-content:center;gap:4px;">
+          <span id="popup-fav-icon-${s.id}">☆</span> <span id="popup-fav-text-${s.id}">즐겨찾기 추가</span>
+        </button>
+      </div>
       <div style="font-size:11px;">
         <a href="${schoolInfoUrl}" target="_blank" style="color:#3498db;text-decoration:none;display:block;padding:6px;background:#e8f4fd;border-radius:4px;text-align:center;">
           📊 학교알리미에서 상세정보 보기 →
@@ -299,6 +568,12 @@ schools.forEach(s => {
       </div>
     </div>
   `, { maxWidth: 300 });
+
+  // 팝업 열릴 때 즐겨찾기 버튼 상태 업데이트
+  marker.on('popupopen', () => {
+    updatePopupFavoriteButton(s.id);
+  });
+
   marker.on('click', () => highlightSchool(s.name));
   markers.push(marker);
   markerMap.set(s.name, marker);
@@ -332,8 +607,18 @@ function renderList(list) {
   listEl.innerHTML = '';
   list.forEach(s => {
     const li = document.createElement('li');
+    const isFavorited = favorites.has(s.id);
+    const isSelected = selectedSchools.has(s.id);
+    if (isFavorited) li.classList.add('favorited-item');
+
     li.innerHTML = `
-      <span>
+      <span style="display:flex;align-items:center;">
+        <input type="checkbox" class="school-checkbox"
+               ${isSelected ? 'checked' : ''}
+               onclick="event.stopPropagation();toggleSchoolSelection('${s.id}', this)">
+        <span class="favorite-star ${isFavorited ? 'favorited' : ''}"
+              data-school-id="${s.id}"
+              onclick="toggleFavorite('${s.id}', event)">${isFavorited ? '★' : '☆'}</span>
         ${s.name}
         <span class="type-badge ${s.school_type}">${s.school_type === 'elementary' ? '초' : s.school_type === 'middle' ? '중' : '고'}</span>
       </span>
@@ -346,6 +631,8 @@ function renderList(list) {
     });
     listEl.appendChild(li);
   });
+  // 비교 버튼 상태 업데이트
+  updateCompareButton();
 }
 
 function highlightSchool(name) {
@@ -379,6 +666,10 @@ function applyFilters() {
   const selectedDong = dongSelect.value;
   let filtered = schools;
 
+  // 즐겨찾기 필터
+  if (showFavoritesOnly) {
+    filtered = filtered.filter(s => favorites.has(s.id));
+  }
   if (activeType !== 'all') {
     filtered = filtered.filter(s => s.school_type === activeType);
   }
@@ -402,6 +693,8 @@ function applyFilters() {
   countEl.textContent = `${filtered.length}개교 / 전체 ${schools.length}개교`;
 }
 
+// 즐겨찾기 초기화 및 필터 적용
+initFavorites();
 applyFilters();
 
 const group = L.featureGroup(markers);
