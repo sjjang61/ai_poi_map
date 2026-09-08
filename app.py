@@ -53,6 +53,8 @@ def normalize_school(raw: dict, school_type: str) -> dict:
         "lng": float(raw["lng"] if "lng" in raw else raw["경도"]) if (raw.get("lng") or raw.get("경도")) else None,
         "established": (raw.get("established") or raw.get("설립일자") or "").strip(),
         "type": (raw.get("type") or raw.get("설립형태") or "").strip(),
+        "students": raw.get("students", 0),
+        "teachers": raw.get("teachers", 0),
     }
 
 
@@ -132,10 +134,42 @@ HTML_TEMPLATE = r"""
   .type-badge.middle { background:#e67e22; }
   .type-badge.high { background:#8e44ad; }
   .leaflet-popup-content { font-family:'Malgun Gothic',sans-serif; font-size:13px; }
+  #locate-btn {
+    position:absolute; top:80px; right:12px; z-index:1000;
+    background:#fff; border:2px solid rgba(0,0,0,0.2); border-radius:4px;
+    padding:8px 12px; cursor:pointer; font-size:14px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    display:flex; align-items:center; gap:6px;
+  }
+  #locate-btn:hover { background:#f4f4f4; }
+  #locate-btn:disabled { opacity:0.6; cursor:wait; }
+  #locate-btn .icon { font-size:16px; }
+  #context-menu {
+    position:absolute; z-index:2000; display:none;
+    background:#fff; border-radius:8px; padding:6px 0;
+    box-shadow:0 4px 16px rgba(0,0,0,0.25);
+    min-width:160px;
+  }
+  #context-menu .menu-item {
+    padding:10px 16px; cursor:pointer; font-size:13px;
+    display:flex; align-items:center; gap:8px;
+  }
+  #context-menu .menu-item:hover { background:#f0f7ff; }
+  #context-menu .menu-item .icon { font-size:16px; }
 </style>
 </head>
 <body>
 <div id="map"></div>
+<button id="locate-btn" onclick="locateMe()">
+  <span class="icon">📍</span>
+  <span>현재 위치</span>
+</button>
+<div id="context-menu">
+  <div class="menu-item" onclick="searchNearbySchools()">
+    <span class="icon">🏫</span>
+    <span>근처 학교 검색</span>
+  </div>
+</div>
 <div id="panel">
   <h1>서울 초·중·고 학교 위치</h1>
   <div class="count" id="count">{{ total_count }}개교 / 전체 {{ total_count }}개교</div>
@@ -186,12 +220,50 @@ function getIcon(schoolType) {
 
 schools.forEach(s => {
   const marker = L.marker([s.lat, s.lng], { icon: getIcon(s.school_type) }).addTo(map);
+  const schoolTypeLabel = s.school_type === 'elementary' ? '초등학교' : s.school_type === 'middle' ? '중학교' : '고등학교';
+  const schoolInfoUrl = `https://www.schoolinfo.go.kr/ng/go/pnnggo_a01_l0.do?schulNm=${encodeURIComponent(s.name)}`;
+  const establishedYear = s.established ? s.established.split('-')[0] + '년' : '';
+  const studentTeacherRatio = s.teachers > 0 ? (s.students / s.teachers).toFixed(1) : '-';
+
   marker.bindPopup(`
-    <strong>${s.name}</strong><br>
-    <span class="type-badge ${s.school_type}">${s.school_type === 'elementary' ? '초등학교' : s.school_type === 'middle' ? '중학교' : '고등학교'}</span><br>
-    ${s.district} / ${s.address_road || s.address_jiban || ''}<br>
-    <span style="color:#888; font-size:11px">${s.lat?.toFixed(6)}, ${s.lng?.toFixed(6)}</span>
-  `);
+    <div style="min-width:220px;">
+      <strong style="font-size:14px;">${s.name}</strong><br>
+      <span class="type-badge ${s.school_type}">${schoolTypeLabel}</span>
+      <span style="background:#${s.type === '사립' ? 'e74c3c' : '27ae60'};color:#fff;padding:1px 5px;border-radius:3px;font-size:10px;margin-left:4px;">${s.type || '공립'}</span>
+      <hr style="margin:6px 0;border:none;border-top:1px solid #eee;">
+      <div style="font-size:12px;color:#555;">
+        <div>📍 ${s.district}</div>
+        <div style="color:#777;font-size:11px;">${s.address_road || s.address_jiban || ''}</div>
+        ${establishedYear ? `<div style="margin-top:4px;">🏫 설립: ${establishedYear}</div>` : ''}
+      </div>
+      <hr style="margin:6px 0;border:none;border-top:1px solid #eee;">
+      <div style="background:#f8f9fa;padding:8px;border-radius:4px;margin-bottom:6px;">
+        <div style="font-size:11px;color:#666;margin-bottom:4px;">📊 학교 현황 (2025년 공시)</div>
+        <div style="display:flex;gap:12px;justify-content:space-around;">
+          <div style="text-align:center;">
+            <div style="font-size:16px;font-weight:bold;color:#3498db;">👨‍🎓 ${s.students || '-'}</div>
+            <div style="font-size:9px;color:#999;">학생수</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:16px;font-weight:bold;color:#27ae60;">👩‍🏫 ${s.teachers || '-'}</div>
+            <div style="font-size:9px;color:#999;">교원수</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:16px;font-weight:bold;color:#e67e22;">📐 ${studentTeacherRatio}</div>
+            <div style="font-size:9px;color:#999;">학생/교원</div>
+          </div>
+        </div>
+      </div>
+      <div style="font-size:11px;">
+        <a href="${schoolInfoUrl}" target="_blank" style="color:#3498db;text-decoration:none;display:block;padding:6px;background:#e8f4fd;border-radius:4px;text-align:center;">
+          📊 학교알리미에서 상세정보 보기 →
+        </a>
+      </div>
+      <div style="color:#999;font-size:10px;margin-top:4px;">
+        좌표: ${s.lat?.toFixed(5)}, ${s.lng?.toFixed(5)}
+      </div>
+    </div>
+  `, { maxWidth: 300 });
   marker.on('click', () => highlightSchool(s.name));
   markers.push(marker);
   markerMap.set(s.name, marker);
@@ -271,6 +343,492 @@ applyFilters();
 
 const group = L.featureGroup(markers);
 map.fitBounds(group.getBounds().pad(0.05));
+
+// --- 거리 계산 기능 ---
+// Encoded Polyline 디코딩 함수 (Valhalla 6자리 정밀도)
+function decodePolyline(encoded) {
+  const coords = [];
+  let index = 0, lat = 0, lng = 0;
+  while (index < encoded.length) {
+    let b, shift = 0, result = 0;
+    do {
+      b = encoded.charCodeAt(index++) - 63;
+      result |= (b & 0x1f) << shift;
+      shift += 5;
+    } while (b >= 0x20);
+    const dlat = ((result & 1) ? ~(result >> 1) : (result >> 1));
+    lat += dlat;
+    shift = 0;
+    result = 0;
+    do {
+      b = encoded.charCodeAt(index++) - 63;
+      result |= (b & 0x1f) << shift;
+      shift += 5;
+    } while (b >= 0x20);
+    const dlng = ((result & 1) ? ~(result >> 1) : (result >> 1));
+    lng += dlng;
+    coords.push([lat / 1e6, lng / 1e6]); // Valhalla uses 6 decimal precision
+  }
+  return coords;
+}
+
+// Haversine 공식으로 두 좌표 간 거리 계산 (km 단위)
+function haversineDistance(lat1, lng1, lat2, lng2) {
+  const R = 6371; // 지구 반지름 (km)
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+
+// 클릭 마커와 반경 원을 저장할 변수
+let clickMarker = null;
+let radiusCircle = null;
+let routeLine = null;
+let routeInfoBox = null;
+let currentClickLat = null;
+let currentClickLng = null;
+let currentRadius = 1; // 기본 반경 1km
+
+// 반경 변경 시 학교 목록 업데이트 함수
+function updateRadius(radiusKm) {
+  currentRadius = radiusKm;
+  if (!currentClickLat || !currentClickLng) return;
+
+  // 반경 원 업데이트
+  if (radiusCircle) {
+    radiusCircle.setRadius(radiusKm * 1000);
+  }
+
+  // 학교 목록 업데이트
+  updateSchoolList();
+}
+
+// 학교 목록 업데이트 함수
+function updateSchoolList() {
+  if (!currentClickLat || !currentClickLng) return;
+
+  // 현재 필터에 맞는 학교만 필터링
+  let filteredSchools = schools;
+  if (activeType !== 'all') {
+    filteredSchools = filteredSchools.filter(s => s.school_type === activeType);
+  }
+
+  // 반경 내 학교 찾기
+  const nearbySchools = filteredSchools
+    .map(s => ({ ...s, distance: haversineDistance(currentClickLat, currentClickLng, s.lat, s.lng) }))
+    .filter(s => s.distance <= currentRadius)
+    .sort((a, b) => a.distance - b.distance);
+
+  // 학교 목록 HTML 업데이트
+  const listContainer = document.getElementById('nearby-school-list');
+  const countEl = document.getElementById('nearby-count');
+  if (!listContainer || !countEl) return;
+
+  if (nearbySchools.length === 0) {
+    countEl.textContent = '0개교 발견';
+    listContainer.innerHTML = '<p style="color:#999;font-size:12px;padding:8px 0;">반경 내 학교가 없습니다.</p>';
+  } else {
+    countEl.textContent = `${nearbySchools.length}개교 발견`;
+    let listHtml = '';
+    nearbySchools.forEach(s => {
+      const typeColor = s.school_type === 'elementary' ? '#4a90d9' :
+                        s.school_type === 'middle' ? '#e67e22' : '#8e44ad';
+      const typeShort = s.school_type === 'elementary' ? '초' :
+                        s.school_type === 'middle' ? '중' : '고';
+      const escapedName = s.name.replace(/'/g, "\\'");
+      const fundColor = s.type === '사립' ? '#e74c3c' : '#27ae60';
+      const fundLabel = s.type || '공립';
+      listHtml += `<li onclick="showWalkingRoute(${s.lat}, ${s.lng}, '${escapedName}')" style="padding:6px 4px;border-bottom:1px solid #eee;font-size:12px;cursor:pointer;transition:background 0.2s;" onmouseover="this.style.background='#e8f8f0'" onmouseout="this.style.background=''">
+        <span style="background:${typeColor};color:#fff;padding:1px 4px;border-radius:3px;font-size:10px;margin-right:2px;">${typeShort}</span>
+        <span style="background:${fundColor};color:#fff;padding:1px 4px;border-radius:3px;font-size:9px;">${fundLabel}</span>
+        ${s.name}
+        <br><span style="color:#ff6b6b;font-weight:bold;font-size:11px;">📏 ${(s.distance * 1000).toFixed(0)}m</span>
+        <span style="color:#999;font-size:10px;"> (${s.distance.toFixed(2)}km)</span>
+        <span style="color:#2ecc71;font-size:10px;float:right;">🚶 경로</span>
+      </li>`;
+    });
+    listContainer.innerHTML = listHtml;
+  }
+}
+
+// 도보 경로 표시 함수
+async function showWalkingRoute(endLat, endLng, schoolName) {
+  if (!currentClickLat || !currentClickLng) return;
+
+  // 기존 경로 제거
+  if (routeLine) {
+    map.removeLayer(routeLine);
+  }
+  if (routeInfoBox) {
+    map.removeLayer(routeInfoBox);
+  }
+
+  // 팝업 닫기
+  map.closePopup();
+
+  try {
+    // Valhalla API로 도보 경로 조회 (pedestrian costing)
+    const valhallaRequest = {
+      locations: [
+        { lat: currentClickLat, lon: currentClickLng },
+        { lat: endLat, lon: endLng }
+      ],
+      costing: "pedestrian",
+      directions_options: { units: "kilometers" }
+    };
+
+    const response = await fetch('https://valhalla1.openstreetmap.de/route', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(valhallaRequest)
+    });
+    const data = await response.json();
+
+    if (!data.trip || !data.trip.legs || data.trip.legs.length === 0) {
+      alert('도보 경로를 찾을 수 없습니다.');
+      return;
+    }
+
+    const leg = data.trip.legs[0];
+    const distanceKm = leg.summary.length; // km 단위
+    const distanceM = distanceKm * 1000;
+    const durationMin = Math.round(leg.summary.time / 60); // 초 -> 분
+
+    // shape 디코딩 (Valhalla는 encoded polyline 사용)
+    const coords = decodePolyline(leg.shape);
+
+    // 경로 폴리라인 그리기
+    routeLine = L.polyline(coords, {
+      color: '#2ecc71',
+      weight: 5,
+      opacity: 0.8,
+      dashArray: null
+    }).addTo(map);
+
+    // 경로에 맞춰 지도 뷰 조정
+    map.fitBounds(routeLine.getBounds().pad(0.1));
+
+    const minutes = durationMin;
+
+    // 경로 정보 박스 표시 (목적지 마커에)
+    const infoContent = `
+      <div style="min-width:180px;">
+        <strong style="color:#2ecc71;">🚶 도보 경로</strong><br>
+        <span style="font-size:13px;font-weight:bold;">${schoolName}</span>
+        <hr style="margin:6px 0;">
+        <div style="font-size:12px;">
+          <span style="color:#2ecc71;font-weight:bold;">⏱ ${minutes}분</span> (도보 예상)<br>
+          <span style="color:#666;">📏 ${distanceKm}km (${distanceM.toFixed(0)}m)</span>
+        </div>
+        <hr style="margin:6px 0;">
+        <button onclick="clearRoute()" style="width:100%;padding:6px;background:#ff6b6b;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:11px;">경로 지우기</button>
+      </div>
+    `;
+
+    routeInfoBox = L.popup({ closeOnClick: false, autoClose: false })
+      .setLatLng([endLat, endLng])
+      .setContent(infoContent)
+      .openOn(map);
+
+  } catch (error) {
+    console.error('경로 조회 실패:', error);
+    alert('경로 조회 중 오류가 발생했습니다.');
+  }
+}
+
+// 경로 지우기 함수
+function clearRoute() {
+  if (routeLine) {
+    map.removeLayer(routeLine);
+    routeLine = null;
+  }
+  if (routeInfoBox) {
+    map.removeLayer(routeInfoBox);
+    routeInfoBox = null;
+  }
+}
+
+// 현재 위치 찾기 함수
+function locateMe() {
+  const btn = document.getElementById('locate-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="icon">⏳</span><span>위치 확인 중...</span>';
+
+  if (!navigator.geolocation) {
+    alert('이 브라우저에서는 위치 서비스를 지원하지 않습니다.');
+    btn.disabled = false;
+    btn.innerHTML = '<span class="icon">📍</span><span>현재 위치</span>';
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      const lat = position.coords.latitude;
+      const lng = position.coords.longitude;
+
+      // 현재 위치 저장
+      currentClickLat = lat;
+      currentClickLng = lng;
+
+      // 기존 마커/원/경로 제거
+      clearRoute();
+      if (clickMarker) map.removeLayer(clickMarker);
+      if (radiusCircle) map.removeLayer(radiusCircle);
+
+      // 지도 이동
+      map.setView([lat, lng], 15);
+
+      // 현재 필터에 맞는 학교만 필터링
+      let filteredSchools = schools;
+      if (activeType !== 'all') {
+        filteredSchools = filteredSchools.filter(s => s.school_type === activeType);
+      }
+
+      // 기본 반경 1km로 초기화
+      currentRadius = 1;
+
+      // 반경 내 학교 찾기
+      const nearbySchools = filteredSchools
+        .map(s => ({ ...s, distance: haversineDistance(lat, lng, s.lat, s.lng) }))
+        .filter(s => s.distance <= currentRadius)
+        .sort((a, b) => a.distance - b.distance);
+
+      // 반경 원 그리기
+      radiusCircle = L.circle([lat, lng], {
+        radius: currentRadius * 1000,
+        color: '#3498db',
+        fillColor: '#3498db',
+        fillOpacity: 0.1,
+        weight: 2,
+        dashArray: '5, 5'
+      }).addTo(map);
+
+      // 현재 위치 마커
+      clickMarker = L.marker([lat, lng], {
+        icon: L.divIcon({
+          className: 'my-location-marker',
+          html: '<div style="width:24px;height:24px;border-radius:50%;background:#3498db;border:4px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.4);"></div>',
+          iconSize: [24, 24],
+          iconAnchor: [12, 12],
+        })
+      }).addTo(map);
+
+      // 팝업 내용 생성
+      const typeLabel = activeType === 'all' ? '전체' :
+                        activeType === 'elementary' ? '초등학교' :
+                        activeType === 'middle' ? '중학교' : '고등학교';
+
+      let popupContent = '<div style="max-height:350px;overflow-y:auto;min-width:220px;">';
+      popupContent += '<strong style="color:#3498db;">📍 내 현재 위치</strong><br>';
+      popupContent += `<span style="font-size:11px;color:#666;">${lat.toFixed(5)}, ${lng.toFixed(5)}</span>`;
+      popupContent += `<span style="font-size:11px;color:#666;"> / 필터: ${typeLabel}</span>`;
+      popupContent += '<hr style="margin:6px 0;">';
+
+      // 반경 슬라이더
+      popupContent += '<div style="margin-bottom:8px;">';
+      popupContent += `<label style="font-size:11px;color:#666;">반경: <strong id="radius-label">${currentRadius}km</strong></label>`;
+      popupContent += `<input type="range" id="radius-slider" min="0.5" max="3" step="0.5" value="${currentRadius}"
+        style="width:100%;margin-top:4px;cursor:pointer;"
+        oninput="document.getElementById('radius-label').textContent=this.value+'km'; updateRadius(parseFloat(this.value));">`;
+      popupContent += '<div style="display:flex;justify-content:space-between;font-size:9px;color:#999;"><span>500m</span><span>1.5km</span><span>3km</span></div>';
+      popupContent += '</div>';
+      popupContent += '<hr style="margin:6px 0;">';
+
+      popupContent += `<p style="font-size:12px;margin-bottom:6px;" id="nearby-count"><strong>${nearbySchools.length}개교</strong> 발견</p>`;
+      popupContent += '<ul id="nearby-school-list" style="list-style:none;padding:0;margin:0;max-height:180px;overflow-y:auto;">';
+
+      if (nearbySchools.length === 0) {
+        popupContent += '<li style="color:#999;font-size:12px;padding:8px 0;">반경 내 학교가 없습니다.</li>';
+      } else {
+        nearbySchools.forEach(s => {
+          const typeColor = s.school_type === 'elementary' ? '#4a90d9' :
+                            s.school_type === 'middle' ? '#e67e22' : '#8e44ad';
+          const typeShort = s.school_type === 'elementary' ? '초' :
+                            s.school_type === 'middle' ? '중' : '고';
+          const escapedName = s.name.replace(/'/g, "\\'");
+          const fundColor = s.type === '사립' ? '#e74c3c' : '#27ae60';
+          const fundLabel = s.type || '공립';
+          popupContent += `<li onclick="showWalkingRoute(${s.lat}, ${s.lng}, '${escapedName}')" style="padding:6px 4px;border-bottom:1px solid #eee;font-size:12px;cursor:pointer;transition:background 0.2s;" onmouseover="this.style.background='#e8f8f0'" onmouseout="this.style.background=''">
+            <span style="background:${typeColor};color:#fff;padding:1px 4px;border-radius:3px;font-size:10px;margin-right:2px;">${typeShort}</span>
+            <span style="background:${fundColor};color:#fff;padding:1px 4px;border-radius:3px;font-size:9px;">${fundLabel}</span>
+            ${s.name}
+            <br><span style="color:#3498db;font-weight:bold;font-size:11px;">📏 ${(s.distance * 1000).toFixed(0)}m</span>
+            <span style="color:#999;font-size:10px;"> (${s.distance.toFixed(2)}km)</span>
+            <span style="color:#2ecc71;font-size:10px;float:right;">🚶 경로</span>
+          </li>`;
+        });
+      }
+      popupContent += '</ul></div>';
+
+      clickMarker.bindPopup(popupContent, { maxWidth: 320 }).openPopup();
+
+      // 버튼 복원
+      btn.disabled = false;
+      btn.innerHTML = '<span class="icon">📍</span><span>현재 위치</span>';
+    },
+    (error) => {
+      let msg = '위치를 가져올 수 없습니다.';
+      if (error.code === 1) msg = '위치 권한이 거부되었습니다.';
+      else if (error.code === 2) msg = '위치 정보를 사용할 수 없습니다.';
+      else if (error.code === 3) msg = '위치 요청 시간이 초과되었습니다.';
+      alert(msg);
+      btn.disabled = false;
+      btn.innerHTML = '<span class="icon">📍</span><span>현재 위치</span>';
+    },
+    { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+  );
+}
+
+// 컨텍스트 메뉴 관련 변수
+const contextMenu = document.getElementById('context-menu');
+let pendingClickLat = null;
+let pendingClickLng = null;
+
+// 컨텍스트 메뉴 표시
+function showContextMenu(x, y, lat, lng) {
+  pendingClickLat = lat;
+  pendingClickLng = lng;
+  contextMenu.style.left = x + 'px';
+  contextMenu.style.top = y + 'px';
+  contextMenu.style.display = 'block';
+}
+
+// 컨텍스트 메뉴 숨기기
+function hideContextMenu() {
+  contextMenu.style.display = 'none';
+}
+
+// 근처 학교 검색 실행 (컨텍스트 메뉴에서 호출)
+function searchNearbySchools() {
+  hideContextMenu();
+  if (pendingClickLat === null || pendingClickLng === null) return;
+
+  const clickLat = pendingClickLat;
+  const clickLng = pendingClickLng;
+  currentRadius = 1; // 기본 반경 1km로 초기화
+
+  // 현재 클릭 위치 저장 (경로 표시용)
+  currentClickLat = clickLat;
+  currentClickLng = clickLng;
+
+  // 기존 경로 제거
+  clearRoute();
+
+  // 기존 마커와 원 제거
+  if (clickMarker) {
+    map.removeLayer(clickMarker);
+  }
+  if (radiusCircle) {
+    map.removeLayer(radiusCircle);
+  }
+
+  // 현재 필터 상태에 맞는 학교만 필터링
+  let filteredSchools = schools;
+  if (activeType !== 'all') {
+    filteredSchools = filteredSchools.filter(s => s.school_type === activeType);
+  }
+
+  // 반경 내 학교 찾기 및 거리 계산
+  const nearbySchools = filteredSchools
+    .map(s => ({
+      ...s,
+      distance: haversineDistance(clickLat, clickLng, s.lat, s.lng)
+    }))
+    .filter(s => s.distance <= currentRadius)
+    .sort((a, b) => a.distance - b.distance);
+
+  // 반경 원 그리기
+  radiusCircle = L.circle([clickLat, clickLng], {
+    radius: currentRadius * 1000,
+    color: '#ff6b6b',
+    fillColor: '#ff6b6b',
+    fillOpacity: 0.1,
+    weight: 2,
+    dashArray: '5, 5'
+  }).addTo(map);
+
+  // 클릭 위치에 마커 추가
+  clickMarker = L.marker([clickLat, clickLng], {
+    icon: L.divIcon({
+      className: 'click-marker',
+      html: `<div style="width:20px;height:20px;border-radius:50%;background:#ff6b6b;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;font-size:10px;font-weight:bold;">📍</span></div>`,
+      iconSize: [20, 20],
+      iconAnchor: [10, 10],
+    })
+  }).addTo(map);
+
+  // 팝업 내용 생성
+  const typeLabel = activeType === 'all' ? '전체' :
+                    activeType === 'elementary' ? '초등학교' :
+                    activeType === 'middle' ? '중학교' : '고등학교';
+
+  let popupContent = `<div style="max-height:350px;overflow-y:auto;min-width:220px;">`;
+  popupContent += `<strong style="color:#ff6b6b;">📍 주변 학교 검색</strong><br>`;
+  popupContent += `<span style="font-size:11px;color:#666;">위치: ${clickLat.toFixed(5)}, ${clickLng.toFixed(5)}</span><br>`;
+  popupContent += `<span style="font-size:11px;color:#666;">필터: ${typeLabel}</span>`;
+  popupContent += `<hr style="margin:6px 0;">`;
+
+  // 반경 슬라이더
+  popupContent += `<div style="margin-bottom:8px;">`;
+  popupContent += `<label style="font-size:11px;color:#666;">반경: <strong id="radius-label">${currentRadius}km</strong></label>`;
+  popupContent += `<input type="range" id="radius-slider" min="0.5" max="3" step="0.5" value="${currentRadius}"
+    style="width:100%;margin-top:4px;cursor:pointer;"
+    oninput="document.getElementById('radius-label').textContent=this.value+'km'; updateRadius(parseFloat(this.value));">`;
+  popupContent += `<div style="display:flex;justify-content:space-between;font-size:9px;color:#999;"><span>500m</span><span>1.5km</span><span>3km</span></div>`;
+  popupContent += `</div>`;
+  popupContent += `<hr style="margin:6px 0;">`;
+
+  popupContent += `<p style="font-size:12px;margin-bottom:6px;" id="nearby-count"><strong>${nearbySchools.length}개교</strong> 발견</p>`;
+  popupContent += `<ul id="nearby-school-list" style="list-style:none;padding:0;margin:0;max-height:180px;overflow-y:auto;">`;
+
+  if (nearbySchools.length === 0) {
+    popupContent += `<li style="color:#999;font-size:12px;padding:8px 0;">반경 내 학교가 없습니다.</li>`;
+  } else {
+    nearbySchools.forEach(s => {
+      const typeColor = s.school_type === 'elementary' ? '#4a90d9' :
+                        s.school_type === 'middle' ? '#e67e22' : '#8e44ad';
+      const typeShort = s.school_type === 'elementary' ? '초' :
+                        s.school_type === 'middle' ? '중' : '고';
+      const escapedName = s.name.replace(/'/g, "\\'");
+      const fundColor = s.type === '사립' ? '#e74c3c' : '#27ae60';
+      const fundLabel = s.type || '공립';
+      popupContent += `<li onclick="showWalkingRoute(${s.lat}, ${s.lng}, '${escapedName}')" style="padding:6px 4px;border-bottom:1px solid #eee;font-size:12px;cursor:pointer;transition:background 0.2s;" onmouseover="this.style.background='#e8f8f0'" onmouseout="this.style.background=''">
+        <span style="background:${typeColor};color:#fff;padding:1px 4px;border-radius:3px;font-size:10px;margin-right:2px;">${typeShort}</span>
+        <span style="background:${fundColor};color:#fff;padding:1px 4px;border-radius:3px;font-size:9px;">${fundLabel}</span>
+        ${s.name}
+        <br><span style="color:#ff6b6b;font-weight:bold;font-size:11px;">📏 ${(s.distance * 1000).toFixed(0)}m</span>
+        <span style="color:#999;font-size:10px;"> (${s.distance.toFixed(2)}km)</span>
+        <span style="color:#2ecc71;font-size:10px;float:right;">🚶 경로</span>
+      </li>`;
+    });
+  }
+  popupContent += `</ul></div>`;
+
+  clickMarker.bindPopup(popupContent, { maxWidth: 320 }).openPopup();
+}
+
+// 지도 우클릭 이벤트 핸들러 (컨텍스트 메뉴 표시)
+map.on('contextmenu', function(e) {
+  e.originalEvent.preventDefault();
+  const containerPoint = map.latLngToContainerPoint(e.latlng);
+  showContextMenu(containerPoint.x, containerPoint.y, e.latlng.lat, e.latlng.lng);
+});
+
+// 지도 클릭 시 컨텍스트 메뉴 숨기기
+map.on('click', function() {
+  hideContextMenu();
+});
+
+// 페이지 클릭 시 컨텍스트 메뉴 숨기기
+document.addEventListener('click', function(e) {
+  if (!contextMenu.contains(e.target)) {
+    hideContextMenu();
+  }
+});
 </script>
 </body>
 </html>

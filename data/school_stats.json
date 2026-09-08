@@ -1,0 +1,6587 @@
+{
+  "S010002366": {
+    "name": "동산초등학교",
+    "students": 523,
+    "teachers": "24"
+  },
+  "S010002367": {
+    "name": "리라초등학교",
+    "students": 500,
+    "teachers": "22"
+  },
+  "S010002369": {
+    "name": "서울광희초등학교",
+    "students": 274,
+    "teachers": "26"
+  },
+  "S010002372": {
+    "name": "서울남산초등학교",
+    "students": 223,
+    "teachers": "23"
+  },
+  "S010002375": {
+    "name": "서울덕수초등학교",
+    "students": 426,
+    "teachers": "43"
+  },
+  "S010002380": {
+    "name": "서울봉래초등학교",
+    "students": 422,
+    "teachers": "43"
+  },
+  "S010002390": {
+    "name": "서울장충초등학교",
+    "students": 328,
+    "teachers": "33"
+  },
+  "S010002393": {
+    "name": "서울청구초등학교",
+    "students": 490,
+    "teachers": "49"
+  },
+  "S010002396": {
+    "name": "서울충무초등학교",
+    "students": 174,
+    "teachers": "26"
+  },
+  "S010002402": {
+    "name": "서울흥인초등학교",
+    "students": 361,
+    "teachers": "39"
+  },
+  "S010002403": {
+    "name": "숭의초등학교",
+    "students": 515,
+    "teachers": "22"
+  },
+  "S010005374": {
+    "name": "서울신당초등학교",
+    "students": 313,
+    "teachers": "32"
+  },
+  "S010002338": {
+    "name": "대경중학교",
+    "students": 345,
+    "teachers": "28"
+  },
+  "S010002341": {
+    "name": "덕수중학교",
+    "students": 228,
+    "teachers": "27"
+  },
+  "S010002357": {
+    "name": "장원중학교",
+    "students": 221,
+    "teachers": "34"
+  },
+  "S010002358": {
+    "name": "장충중학교",
+    "students": 203,
+    "teachers": "22"
+  },
+  "S010002360": {
+    "name": "창덕여자중학교",
+    "students": 183,
+    "teachers": "38"
+  },
+  "S010002363": {
+    "name": "한양중학교",
+    "students": 161,
+    "teachers": "25"
+  },
+  "S010002364": {
+    "name": "환일중학교",
+    "students": 144,
+    "teachers": "23"
+  },
+  "S010000469": {
+    "name": "성동고등학교",
+    "students": 467,
+    "teachers": "52"
+  },
+  "S010000516": {
+    "name": "이화여자고등학교",
+    "students": 1195,
+    "teachers": "95"
+  },
+  "S010000525": {
+    "name": "장충고등학교",
+    "students": 408,
+    "teachers": "40"
+  },
+  "S010000566": {
+    "name": "환일고등학교",
+    "students": 435,
+    "teachers": "53"
+  },
+  "S010000575": {
+    "name": "이화여자외국어고등학교",
+    "students": 388,
+    "teachers": "47"
+  },
+  "S010000591": {
+    "name": "성동공업고등학교",
+    "students": 391,
+    "teachers": "75"
+  },
+  "S010000601": {
+    "name": "한양과학기술고등학교",
+    "students": 564,
+    "teachers": "81"
+  },
+  "S010000604": {
+    "name": "서울의료보건고등학교",
+    "students": 264,
+    "teachers": "34"
+  },
+  "S010000617": {
+    "name": "성동글로벌경영고등학교",
+    "students": 330,
+    "teachers": "53"
+  },
+  "S010000633": {
+    "name": "대경생활과학고등학교",
+    "students": 398,
+    "teachers": "54"
+  },
+  "S010000656": {
+    "name": "리라아트고등학교",
+    "students": 362,
+    "teachers": "56"
+  },
+  "S000003563": {
+    "name": "서울대학교사범대학부설초등학교",
+    "students": 576,
+    "teachers": "47"
+  },
+  "S010002368": {
+    "name": "상명대학교사범대학부속초등학교",
+    "students": 341,
+    "teachers": "22"
+  },
+  "S010002370": {
+    "name": "서울교동초등학교",
+    "students": 162,
+    "teachers": "20"
+  },
+  "S010002376": {
+    "name": "서울독립문초등학교",
+    "students": 458,
+    "teachers": "43"
+  },
+  "S010002377": {
+    "name": "서울매동초등학교",
+    "students": 166,
+    "teachers": "20"
+  },
+  "S010002378": {
+    "name": "서울명신초등학교",
+    "students": 271,
+    "teachers": "27"
+  },
+  "S010002383": {
+    "name": "서울세검정초등학교",
+    "students": 759,
+    "teachers": "56"
+  },
+  "S010002391": {
+    "name": "서울재동초등학교",
+    "students": 164,
+    "teachers": "17"
+  },
+  "S010002392": {
+    "name": "서울창신초등학교",
+    "students": 322,
+    "teachers": "35"
+  },
+  "S010002394": {
+    "name": "서울청운초등학교",
+    "students": 370,
+    "teachers": "36"
+  },
+  "S010002399": {
+    "name": "서울혜화초등학교",
+    "students": 419,
+    "teachers": "38"
+  },
+  "S010002400": {
+    "name": "서울효제초등학교",
+    "students": 195,
+    "teachers": "26"
+  },
+  "S010002405": {
+    "name": "운현초등학교",
+    "students": 159,
+    "teachers": "19"
+  },
+  "S000003562": {
+    "name": "서울대학교사범대학부설여자중학교",
+    "students": 311,
+    "teachers": "53"
+  },
+  "S010002336": {
+    "name": "경신중학교",
+    "students": 204,
+    "teachers": "27"
+  },
+  "S010002339": {
+    "name": "대신중학교",
+    "students": 261,
+    "teachers": "26"
+  },
+  "S010002340": {
+    "name": "덕성여자중학교",
+    "students": 154,
+    "teachers": "25"
+  },
+  "S010002342": {
+    "name": "동성중학교",
+    "students": 210,
+    "teachers": "27"
+  },
+  "S010002344": {
+    "name": "배화여자중학교",
+    "students": 385,
+    "teachers": "38"
+  },
+  "S010002346": {
+    "name": "상명대학교사범대학부속여자중학교",
+    "students": 239,
+    "teachers": "29"
+  },
+  "S010002359": {
+    "name": "중앙중학교",
+    "students": 259,
+    "teachers": "31"
+  },
+  "S010002361": {
+    "name": "청운중학교",
+    "students": 350,
+    "teachers": "36"
+  },
+  "S010000379": {
+    "name": "경복고등학교",
+    "students": 569,
+    "teachers": "69"
+  },
+  "S010000382": {
+    "name": "경신고등학교",
+    "students": 463,
+    "teachers": "53"
+  },
+  "S010000409": {
+    "name": "대신고등학교",
+    "students": 346,
+    "teachers": "47"
+  },
+  "S010000417": {
+    "name": "덕성여자고등학교",
+    "students": 585,
+    "teachers": "65"
+  },
+  "S010000424": {
+    "name": "동성고등학교",
+    "students": 612,
+    "teachers": "57"
+  },
+  "S010000444": {
+    "name": "배화여자고등학교",
+    "students": 480,
+    "teachers": "54"
+  },
+  "S010000450": {
+    "name": "상명대학교사범대학부속여자고등학교",
+    "students": 350,
+    "teachers": "45"
+  },
+  "S010000533": {
+    "name": "중앙고등학교",
+    "students": 865,
+    "teachers": "71"
+  },
+  "S010000569": {
+    "name": "서울과학고등학교",
+    "students": 380,
+    "teachers": "91"
+  },
+  "S010000603": {
+    "name": "경기상업고등학교",
+    "students": 461,
+    "teachers": "61"
+  },
+  "S010000625": {
+    "name": "서울예술고등학교",
+    "students": 1058,
+    "teachers": "52"
+  },
+  "S010000634": {
+    "name": "대동세무고등학교",
+    "students": 470,
+    "teachers": "57"
+  },
+  "S010000644": {
+    "name": "서일문화예술고등학교",
+    "students": 279,
+    "teachers": "37"
+  },
+  "S010005494": {
+    "name": "서울국제고등학교",
+    "students": 432,
+    "teachers": "74"
+  },
+  "S010002502": {
+    "name": "경복고등학교부설방송통신고등학교",
+    "students": 351,
+    "teachers": 0
+  },
+  "S010002371": {
+    "name": "서울금양초등학교",
+    "students": 619,
+    "teachers": "54"
+  },
+  "S010002373": {
+    "name": "서울남정초등학교",
+    "students": 242,
+    "teachers": "33"
+  },
+  "S010002381": {
+    "name": "서울삼광초등학교",
+    "students": 362,
+    "teachers": "34"
+  },
+  "S010002382": {
+    "name": "서울서빙고초등학교",
+    "students": 336,
+    "teachers": "36"
+  },
+  "S010002385": {
+    "name": "서울신용산초등학교",
+    "students": 1342,
+    "teachers": "96"
+  },
+  "S010002386": {
+    "name": "서울용산초등학교",
+    "students": 340,
+    "teachers": "34"
+  },
+  "S010002387": {
+    "name": "서울용암초등학교",
+    "students": 113,
+    "teachers": "17"
+  },
+  "S010002388": {
+    "name": "서울원효초등학교",
+    "students": 449,
+    "teachers": "39"
+  },
+  "S010002389": {
+    "name": "서울이태원초등학교",
+    "students": 223,
+    "teachers": "34"
+  },
+  "S010002395": {
+    "name": "서울청파초등학교",
+    "students": 360,
+    "teachers": "35"
+  },
+  "S010002397": {
+    "name": "서울한강초등학교",
+    "students": 180,
+    "teachers": "29"
+  },
+  "S010002398": {
+    "name": "서울한남초등학교",
+    "students": 285,
+    "teachers": "27"
+  },
+  "S010002401": {
+    "name": "서울후암초등학교",
+    "students": 262,
+    "teachers": "27"
+  },
+  "S010002404": {
+    "name": "신광초등학교",
+    "students": 344,
+    "teachers": "34"
+  },
+  "S010002343": {
+    "name": "배문중학교",
+    "students": 180,
+    "teachers": "25"
+  },
+  "S010002345": {
+    "name": "보성여자중학교",
+    "students": 195,
+    "teachers": "29"
+  },
+  "S010002350": {
+    "name": "선린중학교",
+    "students": 476,
+    "teachers": "45"
+  },
+  "S010002351": {
+    "name": "성심여자중학교",
+    "students": 187,
+    "teachers": "31"
+  },
+  "S010002353": {
+    "name": "신광여자중학교",
+    "students": 257,
+    "teachers": "25"
+  },
+  "S010002354": {
+    "name": "오산중학교",
+    "students": 273,
+    "teachers": "27"
+  },
+  "S010002355": {
+    "name": "용강중학교",
+    "students": 799,
+    "teachers": "68"
+  },
+  "S010002356": {
+    "name": "용산중학교",
+    "students": 282,
+    "teachers": "32"
+  },
+  "S010002362": {
+    "name": "한강중학교",
+    "students": 315,
+    "teachers": "43"
+  },
+  "S010000442": {
+    "name": "배문고등학교",
+    "students": 336,
+    "teachers": "46"
+  },
+  "S010000447": {
+    "name": "보성여자고등학교",
+    "students": 378,
+    "teachers": "50"
+  },
+  "S010000472": {
+    "name": "성심여자고등학교",
+    "students": 406,
+    "teachers": "55"
+  },
+  "S010000483": {
+    "name": "신광여자고등학교",
+    "students": 255,
+    "teachers": "40"
+  },
+  "S010000509": {
+    "name": "오산고등학교",
+    "students": 422,
+    "teachers": "50"
+  },
+  "S010000511": {
+    "name": "용산고등학교",
+    "students": 779,
+    "teachers": "87"
+  },
+  "S010000530": {
+    "name": "중경고등학교",
+    "students": 371,
+    "teachers": "57"
+  },
+  "S010000589": {
+    "name": "서울디지텍고등학교",
+    "students": 235,
+    "teachers": "34"
+  },
+  "S010000597": {
+    "name": "용산철도고등학교",
+    "students": 434,
+    "teachers": "75"
+  },
+  "S010000658": {
+    "name": "선린인터넷고등학교",
+    "students": 664,
+    "teachers": "78"
+  },
+  "S010002164": {
+    "name": "서울경동초등학교",
+    "students": 728,
+    "teachers": "65"
+  },
+  "S010002165": {
+    "name": "서울경수초등학교",
+    "students": 171,
+    "teachers": "21"
+  },
+  "S010002166": {
+    "name": "서울경일초등학교",
+    "students": 207,
+    "teachers": "21"
+  },
+  "S010002171": {
+    "name": "서울금북초등학교",
+    "students": 709,
+    "teachers": "62"
+  },
+  "S010002172": {
+    "name": "서울금옥초등학교",
+    "students": 309,
+    "teachers": "29"
+  },
+  "S010002173": {
+    "name": "서울금호초등학교",
+    "students": 555,
+    "teachers": "45"
+  },
+  "S010002174": {
+    "name": "서울동명초등학교",
+    "students": 223,
+    "teachers": "28"
+  },
+  "S010002177": {
+    "name": "서울무학초등학교",
+    "students": 401,
+    "teachers": "39"
+  },
+  "S010002178": {
+    "name": "서울사근초등학교",
+    "students": 150,
+    "teachers": "23"
+  },
+  "S010002179": {
+    "name": "서울성수초등학교",
+    "students": 229,
+    "teachers": "28"
+  },
+  "S010002184": {
+    "name": "서울옥수초등학교",
+    "students": 510,
+    "teachers": "44"
+  },
+  "S010002185": {
+    "name": "서울옥정초등학교",
+    "students": 664,
+    "teachers": "55"
+  },
+  "S010002187": {
+    "name": "서울용답초등학교",
+    "students": 186,
+    "teachers": "24"
+  },
+  "S010002189": {
+    "name": "서울응봉초등학교",
+    "students": 637,
+    "teachers": "47"
+  },
+  "S010002194": {
+    "name": "서울행당초등학교",
+    "students": 683,
+    "teachers": "51"
+  },
+  "S010002198": {
+    "name": "한양초등학교",
+    "students": 670,
+    "teachers": "79"
+  },
+  "S010002384": {
+    "name": "서울숭신초등학교",
+    "students": 840,
+    "teachers": "60"
+  },
+  "S010005244": {
+    "name": "서울마장초등학교",
+    "students": 423,
+    "teachers": "33"
+  },
+  "S010005269": {
+    "name": "서울행현초등학교",
+    "students": 536,
+    "teachers": "44"
+  },
+  "S010005513": {
+    "name": "서울송원초등학교",
+    "students": 230,
+    "teachers": "22"
+  },
+  "S010005551": {
+    "name": "서울동호초등학교",
+    "students": 388,
+    "teachers": "34"
+  },
+  "S010002144": {
+    "name": "경수중학교",
+    "students": 249,
+    "teachers": "28"
+  },
+  "S010002149": {
+    "name": "광희중학교",
+    "students": 761,
+    "teachers": "63"
+  },
+  "S010002152": {
+    "name": "동마중학교",
+    "students": 371,
+    "teachers": "46"
+  },
+  "S010002154": {
+    "name": "무학중학교",
+    "students": 749,
+    "teachers": "70"
+  },
+  "S010002155": {
+    "name": "성수중학교",
+    "students": 166,
+    "teachers": "26"
+  },
+  "S010002156": {
+    "name": "성원중학교",
+    "students": 157,
+    "teachers": "28"
+  },
+  "S010002158": {
+    "name": "옥정중학교",
+    "students": 506,
+    "teachers": "45"
+  },
+  "S010002161": {
+    "name": "한양대학교사범대학부속중학교",
+    "students": 434,
+    "teachers": "39"
+  },
+  "S010002162": {
+    "name": "행당중학교",
+    "students": 229,
+    "teachers": "34"
+  },
+  "S010005212": {
+    "name": "경일중학교",
+    "students": 208,
+    "teachers": "26"
+  },
+  "S010005240": {
+    "name": "마장중학교",
+    "students": 330,
+    "teachers": "32"
+  },
+  "S010000436": {
+    "name": "무학여자고등학교",
+    "students": 516,
+    "teachers": "54"
+  },
+  "S010000557": {
+    "name": "한양대학교사범대학부속고등학교",
+    "students": 978,
+    "teachers": "79"
+  },
+  "S010000585": {
+    "name": "서울방송고등학교",
+    "students": 405,
+    "teachers": "64"
+  },
+  "S010005209": {
+    "name": "경일고등학교",
+    "students": 344,
+    "teachers": "48"
+  },
+  "S010005523": {
+    "name": "성수고등학교",
+    "students": 477,
+    "teachers": "57"
+  },
+  "S010006381": {
+    "name": "금호고등학교",
+    "students": 430,
+    "teachers": "55"
+  },
+  "S010006382": {
+    "name": "도선고등학교",
+    "students": 475,
+    "teachers": "57"
+  },
+  "S010002163": {
+    "name": "경복초등학교",
+    "students": 735,
+    "teachers": "61"
+  },
+  "S010002167": {
+    "name": "서울광남초등학교",
+    "students": 1240,
+    "teachers": "79"
+  },
+  "S010002168": {
+    "name": "서울광장초등학교",
+    "students": 280,
+    "teachers": "28"
+  },
+  "S010002169": {
+    "name": "서울구남초등학교",
+    "students": 699,
+    "teachers": "46"
+  },
+  "S010002170": {
+    "name": "서울구의초등학교",
+    "students": 506,
+    "teachers": "43"
+  },
+  "S010002175": {
+    "name": "서울동의초등학교",
+    "students": 577,
+    "teachers": "44"
+  },
+  "S010002176": {
+    "name": "서울동자초등학교",
+    "students": 1024,
+    "teachers": "73"
+  },
+  "S010002180": {
+    "name": "서울성자초등학교",
+    "students": 486,
+    "teachers": "42"
+  },
+  "S010002181": {
+    "name": "서울신양초등학교",
+    "students": 501,
+    "teachers": "40"
+  },
+  "S010002182": {
+    "name": "서울신자초등학교",
+    "students": 292,
+    "teachers": "32"
+  },
+  "S010002183": {
+    "name": "서울양남초등학교",
+    "students": 131,
+    "teachers": "22"
+  },
+  "S010002186": {
+    "name": "서울용곡초등학교",
+    "students": 385,
+    "teachers": "32"
+  },
+  "S010002188": {
+    "name": "서울용마초등학교",
+    "students": 934,
+    "teachers": "62"
+  },
+  "S010002190": {
+    "name": "서울자양초등학교",
+    "students": 395,
+    "teachers": "27"
+  },
+  "S010002191": {
+    "name": "서울장안초등학교",
+    "students": 501,
+    "teachers": "44"
+  },
+  "S010002192": {
+    "name": "서울중광초등학교",
+    "students": 242,
+    "teachers": "22"
+  },
+  "S010002193": {
+    "name": "서울중마초등학교",
+    "students": 322,
+    "teachers": "30"
+  },
+  "S010002196": {
+    "name": "성동초등학교",
+    "students": 699,
+    "teachers": "29"
+  },
+  "S010002197": {
+    "name": "세종초등학교",
+    "students": 357,
+    "teachers": "14"
+  },
+  "S010005203": {
+    "name": "서울광진초등학교",
+    "students": 543,
+    "teachers": "41"
+  },
+  "S010005241": {
+    "name": "서울양진초등학교",
+    "students": 1315,
+    "teachers": "82"
+  },
+  "S010002143": {
+    "name": "건국대학교사범대학부속중학교",
+    "students": 611,
+    "teachers": "44"
+  },
+  "S010002145": {
+    "name": "광남중학교",
+    "students": 1024,
+    "teachers": "89"
+  },
+  "S010002146": {
+    "name": "광양중학교",
+    "students": 415,
+    "teachers": "37"
+  },
+  "S010002147": {
+    "name": "광장중학교",
+    "students": 548,
+    "teachers": "57"
+  },
+  "S010002148": {
+    "name": "광진중학교",
+    "students": 225,
+    "teachers": "28"
+  },
+  "S010002150": {
+    "name": "구의중학교",
+    "students": 421,
+    "teachers": "36"
+  },
+  "S010002151": {
+    "name": "대원국제중학교",
+    "students": 497,
+    "teachers": "40"
+  },
+  "S010002153": {
+    "name": "동국대학교사범대학부속가람중학교",
+    "students": 413,
+    "teachers": "40"
+  },
+  "S010002157": {
+    "name": "신양중학교",
+    "students": 267,
+    "teachers": "35"
+  },
+  "S010002159": {
+    "name": "용곡중학교",
+    "students": 591,
+    "teachers": "57"
+  },
+  "S010002160": {
+    "name": "자양중학교",
+    "students": 672,
+    "teachers": "60"
+  },
+  "S010005286": {
+    "name": "양진중학교",
+    "students": 867,
+    "teachers": "68"
+  },
+  "S010000374": {
+    "name": "건국대학교사범대학부속고등학교",
+    "students": 999,
+    "teachers": "81"
+  },
+  "S010000391": {
+    "name": "광남고등학교",
+    "students": 1048,
+    "teachers": "93"
+  },
+  "S010000395": {
+    "name": "광양고등학교",
+    "students": 505,
+    "teachers": "52"
+  },
+  "S010000411": {
+    "name": "대원고등학교",
+    "students": 685,
+    "teachers": "55"
+  },
+  "S010000412": {
+    "name": "대원여자고등학교",
+    "students": 639,
+    "teachers": "57"
+  },
+  "S010000433": {
+    "name": "동국대학교사범대학부속가람고등학교",
+    "students": 677,
+    "teachers": "61"
+  },
+  "S010000521": {
+    "name": "자양고등학교",
+    "students": 916,
+    "teachers": "80"
+  },
+  "S010000571": {
+    "name": "대원외국어고등학교",
+    "students": 764,
+    "teachers": "60"
+  },
+  "S010000626": {
+    "name": "선화예술고등학교",
+    "students": 1078,
+    "teachers": "50"
+  },
+  "S010001394": {
+    "name": "경희초등학교",
+    "students": 698,
+    "teachers": "66"
+  },
+  "S010001396": {
+    "name": "서울삼육초등학교",
+    "students": 703,
+    "teachers": "31"
+  },
+  "S010001397": {
+    "name": "서울군자초등학교",
+    "students": 287,
+    "teachers": "28"
+  },
+  "S010001398": {
+    "name": "서울답십리초등학교",
+    "students": 872,
+    "teachers": "66"
+  },
+  "S010001399": {
+    "name": "서울동답초등학교",
+    "students": 466,
+    "teachers": "37"
+  },
+  "S010001409": {
+    "name": "서울배봉초등학교",
+    "students": 405,
+    "teachers": "29"
+  },
+  "S010001413": {
+    "name": "서울신답초등학교",
+    "students": 575,
+    "teachers": "45"
+  },
+  "S010001416": {
+    "name": "서울안평초등학교",
+    "students": 1010,
+    "teachers": "71"
+  },
+  "S010001417": {
+    "name": "서울용두초등학교",
+    "students": 401,
+    "teachers": "34"
+  },
+  "S010001419": {
+    "name": "서울이문초등학교",
+    "students": 694,
+    "teachers": "62"
+  },
+  "S010001420": {
+    "name": "서울장평초등학교",
+    "students": 1080,
+    "teachers": "72"
+  },
+  "S010001421": {
+    "name": "서울전곡초등학교",
+    "students": 257,
+    "teachers": "26"
+  },
+  "S010001422": {
+    "name": "서울전농초등학교",
+    "students": 1210,
+    "teachers": "74"
+  },
+  "S010001423": {
+    "name": "서울전동초등학교",
+    "students": 606,
+    "teachers": "48"
+  },
+  "S010001424": {
+    "name": "서울종암초등학교",
+    "students": 488,
+    "teachers": "42"
+  },
+  "S010001430": {
+    "name": "서울청량초등학교",
+    "students": 571,
+    "teachers": "62"
+  },
+  "S010001431": {
+    "name": "서울홍릉초등학교",
+    "students": 283,
+    "teachers": "23"
+  },
+  "S010001432": {
+    "name": "서울홍파초등학교",
+    "students": 221,
+    "teachers": "25"
+  },
+  "S010001433": {
+    "name": "서울휘경초등학교",
+    "students": 268,
+    "teachers": "27"
+  },
+  "S010001434": {
+    "name": "은석초등학교",
+    "students": 710,
+    "teachers": "67"
+  },
+  "S010005283": {
+    "name": "서울휘봉초등학교",
+    "students": 677,
+    "teachers": "49"
+  },
+  "S010001363": {
+    "name": "경희여자중학교",
+    "students": 341,
+    "teachers": "43"
+  },
+  "S010001364": {
+    "name": "경희중학교",
+    "students": 462,
+    "teachers": "40"
+  },
+  "S010001365": {
+    "name": "대광중학교",
+    "students": 345,
+    "teachers": "34"
+  },
+  "S010001367": {
+    "name": "동국대학교사범대학부속중학교",
+    "students": 523,
+    "teachers": "41"
+  },
+  "S010001368": {
+    "name": "동대문중학교",
+    "students": 583,
+    "teachers": "52"
+  },
+  "S010001373": {
+    "name": "성일중학교",
+    "students": 314,
+    "teachers": "40"
+  },
+  "S010001375": {
+    "name": "숭인중학교",
+    "students": 382,
+    "teachers": "35"
+  },
+  "S010001381": {
+    "name": "장평중학교",
+    "students": 726,
+    "teachers": "59"
+  },
+  "S010001382": {
+    "name": "전농중학교",
+    "students": 381,
+    "teachers": "40"
+  },
+  "S010001383": {
+    "name": "전동중학교",
+    "students": 415,
+    "teachers": "39"
+  },
+  "S010001384": {
+    "name": "전일중학교",
+    "students": 358,
+    "teachers": "39"
+  },
+  "S010001385": {
+    "name": "정화여자중학교",
+    "students": 130,
+    "teachers": "21"
+  },
+  "S010001388": {
+    "name": "청량중학교",
+    "students": 363,
+    "teachers": "47"
+  },
+  "S010001392": {
+    "name": "휘경여자중학교",
+    "students": 457,
+    "teachers": "34"
+  },
+  "S010001393": {
+    "name": "휘경중학교",
+    "students": 295,
+    "teachers": "31"
+  },
+  "S010000384": {
+    "name": "경희고등학교",
+    "students": 743,
+    "teachers": "61"
+  },
+  "S010000385": {
+    "name": "경희여자고등학교",
+    "students": 374,
+    "teachers": "50"
+  },
+  "S010000407": {
+    "name": "대광고등학교",
+    "students": 753,
+    "teachers": "55"
+  },
+  "S010000420": {
+    "name": "동국대학교사범대학부속고등학교",
+    "students": 944,
+    "teachers": "75"
+  },
+  "S010000543": {
+    "name": "청량고등학교",
+    "students": 861,
+    "teachers": "80"
+  },
+  "S010000567": {
+    "name": "휘경여자고등학교",
+    "students": 675,
+    "teachers": "64"
+  },
+  "S010000602": {
+    "name": "서울반도체고등학교",
+    "students": 150,
+    "teachers": "34"
+  },
+  "S010000613": {
+    "name": "서울정화고등학교",
+    "students": 234,
+    "teachers": "40"
+  },
+  "S010000614": {
+    "name": "해성국제컨벤션고등학교",
+    "students": 247,
+    "teachers": "47"
+  },
+  "S010005536": {
+    "name": "해성여자고등학교",
+    "students": 672,
+    "teachers": "62"
+  },
+  "S010005573": {
+    "name": "휘봉고등학교",
+    "students": 480,
+    "teachers": "63"
+  },
+  "S010001395": {
+    "name": "금성초등학교",
+    "students": 670,
+    "teachers": "53"
+  },
+  "S010001400": {
+    "name": "서울동원초등학교",
+    "students": 361,
+    "teachers": "28"
+  },
+  "S010001401": {
+    "name": "서울망우초등학교",
+    "students": 298,
+    "teachers": "22"
+  },
+  "S010001402": {
+    "name": "서울면남초등학교",
+    "students": 435,
+    "teachers": "35"
+  },
+  "S010001403": {
+    "name": "서울면동초등학교",
+    "students": 1081,
+    "teachers": "78"
+  },
+  "S010001404": {
+    "name": "서울면목초등학교",
+    "students": 539,
+    "teachers": "44"
+  },
+  "S010001405": {
+    "name": "서울면북초등학교",
+    "students": 126,
+    "teachers": "13"
+  },
+  "S010001406": {
+    "name": "서울면일초등학교",
+    "students": 619,
+    "teachers": "50"
+  },
+  "S010001408": {
+    "name": "서울묵동초등학교",
+    "students": 355,
+    "teachers": "32"
+  },
+  "S010001410": {
+    "name": "서울봉화초등학교",
+    "students": 457,
+    "teachers": "37"
+  },
+  "S010001411": {
+    "name": "서울상봉초등학교",
+    "students": 545,
+    "teachers": "45"
+  },
+  "S010001412": {
+    "name": "서울신내초등학교",
+    "students": 601,
+    "teachers": "46"
+  },
+  "S010001414": {
+    "name": "서울신묵초등학교",
+    "students": 300,
+    "teachers": "25"
+  },
+  "S010001415": {
+    "name": "서울신현초등학교",
+    "students": 407,
+    "teachers": "35"
+  },
+  "S010001418": {
+    "name": "서울원묵초등학교",
+    "students": 999,
+    "teachers": "70"
+  },
+  "S010001425": {
+    "name": "서울중곡초등학교",
+    "students": 756,
+    "teachers": "61"
+  },
+  "S010001426": {
+    "name": "서울중랑초등학교",
+    "students": 615,
+    "teachers": "41"
+  },
+  "S010001427": {
+    "name": "서울중목초등학교",
+    "students": 390,
+    "teachers": "37"
+  },
+  "S010001428": {
+    "name": "서울중화초등학교",
+    "students": 1037,
+    "teachers": "75"
+  },
+  "S010001429": {
+    "name": "서울중흥초등학교",
+    "students": 227,
+    "teachers": "23"
+  },
+  "S010005236": {
+    "name": "서울묵현초등학교",
+    "students": 462,
+    "teachers": "39"
+  },
+  "S010005606": {
+    "name": "서울새솔초등학교",
+    "students": 693,
+    "teachers": "47"
+  },
+  "S010006476": {
+    "name": "서울양원숲초등학교",
+    "students": 671,
+    "teachers": "53"
+  },
+  "S010001369": {
+    "name": "동원중학교",
+    "students": 457,
+    "teachers": "37"
+  },
+  "S010001370": {
+    "name": "면목중학교",
+    "students": 450,
+    "teachers": "41"
+  },
+  "S010001371": {
+    "name": "봉화중학교",
+    "students": 248,
+    "teachers": "31"
+  },
+  "S010001372": {
+    "name": "상봉중학교",
+    "students": 659,
+    "teachers": "59"
+  },
+  "S010001374": {
+    "name": "송곡중학교",
+    "students": 162,
+    "teachers": "24"
+  },
+  "S010001376": {
+    "name": "신현중학교",
+    "students": 688,
+    "teachers": "56"
+  },
+  "S010001377": {
+    "name": "영란여자중학교",
+    "students": 270,
+    "teachers": "29"
+  },
+  "S010001378": {
+    "name": "용마중학교",
+    "students": 446,
+    "teachers": "42"
+  },
+  "S010001379": {
+    "name": "원묵중학교",
+    "students": 802,
+    "teachers": "65"
+  },
+  "S010001380": {
+    "name": "장안중학교",
+    "students": 404,
+    "teachers": "42"
+  },
+  "S010001386": {
+    "name": "중랑중학교",
+    "students": 363,
+    "teachers": "34"
+  },
+  "S010001387": {
+    "name": "중화중학교",
+    "students": 424,
+    "teachers": "41"
+  },
+  "S010001389": {
+    "name": "태릉중학교",
+    "students": 378,
+    "teachers": "37"
+  },
+  "S010001391": {
+    "name": "혜원여자중학교",
+    "students": 343,
+    "teachers": "31"
+  },
+  "S010000430": {
+    "name": "면목고등학교",
+    "students": 614,
+    "teachers": "64"
+  },
+  "S010000475": {
+    "name": "송곡고등학교",
+    "students": 694,
+    "teachers": "64"
+  },
+  "S010000476": {
+    "name": "송곡여자고등학교",
+    "students": 666,
+    "teachers": "59"
+  },
+  "S010000536": {
+    "name": "중화고등학교",
+    "students": 565,
+    "teachers": "60"
+  },
+  "S010000547": {
+    "name": "태릉고등학교",
+    "students": 750,
+    "teachers": "71"
+  },
+  "S010000561": {
+    "name": "혜원여자고등학교",
+    "students": 562,
+    "teachers": "59"
+  },
+  "S010000647": {
+    "name": "송곡관광고등학교",
+    "students": 269,
+    "teachers": "39"
+  },
+  "S010000650": {
+    "name": "이화여자대학교병설미디어고등학교",
+    "students": 471,
+    "teachers": "57"
+  },
+  "S010005204": {
+    "name": "신현고등학교",
+    "students": 639,
+    "teachers": "68"
+  },
+  "S010005364": {
+    "name": "원묵고등학교",
+    "students": 647,
+    "teachers": "66"
+  },
+  "S010002289": {
+    "name": "광운초등학교",
+    "students": 565,
+    "teachers": "39"
+  },
+  "S010002290": {
+    "name": "대광초등학교",
+    "students": 506,
+    "teachers": "25"
+  },
+  "S010002291": {
+    "name": "매원초등학교",
+    "students": 503,
+    "teachers": "41"
+  },
+  "S010002292": {
+    "name": "서울개운초등학교",
+    "students": 632,
+    "teachers": "53"
+  },
+  "S010002293": {
+    "name": "서울길음초등학교",
+    "students": 912,
+    "teachers": "56"
+  },
+  "S010002294": {
+    "name": "서울돈암초등학교",
+    "students": 652,
+    "teachers": "57"
+  },
+  "S010002295": {
+    "name": "서울동신초등학교",
+    "students": 377,
+    "teachers": "36"
+  },
+  "S010002296": {
+    "name": "서울미아초등학교",
+    "students": 1129,
+    "teachers": "81"
+  },
+  "S010002300": {
+    "name": "서울삼선초등학교",
+    "students": 498,
+    "teachers": "41"
+  },
+  "S010002302": {
+    "name": "서울석관초등학교",
+    "students": 597,
+    "teachers": "52"
+  },
+  "S010002303": {
+    "name": "서울성북초등학교",
+    "students": 192,
+    "teachers": "24"
+  },
+  "S010002308": {
+    "name": "서울숭곡초등학교",
+    "students": 676,
+    "teachers": "54"
+  },
+  "S010002309": {
+    "name": "서울숭덕초등학교",
+    "students": 1020,
+    "teachers": "69"
+  },
+  "S010002310": {
+    "name": "서울숭례초등학교",
+    "students": 641,
+    "teachers": "48"
+  },
+  "S010002311": {
+    "name": "서울숭인초등학교",
+    "students": 931,
+    "teachers": "74"
+  },
+  "S010002312": {
+    "name": "서울안암초등학교",
+    "students": 281,
+    "teachers": "32"
+  },
+  "S010002315": {
+    "name": "서울월곡초등학교",
+    "students": 302,
+    "teachers": "30"
+  },
+  "S010002318": {
+    "name": "서울일신초등학교",
+    "students": 679,
+    "teachers": "57"
+  },
+  "S010002319": {
+    "name": "서울장곡초등학교",
+    "students": 830,
+    "teachers": "59"
+  },
+  "S010002320": {
+    "name": "서울장위초등학교",
+    "students": 379,
+    "teachers": "42"
+  },
+  "S010002321": {
+    "name": "서울정덕초등학교",
+    "students": 901,
+    "teachers": "61"
+  },
+  "S010002322": {
+    "name": "서울정릉초등학교",
+    "students": 537,
+    "teachers": "38"
+  },
+  "S010002323": {
+    "name": "서울정수초등학교",
+    "students": 218,
+    "teachers": "26"
+  },
+  "S010002324": {
+    "name": "서울청덕초등학교",
+    "students": 266,
+    "teachers": "28"
+  },
+  "S010002326": {
+    "name": "성신초등학교",
+    "students": 493,
+    "teachers": "27"
+  },
+  "S010002328": {
+    "name": "우촌초등학교",
+    "students": 617,
+    "teachers": "30"
+  },
+  "S010005249": {
+    "name": "서울석계초등학교",
+    "students": 411,
+    "teachers": "34"
+  },
+  "S010005272": {
+    "name": "서울길원초등학교",
+    "students": 1164,
+    "teachers": "83"
+  },
+  "S010005282": {
+    "name": "서울장월초등학교",
+    "students": 641,
+    "teachers": "43"
+  },
+  "S000003514": {
+    "name": "서울대학교사범대학부설중학교",
+    "students": 577,
+    "teachers": "61"
+  },
+  "S010002264": {
+    "name": "고려대학교사범대학부속중학교",
+    "students": 657,
+    "teachers": "59"
+  },
+  "S010002265": {
+    "name": "고명중학교",
+    "students": 406,
+    "teachers": "32"
+  },
+  "S010002266": {
+    "name": "남대문중학교",
+    "students": 463,
+    "teachers": "43"
+  },
+  "S010002267": {
+    "name": "동구여자중학교",
+    "students": 274,
+    "teachers": "35"
+  },
+  "S010002269": {
+    "name": "북악중학교",
+    "students": 340,
+    "teachers": "36"
+  },
+  "S010002270": {
+    "name": "삼선중학교",
+    "students": 321,
+    "teachers": "37"
+  },
+  "S010002273": {
+    "name": "석관중학교",
+    "students": 534,
+    "teachers": "50"
+  },
+  "S010002274": {
+    "name": "성신여자중학교",
+    "students": 613,
+    "teachers": "48"
+  },
+  "S010002280": {
+    "name": "용문중학교",
+    "students": 162,
+    "teachers": "24"
+  },
+  "S010002281": {
+    "name": "월곡중학교",
+    "students": 483,
+    "teachers": "44"
+  },
+  "S010002283": {
+    "name": "장위중학교",
+    "students": 591,
+    "teachers": "57"
+  },
+  "S010002284": {
+    "name": "종암중학교",
+    "students": 457,
+    "teachers": "51"
+  },
+  "S010002286": {
+    "name": "한성여자중학교",
+    "students": 387,
+    "teachers": "30"
+  },
+  "S010002287": {
+    "name": "홍익대학교사범대학부속중학교",
+    "students": 249,
+    "teachers": "33"
+  },
+  "S010005271": {
+    "name": "개운중학교",
+    "students": 686,
+    "teachers": "63"
+  },
+  "S010005595": {
+    "name": "길음중학교",
+    "students": 904,
+    "teachers": "72"
+  },
+  "S010005612": {
+    "name": "숭곡중학교",
+    "students": 637,
+    "teachers": "54"
+  },
+  "S000003561": {
+    "name": "서울대학교사범대학부설고등학교",
+    "students": 720,
+    "teachers": "74"
+  },
+  "S010000377": {
+    "name": "경동고등학교",
+    "students": 520,
+    "teachers": "58"
+  },
+  "S010000386": {
+    "name": "계성고등학교",
+    "students": 873,
+    "teachers": "83"
+  },
+  "S010000387": {
+    "name": "고려대학교사범대학부속고등학교",
+    "students": 707,
+    "teachers": "66"
+  },
+  "S010000464": {
+    "name": "석관고등학교",
+    "students": 717,
+    "teachers": "79"
+  },
+  "S010000471": {
+    "name": "성신여자고등학교",
+    "students": 552,
+    "teachers": "55"
+  },
+  "S010000510": {
+    "name": "용문고등학교",
+    "students": 823,
+    "teachers": "73"
+  },
+  "S010000556": {
+    "name": "한성여자고등학교",
+    "students": 544,
+    "teachers": "56"
+  },
+  "S010000563": {
+    "name": "홍익대학교사범대학부속고등학교",
+    "students": 277,
+    "teachers": "39"
+  },
+  "S010000572": {
+    "name": "대일외국어고등학교",
+    "students": 718,
+    "teachers": "62"
+  },
+  "S010000590": {
+    "name": "서울도시과학기술고등학교",
+    "students": 303,
+    "teachers": "64"
+  },
+  "S010000605": {
+    "name": "서울동구고등학교",
+    "students": 331,
+    "teachers": "55"
+  },
+  "S010000629": {
+    "name": "고명외식고등학교",
+    "students": 476,
+    "teachers": "57"
+  },
+  "S010002501": {
+    "name": "경동고등학교부설방송통신고등학교",
+    "students": 220,
+    "teachers": 0
+  },
+  "S010002297": {
+    "name": "서울미양초등학교",
+    "students": 406,
+    "teachers": "33"
+  },
+  "S010002298": {
+    "name": "서울번동초등학교",
+    "students": 455,
+    "teachers": "38"
+  },
+  "S010002299": {
+    "name": "서울삼각산초등학교",
+    "students": 956,
+    "teachers": "63"
+  },
+  "S010002301": {
+    "name": "서울삼양초등학교",
+    "students": 408,
+    "teachers": "41"
+  },
+  "S010002304": {
+    "name": "서울송중초등학교",
+    "students": 694,
+    "teachers": "57"
+  },
+  "S010002305": {
+    "name": "서울송천초등학교",
+    "students": 466,
+    "teachers": "37"
+  },
+  "S010002306": {
+    "name": "서울수송초등학교",
+    "students": 506,
+    "teachers": "42"
+  },
+  "S010002307": {
+    "name": "서울수유초등학교",
+    "students": 553,
+    "teachers": "42"
+  },
+  "S010002313": {
+    "name": "서울오현초등학교",
+    "students": 265,
+    "teachers": "23"
+  },
+  "S010002314": {
+    "name": "서울우이초등학교",
+    "students": 988,
+    "teachers": "78"
+  },
+  "S010002316": {
+    "name": "서울유현초등학교",
+    "students": 284,
+    "teachers": "28"
+  },
+  "S010002317": {
+    "name": "서울인수초등학교",
+    "students": 636,
+    "teachers": "44"
+  },
+  "S010002325": {
+    "name": "서울화계초등학교",
+    "students": 565,
+    "teachers": "47"
+  },
+  "S010002327": {
+    "name": "영훈초등학교",
+    "students": 674,
+    "teachers": "49"
+  },
+  "S010002263": {
+    "name": "강북중학교",
+    "students": 353,
+    "teachers": "37"
+  },
+  "S010002268": {
+    "name": "번동중학교",
+    "students": 481,
+    "teachers": "41"
+  },
+  "S010002271": {
+    "name": "서라벌중학교",
+    "students": 282,
+    "teachers": "24"
+  },
+  "S010002275": {
+    "name": "성암여자중학교",
+    "students": 370,
+    "teachers": "31"
+  },
+  "S010002276": {
+    "name": "수송중학교",
+    "students": 337,
+    "teachers": "41"
+  },
+  "S010002277": {
+    "name": "수유중학교",
+    "students": 401,
+    "teachers": "44"
+  },
+  "S010002278": {
+    "name": "신일중학교",
+    "students": 323,
+    "teachers": "32"
+  },
+  "S010002279": {
+    "name": "영훈국제중학교",
+    "students": 494,
+    "teachers": "33"
+  },
+  "S010002282": {
+    "name": "인수중학교",
+    "students": 372,
+    "teachers": "39"
+  },
+  "S010002285": {
+    "name": "창문여자중학교",
+    "students": 499,
+    "teachers": "47"
+  },
+  "S010002288": {
+    "name": "화계중학교",
+    "students": 342,
+    "teachers": "36"
+  },
+  "S010005180": {
+    "name": "삼각산중학교",
+    "students": 998,
+    "teachers": "76"
+  },
+  "S010005516": {
+    "name": "솔샘중학교",
+    "students": 346,
+    "teachers": "34"
+  },
+  "S010000486": {
+    "name": "신일고등학교",
+    "students": 1012,
+    "teachers": "72"
+  },
+  "S010000505": {
+    "name": "영훈고등학교",
+    "students": 1019,
+    "teachers": "84"
+  },
+  "S010000541": {
+    "name": "창문여자고등학교",
+    "students": 912,
+    "teachers": "73"
+  },
+  "S010000562": {
+    "name": "혜화여자고등학교",
+    "students": 629,
+    "teachers": "58"
+  },
+  "S010000645": {
+    "name": "성암국제무역고등학교",
+    "students": 324,
+    "teachers": "47"
+  },
+  "S010005518": {
+    "name": "삼각산고등학교",
+    "students": 627,
+    "teachers": "67"
+  },
+  "S010005541": {
+    "name": "솔샘고등학교",
+    "students": 586,
+    "teachers": "63"
+  },
+  "S010001733": {
+    "name": "동북초등학교",
+    "students": 757,
+    "teachers": "32"
+  },
+  "S010001741": {
+    "name": "서울누원초등학교",
+    "students": 694,
+    "teachers": "53"
+  },
+  "S010001743": {
+    "name": "서울도봉초등학교",
+    "students": 314,
+    "teachers": "28"
+  },
+  "S010001745": {
+    "name": "서울방학초등학교",
+    "students": 493,
+    "teachers": "38"
+  },
+  "S010001746": {
+    "name": "서울백운초등학교",
+    "students": 723,
+    "teachers": "52"
+  },
+  "S010001758": {
+    "name": "서울숭미초등학교",
+    "students": 570,
+    "teachers": "45"
+  },
+  "S010001760": {
+    "name": "서울신방학초등학교",
+    "students": 306,
+    "teachers": "25"
+  },
+  "S010001762": {
+    "name": "서울신창초등학교",
+    "students": 257,
+    "teachers": "21"
+  },
+  "S010001763": {
+    "name": "서울신학초등학교",
+    "students": 374,
+    "teachers": "33"
+  },
+  "S010001764": {
+    "name": "서울신화초등학교",
+    "students": 325,
+    "teachers": "33"
+  },
+  "S010001765": {
+    "name": "서울쌍문초등학교",
+    "students": 559,
+    "teachers": "40"
+  },
+  "S010001768": {
+    "name": "서울오봉초등학교",
+    "students": 273,
+    "teachers": "28"
+  },
+  "S010001774": {
+    "name": "서울월천초등학교",
+    "students": 330,
+    "teachers": "27"
+  },
+  "S010001776": {
+    "name": "서울자운초등학교",
+    "students": 587,
+    "teachers": "40"
+  },
+  "S010001781": {
+    "name": "서울창경초등학교",
+    "students": 799,
+    "teachers": "49"
+  },
+  "S010001782": {
+    "name": "서울창도초등학교",
+    "students": 695,
+    "teachers": "47"
+  },
+  "S010001783": {
+    "name": "서울창동초등학교",
+    "students": 329,
+    "teachers": "27"
+  },
+  "S010001784": {
+    "name": "서울창림초등학교",
+    "students": 829,
+    "teachers": "57"
+  },
+  "S010001785": {
+    "name": "서울창원초등학교",
+    "students": 289,
+    "teachers": "24"
+  },
+  "S010001786": {
+    "name": "서울창일초등학교",
+    "students": 750,
+    "teachers": "47"
+  },
+  "S010001788": {
+    "name": "서울초당초등학교",
+    "students": 750,
+    "teachers": "55"
+  },
+  "S010001794": {
+    "name": "한신초등학교",
+    "students": 612,
+    "teachers": "58"
+  },
+  "S010005215": {
+    "name": "서울가인초등학교",
+    "students": 389,
+    "teachers": "31"
+  },
+  "S010001698": {
+    "name": "노곡중학교",
+    "students": 340,
+    "teachers": "38"
+  },
+  "S010001702": {
+    "name": "도봉중학교",
+    "students": 299,
+    "teachers": "35"
+  },
+  "S010001703": {
+    "name": "방학중학교",
+    "students": 415,
+    "teachers": "38"
+  },
+  "S010001704": {
+    "name": "백운중학교",
+    "students": 437,
+    "teachers": "43"
+  },
+  "S010001705": {
+    "name": "북서울중학교",
+    "students": 405,
+    "teachers": "46"
+  },
+  "S010001712": {
+    "name": "선덕중학교",
+    "students": 684,
+    "teachers": "46"
+  },
+  "S010001714": {
+    "name": "신도봉중학교",
+    "students": 454,
+    "teachers": "43"
+  },
+  "S010001715": {
+    "name": "신방학중학교",
+    "students": 436,
+    "teachers": "50"
+  },
+  "S010001722": {
+    "name": "정의여자중학교",
+    "students": 310,
+    "teachers": "33"
+  },
+  "S010001726": {
+    "name": "창동중학교",
+    "students": 594,
+    "teachers": "57"
+  },
+  "S010001727": {
+    "name": "창북중학교",
+    "students": 470,
+    "teachers": "51"
+  },
+  "S010001728": {
+    "name": "창일중학교",
+    "students": 580,
+    "teachers": "57"
+  },
+  "S010005289": {
+    "name": "효문중학교",
+    "students": 277,
+    "teachers": "31"
+  },
+  "S010000465": {
+    "name": "선덕고등학교",
+    "students": 1154,
+    "teachers": "76"
+  },
+  "S010000529": {
+    "name": "정의여자고등학교",
+    "students": 664,
+    "teachers": "65"
+  },
+  "S010000540": {
+    "name": "창동고등학교",
+    "students": 1087,
+    "teachers": "103"
+  },
+  "S010000574": {
+    "name": "서울외국어고등학교",
+    "students": 622,
+    "teachers": "63"
+  },
+  "S010000618": {
+    "name": "세그루패션디자인고등학교",
+    "students": 370,
+    "teachers": "59"
+  },
+  "S010000637": {
+    "name": "서울문화고등학교",
+    "students": 372,
+    "teachers": "56"
+  },
+  "S010005181": {
+    "name": "누원고등학교",
+    "students": 403,
+    "teachers": "44"
+  },
+  "S010005205": {
+    "name": "자운고등학교",
+    "students": 711,
+    "teachers": "68"
+  },
+  "S010005288": {
+    "name": "효문고등학교",
+    "students": 464,
+    "teachers": "53"
+  },
+  "S010001734": {
+    "name": "상명초등학교",
+    "students": 719,
+    "teachers": "28"
+  },
+  "S010001735": {
+    "name": "서울계상초등학교",
+    "students": 386,
+    "teachers": "28"
+  },
+  "S010001736": {
+    "name": "서울공릉초등학교",
+    "students": 306,
+    "teachers": "28"
+  },
+  "S010001737": {
+    "name": "서울공연초등학교",
+    "students": 430,
+    "teachers": "33"
+  },
+  "S010001738": {
+    "name": "서울노원초등학교",
+    "students": 258,
+    "teachers": "25"
+  },
+  "S010001739": {
+    "name": "서울노일초등학교",
+    "students": 445,
+    "teachers": "39"
+  },
+  "S010001740": {
+    "name": "서울녹천초등학교",
+    "students": 208,
+    "teachers": "20"
+  },
+  "S010001742": {
+    "name": "서울당현초등학교",
+    "students": 430,
+    "teachers": "36"
+  },
+  "S010001744": {
+    "name": "서울동일초등학교",
+    "students": 566,
+    "teachers": "36"
+  },
+  "S010001747": {
+    "name": "서울불암초등학교",
+    "students": 758,
+    "teachers": "50"
+  },
+  "S010001748": {
+    "name": "서울상경초등학교",
+    "students": 548,
+    "teachers": "42"
+  },
+  "S010001749": {
+    "name": "서울상계초등학교",
+    "students": 220,
+    "teachers": "25"
+  },
+  "S010001750": {
+    "name": "서울상곡초등학교",
+    "students": 505,
+    "teachers": "37"
+  },
+  "S010001751": {
+    "name": "서울상수초등학교",
+    "students": 536,
+    "teachers": "38"
+  },
+  "S010001752": {
+    "name": "서울상원초등학교",
+    "students": 331,
+    "teachers": "29"
+  },
+  "S010001753": {
+    "name": "서울상월초등학교",
+    "students": 155,
+    "teachers": "17"
+  },
+  "S010001754": {
+    "name": "서울상천초등학교",
+    "students": 329,
+    "teachers": "28"
+  },
+  "S010001755": {
+    "name": "서울선곡초등학교",
+    "students": 571,
+    "teachers": "46"
+  },
+  "S010001756": {
+    "name": "서울수락초등학교",
+    "students": 421,
+    "teachers": "28"
+  },
+  "S010001757": {
+    "name": "서울수암초등학교",
+    "students": 492,
+    "teachers": "38"
+  },
+  "S010001759": {
+    "name": "서울신계초등학교",
+    "students": 192,
+    "teachers": "24"
+  },
+  "S010001761": {
+    "name": "서울신상계초등학교",
+    "students": 426,
+    "teachers": "35"
+  },
+  "S010001766": {
+    "name": "서울연지초등학교",
+    "students": 265,
+    "teachers": "23"
+  },
+  "S010001767": {
+    "name": "서울연촌초등학교",
+    "students": 458,
+    "teachers": "40"
+  },
+  "S010001769": {
+    "name": "서울온곡초등학교",
+    "students": 506,
+    "teachers": "35"
+  },
+  "S010001770": {
+    "name": "서울용동초등학교",
+    "students": 229,
+    "teachers": "26"
+  },
+  "S010001771": {
+    "name": "서울용원초등학교",
+    "students": 542,
+    "teachers": "36"
+  },
+  "S010001772": {
+    "name": "서울원광초등학교",
+    "students": 671,
+    "teachers": "45"
+  },
+  "S010001773": {
+    "name": "서울월계초등학교",
+    "students": 295,
+    "teachers": "25"
+  },
+  "S010001775": {
+    "name": "서울을지초등학교",
+    "students": 1474,
+    "teachers": "80"
+  },
+  "S010001777": {
+    "name": "서울중계초등학교",
+    "students": 812,
+    "teachers": "50"
+  },
+  "S010001778": {
+    "name": "서울중원초등학교",
+    "students": 367,
+    "teachers": "29"
+  },
+  "S010001779": {
+    "name": "서울중평초등학교",
+    "students": 1278,
+    "teachers": "81"
+  },
+  "S010001780": {
+    "name": "서울중현초등학교",
+    "students": 118,
+    "teachers": "16"
+  },
+  "S010001787": {
+    "name": "서울청계초등학교",
+    "students": 239,
+    "teachers": "23"
+  },
+  "S010001789": {
+    "name": "서울태랑초등학교",
+    "students": 856,
+    "teachers": "60"
+  },
+  "S010001790": {
+    "name": "서울태릉초등학교",
+    "students": 820,
+    "teachers": "54"
+  },
+  "S010001791": {
+    "name": "서울한천초등학교",
+    "students": 710,
+    "teachers": "43"
+  },
+  "S010001792": {
+    "name": "청원초등학교",
+    "students": 716,
+    "teachers": "47"
+  },
+  "S010001793": {
+    "name": "태강삼육초등학교",
+    "students": 753,
+    "teachers": "29"
+  },
+  "S010001795": {
+    "name": "화랑초등학교",
+    "students": 642,
+    "teachers": "64"
+  },
+  "S010005178": {
+    "name": "서울덕암초등학교",
+    "students": 558,
+    "teachers": "39"
+  },
+  "S010001696": {
+    "name": "공릉중학교",
+    "students": 682,
+    "teachers": "68"
+  },
+  "S010001697": {
+    "name": "광운중학교",
+    "students": 313,
+    "teachers": "33"
+  },
+  "S010001699": {
+    "name": "노원중학교",
+    "students": 408,
+    "teachers": "38"
+  },
+  "S010001700": {
+    "name": "노일중학교",
+    "students": 340,
+    "teachers": "35"
+  },
+  "S010001701": {
+    "name": "녹천중학교",
+    "students": 375,
+    "teachers": "33"
+  },
+  "S010001706": {
+    "name": "불암중학교",
+    "students": 953,
+    "teachers": "66"
+  },
+  "S010001707": {
+    "name": "상경중학교",
+    "students": 468,
+    "teachers": "40"
+  },
+  "S010001708": {
+    "name": "상계제일중학교",
+    "students": 503,
+    "teachers": "51"
+  },
+  "S010001709": {
+    "name": "상계중학교",
+    "students": 444,
+    "teachers": "41"
+  },
+  "S010001710": {
+    "name": "상명중학교",
+    "students": 773,
+    "teachers": "54"
+  },
+  "S010001711": {
+    "name": "상원중학교",
+    "students": 372,
+    "teachers": "34"
+  },
+  "S010001713": {
+    "name": "수락중학교",
+    "students": 389,
+    "teachers": "37"
+  },
+  "S010001716": {
+    "name": "신상중학교",
+    "students": 288,
+    "teachers": "32"
+  },
+  "S010001717": {
+    "name": "신창중학교",
+    "students": 287,
+    "teachers": "31"
+  },
+  "S010001718": {
+    "name": "염광중학교",
+    "students": 313,
+    "teachers": "28"
+  },
+  "S010001719": {
+    "name": "온곡중학교",
+    "students": 471,
+    "teachers": "38"
+  },
+  "S010001720": {
+    "name": "월계중학교",
+    "students": 303,
+    "teachers": "31"
+  },
+  "S010001721": {
+    "name": "재현중학교",
+    "students": 537,
+    "teachers": "46"
+  },
+  "S010001723": {
+    "name": "중계중학교",
+    "students": 856,
+    "teachers": "64"
+  },
+  "S010001724": {
+    "name": "중원중학교",
+    "students": 343,
+    "teachers": "38"
+  },
+  "S010001725": {
+    "name": "중평중학교",
+    "students": 772,
+    "teachers": "63"
+  },
+  "S010001729": {
+    "name": "청원중학교",
+    "students": 526,
+    "teachers": "42"
+  },
+  "S010001730": {
+    "name": "태랑중학교",
+    "students": 517,
+    "teachers": "53"
+  },
+  "S010001731": {
+    "name": "하계중학교",
+    "students": 649,
+    "teachers": "59"
+  },
+  "S010001732": {
+    "name": "한천중학교",
+    "students": 537,
+    "teachers": "46"
+  },
+  "S010005210": {
+    "name": "을지중학교",
+    "students": 698,
+    "teachers": "53"
+  },
+  "S010000404": {
+    "name": "노원고등학교",
+    "students": 563,
+    "teachers": "55"
+  },
+  "S010000414": {
+    "name": "대진고등학교",
+    "students": 775,
+    "teachers": "69"
+  },
+  "S010000415": {
+    "name": "대진여자고등학교",
+    "students": 866,
+    "teachers": "81"
+  },
+  "S010000449": {
+    "name": "상계고등학교",
+    "students": 732,
+    "teachers": "67"
+  },
+  "S010000451": {
+    "name": "상명고등학교",
+    "students": 860,
+    "teachers": "73"
+  },
+  "S010000454": {
+    "name": "서라벌고등학교",
+    "students": 1043,
+    "teachers": "78"
+  },
+  "S010000478": {
+    "name": "수락고등학교",
+    "students": 523,
+    "teachers": "61"
+  },
+  "S010000494": {
+    "name": "염광고등학교",
+    "students": 686,
+    "teachers": "56"
+  },
+  "S010000502": {
+    "name": "영신여자고등학교",
+    "students": 703,
+    "teachers": "91"
+  },
+  "S010000512": {
+    "name": "용화여자고등학교",
+    "students": 787,
+    "teachers": "71"
+  },
+  "S010000527": {
+    "name": "재현고등학교",
+    "students": 822,
+    "teachers": "71"
+  },
+  "S010000544": {
+    "name": "청원고등학교",
+    "students": 1092,
+    "teachers": "95"
+  },
+  "S010000545": {
+    "name": "청원여자고등학교",
+    "students": 865,
+    "teachers": "82"
+  },
+  "S010000552": {
+    "name": "한국삼육고등학교",
+    "students": 448,
+    "teachers": "46"
+  },
+  "S010000560": {
+    "name": "혜성여자고등학교",
+    "students": 831,
+    "teachers": "74"
+  },
+  "S010000579": {
+    "name": "경기기계공업고등학교",
+    "students": 657,
+    "teachers": "124"
+  },
+  "S010000580": {
+    "name": "광운인공지능고등학교",
+    "students": 441,
+    "teachers": "78"
+  },
+  "S010000587": {
+    "name": "미래산업과학고등학교",
+    "students": 487,
+    "teachers": "68"
+  },
+  "S010000599": {
+    "name": "서울아이티고등학교",
+    "students": 472,
+    "teachers": "75"
+  },
+  "S010000600": {
+    "name": "인덕과학기술고등학교",
+    "students": 540,
+    "teachers": "79"
+  },
+  "S010000619": {
+    "name": "영신간호비즈니스고등학교",
+    "students": 409,
+    "teachers": "53"
+  },
+  "S010000649": {
+    "name": "염광메디텍고등학교",
+    "students": 259,
+    "teachers": "46"
+  },
+  "S010000651": {
+    "name": "서울동산고등학교",
+    "students": 789,
+    "teachers": "103"
+  },
+  "S010005262": {
+    "name": "월계고등학교",
+    "students": 519,
+    "teachers": "61"
+  },
+  "S010005263": {
+    "name": "불암고등학교",
+    "students": 789,
+    "teachers": "74"
+  },
+  "S010001968": {
+    "name": "서울갈현초등학교",
+    "students": 888,
+    "teachers": "60"
+  },
+  "S010001971": {
+    "name": "서울구산초등학교",
+    "students": 806,
+    "teachers": "56"
+  },
+  "S010001973": {
+    "name": "서울녹번초등학교",
+    "students": 691,
+    "teachers": "49"
+  },
+  "S010001975": {
+    "name": "서울대은초등학교",
+    "students": 153,
+    "teachers": "20"
+  },
+  "S010001976": {
+    "name": "서울대조초등학교",
+    "students": 712,
+    "teachers": "51"
+  },
+  "S010001983": {
+    "name": "서울북한산초등학교",
+    "students": 85,
+    "teachers": "12"
+  },
+  "S010001984": {
+    "name": "서울불광초등학교",
+    "students": 636,
+    "teachers": "51"
+  },
+  "S010001985": {
+    "name": "서울상신초등학교",
+    "students": 571,
+    "teachers": "46"
+  },
+  "S010001993": {
+    "name": "서울수색초등학교",
+    "students": 647,
+    "teachers": "50"
+  },
+  "S010001994": {
+    "name": "서울신도초등학교",
+    "students": 868,
+    "teachers": "62"
+  },
+  "S010001996": {
+    "name": "서울신사초등학교",
+    "students": 347,
+    "teachers": "36"
+  },
+  "S010002000": {
+    "name": "서울역촌초등학교",
+    "students": 1177,
+    "teachers": "80"
+  },
+  "S010002002": {
+    "name": "서울연신초등학교",
+    "students": 231,
+    "teachers": "22"
+  },
+  "S010002003": {
+    "name": "서울연은초등학교",
+    "students": 752,
+    "teachers": "44"
+  },
+  "S010002004": {
+    "name": "서울연천초등학교",
+    "students": 201,
+    "teachers": "23"
+  },
+  "S010002008": {
+    "name": "서울은평초등학교",
+    "students": 920,
+    "teachers": "68"
+  },
+  "S010002009": {
+    "name": "서울응암초등학교",
+    "students": 851,
+    "teachers": "61"
+  },
+  "S010002012": {
+    "name": "서울증산초등학교",
+    "students": 690,
+    "teachers": "53"
+  },
+  "S010002019": {
+    "name": "선일초등학교",
+    "students": 466,
+    "teachers": "22"
+  },
+  "S010002021": {
+    "name": "예일초등학교",
+    "students": 483,
+    "teachers": "41"
+  },
+  "S010002025": {
+    "name": "충암초등학교",
+    "students": 684,
+    "teachers": "29"
+  },
+  "S010005213": {
+    "name": "서울연광초등학교",
+    "students": 201,
+    "teachers": "25"
+  },
+  "S010005247": {
+    "name": "서울서신초등학교",
+    "students": 394,
+    "teachers": "33"
+  },
+  "S010005502": {
+    "name": "서울은명초등학교",
+    "students": 1147,
+    "teachers": "86"
+  },
+  "S010005505": {
+    "name": "서울진관초등학교",
+    "students": 700,
+    "teachers": "44"
+  },
+  "S010005557": {
+    "name": "서울은빛초등학교",
+    "students": 532,
+    "teachers": "38"
+  },
+  "S010005559": {
+    "name": "서울수리초등학교",
+    "students": 356,
+    "teachers": "31"
+  },
+  "S010005577": {
+    "name": "서울구현초등학교",
+    "students": 496,
+    "teachers": "38"
+  },
+  "S010005581": {
+    "name": "서울은진초등학교",
+    "students": 561,
+    "teachers": "44"
+  },
+  "S010005601": {
+    "name": "서울어울초등학교",
+    "students": 528,
+    "teachers": "40"
+  },
+  "S010001926": {
+    "name": "구산중학교",
+    "students": 553,
+    "teachers": "50"
+  },
+  "S010001927": {
+    "name": "대성중학교",
+    "students": 398,
+    "teachers": "39"
+  },
+  "S010001928": {
+    "name": "덕산중학교",
+    "students": 341,
+    "teachers": "42"
+  },
+  "S010001932": {
+    "name": "불광중학교",
+    "students": 525,
+    "teachers": "51"
+  },
+  "S010001933": {
+    "name": "상신중학교",
+    "students": 326,
+    "teachers": "40"
+  },
+  "S010001936": {
+    "name": "선일여자중학교",
+    "students": 316,
+    "teachers": "33"
+  },
+  "S010001937": {
+    "name": "선정중학교",
+    "students": 535,
+    "teachers": "47"
+  },
+  "S010001942": {
+    "name": "숭실중학교",
+    "students": 365,
+    "teachers": "32"
+  },
+  "S010001947": {
+    "name": "연서중학교",
+    "students": 229,
+    "teachers": "25"
+  },
+  "S010001948": {
+    "name": "연신중학교",
+    "students": 344,
+    "teachers": "40"
+  },
+  "S010001949": {
+    "name": "연천중학교",
+    "students": 287,
+    "teachers": "35"
+  },
+  "S010001951": {
+    "name": "영락중학교",
+    "students": 673,
+    "teachers": "47"
+  },
+  "S010001952": {
+    "name": "예일여자중학교",
+    "students": 613,
+    "teachers": "47"
+  },
+  "S010001953": {
+    "name": "은평중학교",
+    "students": 515,
+    "teachers": "60"
+  },
+  "S010001961": {
+    "name": "증산중학교",
+    "students": 471,
+    "teachers": "48"
+  },
+  "S010001962": {
+    "name": "충암중학교",
+    "students": 814,
+    "teachers": "61"
+  },
+  "S010005510": {
+    "name": "진관중학교",
+    "students": 1028,
+    "teachers": "85"
+  },
+  "S010005561": {
+    "name": "신도중학교",
+    "students": 1117,
+    "teachers": "105"
+  },
+  "S010000408": {
+    "name": "대성고등학교",
+    "students": 756,
+    "teachers": "68"
+  },
+  "S010000422": {
+    "name": "동명여자고등학교",
+    "students": 875,
+    "teachers": "77"
+  },
+  "S010000466": {
+    "name": "선일여자고등학교",
+    "students": 692,
+    "teachers": "65"
+  },
+  "S010000467": {
+    "name": "선정고등학교",
+    "students": 1108,
+    "teachers": "88"
+  },
+  "S010000481": {
+    "name": "숭실고등학교",
+    "students": 1114,
+    "teachers": "91"
+  },
+  "S010000506": {
+    "name": "예일여자고등학교",
+    "students": 871,
+    "teachers": "77"
+  },
+  "S010000515": {
+    "name": "은평메디텍고등학교",
+    "students": 379,
+    "teachers": "58"
+  },
+  "S010000546": {
+    "name": "충암고등학교",
+    "students": 1098,
+    "teachers": "88"
+  },
+  "S010000595": {
+    "name": "신진과학기술고등학교",
+    "students": 364,
+    "teachers": "66"
+  },
+  "S010000608": {
+    "name": "선일빅데이터고등학교",
+    "students": 292,
+    "teachers": "51"
+  },
+  "S010000616": {
+    "name": "선정국제관광고등학교",
+    "students": 245,
+    "teachers": "35"
+  },
+  "S010000620": {
+    "name": "예일디자인고등학교",
+    "students": 469,
+    "teachers": "53"
+  },
+  "S010000638": {
+    "name": "동명생활경영고등학교",
+    "students": 223,
+    "teachers": "34"
+  },
+  "S010000659": {
+    "name": "세명컴퓨터고등학교",
+    "students": 488,
+    "teachers": "68"
+  },
+  "S010005525": {
+    "name": "진관고등학교",
+    "students": 852,
+    "teachers": "74"
+  },
+  "S010005530": {
+    "name": "신도고등학교",
+    "students": 616,
+    "teachers": "68"
+  },
+  "S010005583": {
+    "name": "은평고등학교",
+    "students": 496,
+    "teachers": "54"
+  },
+  "S010005616": {
+    "name": "하나고등학교",
+    "students": 605,
+    "teachers": "65"
+  },
+  "S010001966": {
+    "name": "경기초등학교",
+    "students": 577,
+    "teachers": "28"
+  },
+  "S010001967": {
+    "name": "명지초등학교",
+    "students": 718,
+    "teachers": "34"
+  },
+  "S010001969": {
+    "name": "서울고은초등학교",
+    "students": 423,
+    "teachers": "32"
+  },
+  "S010001972": {
+    "name": "서울금화초등학교",
+    "students": 431,
+    "teachers": "40"
+  },
+  "S010001974": {
+    "name": "서울대신초등학교",
+    "students": 170,
+    "teachers": "22"
+  },
+  "S010001980": {
+    "name": "서울미동초등학교",
+    "students": 272,
+    "teachers": "33"
+  },
+  "S010001981": {
+    "name": "서울북가좌초등학교",
+    "students": 1108,
+    "teachers": "80"
+  },
+  "S010001982": {
+    "name": "서울북성초등학교",
+    "students": 973,
+    "teachers": "68"
+  },
+  "S010001999": {
+    "name": "서울안산초등학교",
+    "students": 598,
+    "teachers": "58"
+  },
+  "S010002001": {
+    "name": "서울연가초등학교",
+    "students": 1523,
+    "teachers": "97"
+  },
+  "S010002005": {
+    "name": "서울연희초등학교",
+    "students": 636,
+    "teachers": "56"
+  },
+  "S010002010": {
+    "name": "서울인왕초등학교",
+    "students": 514,
+    "teachers": "45"
+  },
+  "S010002013": {
+    "name": "서울창서초등학교",
+    "students": 154,
+    "teachers": "21"
+  },
+  "S010002016": {
+    "name": "서울홍연초등학교",
+    "students": 515,
+    "teachers": "38"
+  },
+  "S010002017": {
+    "name": "서울홍은초등학교",
+    "students": 335,
+    "teachers": "38"
+  },
+  "S010002018": {
+    "name": "서울홍제초등학교",
+    "students": 808,
+    "teachers": "56"
+  },
+  "S010002023": {
+    "name": "이화여자대학교사범대학부속초등학교",
+    "students": 624,
+    "teachers": "49"
+  },
+  "S010002024": {
+    "name": "추계초등학교",
+    "students": 347,
+    "teachers": "26"
+  },
+  "S010005597": {
+    "name": "서울가재울초등학교",
+    "students": 1687,
+    "teachers": "103"
+  },
+  "S010001930": {
+    "name": "동명여자중학교",
+    "students": 247,
+    "teachers": "29"
+  },
+  "S010001931": {
+    "name": "명지중학교",
+    "students": 804,
+    "teachers": "63"
+  },
+  "S010001934": {
+    "name": "서연중학교",
+    "students": 251,
+    "teachers": "31"
+  },
+  "S010001944": {
+    "name": "신연중학교",
+    "students": 345,
+    "teachers": "37"
+  },
+  "S010001946": {
+    "name": "연북중학교",
+    "students": 249,
+    "teachers": "34"
+  },
+  "S010001950": {
+    "name": "연희중학교",
+    "students": 760,
+    "teachers": "63"
+  },
+  "S010001955": {
+    "name": "이화여자대학교사범대학부속이화·금란중학교",
+    "students": 483,
+    "teachers": "40"
+  },
+  "S010001956": {
+    "name": "인창중학교",
+    "students": 321,
+    "teachers": "31"
+  },
+  "S010001958": {
+    "name": "정원여자중학교",
+    "students": 332,
+    "teachers": "38"
+  },
+  "S010001960": {
+    "name": "중앙여자중학교",
+    "students": 275,
+    "teachers": "28"
+  },
+  "S010001963": {
+    "name": "한성중학교",
+    "students": 254,
+    "teachers": "29"
+  },
+  "S010001964": {
+    "name": "홍은중학교",
+    "students": 326,
+    "teachers": "34"
+  },
+  "S010005519": {
+    "name": "인왕중학교",
+    "students": 357,
+    "teachers": "43"
+  },
+  "S010005592": {
+    "name": "가재울중학교",
+    "students": 649,
+    "teachers": "66"
+  },
+  "S010000435": {
+    "name": "명지고등학교",
+    "students": 1357,
+    "teachers": "96"
+  },
+  "S010000517": {
+    "name": "이화여자대학교사범대학부속이화금란고등학교",
+    "students": 1065,
+    "teachers": "76"
+  },
+  "S010000518": {
+    "name": "인창고등학교",
+    "students": 423,
+    "teachers": "46"
+  },
+  "S010000535": {
+    "name": "중앙여자고등학교",
+    "students": 522,
+    "teachers": "45"
+  },
+  "S010000555": {
+    "name": "한성고등학교",
+    "students": 388,
+    "teachers": "43"
+  },
+  "S010000570": {
+    "name": "한성과학고등학교",
+    "students": 375,
+    "teachers": "74"
+  },
+  "S010005591": {
+    "name": "가재울고등학교",
+    "students": 697,
+    "teachers": "65"
+  },
+  "S010001970": {
+    "name": "서울공덕초등학교",
+    "students": 730,
+    "teachers": "57"
+  },
+  "S010001977": {
+    "name": "서울동교초등학교",
+    "students": 693,
+    "teachers": "52"
+  },
+  "S010001978": {
+    "name": "서울마포초등학교",
+    "students": 680,
+    "teachers": "50"
+  },
+  "S010001979": {
+    "name": "서울망원초등학교",
+    "students": 218,
+    "teachers": "21"
+  },
+  "S010001986": {
+    "name": "서울상암초등학교",
+    "students": 491,
+    "teachers": "45"
+  },
+  "S010001987": {
+    "name": "서울서강초등학교",
+    "students": 1067,
+    "teachers": "75"
+  },
+  "S010001988": {
+    "name": "서울서교초등학교",
+    "students": 340,
+    "teachers": "29"
+  },
+  "S010001989": {
+    "name": "서울성산초등학교",
+    "students": 617,
+    "teachers": "45"
+  },
+  "S010001990": {
+    "name": "서울성서초등학교",
+    "students": 428,
+    "teachers": "37"
+  },
+  "S010001991": {
+    "name": "서울성원초등학교",
+    "students": 247,
+    "teachers": "23"
+  },
+  "S010001992": {
+    "name": "서울소의초등학교",
+    "students": 420,
+    "teachers": "33"
+  },
+  "S010001995": {
+    "name": "서울신북초등학교",
+    "students": 638,
+    "teachers": "44"
+  },
+  "S010001997": {
+    "name": "서울신석초등학교",
+    "students": 595,
+    "teachers": "42"
+  },
+  "S010001998": {
+    "name": "서울아현초등학교",
+    "students": 657,
+    "teachers": "50"
+  },
+  "S010002006": {
+    "name": "서울염리초등학교",
+    "students": 1394,
+    "teachers": "93"
+  },
+  "S010002007": {
+    "name": "서울용강초등학교",
+    "students": 537,
+    "teachers": "42"
+  },
+  "S010002011": {
+    "name": "서울중동초등학교",
+    "students": 443,
+    "teachers": "36"
+  },
+  "S010002014": {
+    "name": "서울창천초등학교",
+    "students": 151,
+    "teachers": "23"
+  },
+  "S010002015": {
+    "name": "서울한서초등학교",
+    "students": 819,
+    "teachers": "66"
+  },
+  "S010002026": {
+    "name": "홍익대학교사범대학부속초등학교",
+    "students": 485,
+    "teachers": "43"
+  },
+  "S010005370": {
+    "name": "서울상지초등학교",
+    "students": 556,
+    "teachers": "44"
+  },
+  "S010005555": {
+    "name": "서울하늘초등학교",
+    "students": 403,
+    "teachers": "34"
+  },
+  "S010001924": {
+    "name": "경성중학교",
+    "students": 319,
+    "teachers": "33"
+  },
+  "S010001925": {
+    "name": "광성중학교",
+    "students": 368,
+    "teachers": "31"
+  },
+  "S010001929": {
+    "name": "동도중학교",
+    "students": 629,
+    "teachers": "45"
+  },
+  "S010001935": {
+    "name": "서울여자중학교",
+    "students": 647,
+    "teachers": "54"
+  },
+  "S010001938": {
+    "name": "성사중학교",
+    "students": 285,
+    "teachers": "38"
+  },
+  "S010001939": {
+    "name": "성산중학교",
+    "students": 437,
+    "teachers": "42"
+  },
+  "S010001940": {
+    "name": "성서중학교",
+    "students": 420,
+    "teachers": "40"
+  },
+  "S010001941": {
+    "name": "숭문중학교",
+    "students": 483,
+    "teachers": "39"
+  },
+  "S010001943": {
+    "name": "신수중학교",
+    "students": 425,
+    "teachers": "42"
+  },
+  "S010001945": {
+    "name": "아현중학교",
+    "students": 609,
+    "teachers": "63"
+  },
+  "S010001959": {
+    "name": "중암중학교",
+    "students": 679,
+    "teachers": "52"
+  },
+  "S010001965": {
+    "name": "홍익대학교사범대학부속여자중학교",
+    "students": 357,
+    "teachers": "31"
+  },
+  "S010005366": {
+    "name": "상암중학교",
+    "students": 931,
+    "teachers": "76"
+  },
+  "S010005569": {
+    "name": "창천중학교",
+    "students": 317,
+    "teachers": "32"
+  },
+  "S010006282": {
+    "name": "아현중학교부설방송통신중학교",
+    "students": 274,
+    "teachers": 0
+  },
+  "S010000381": {
+    "name": "경성고등학교",
+    "students": 644,
+    "teachers": "64"
+  },
+  "S010000393": {
+    "name": "광성고등학교",
+    "students": 756,
+    "teachers": "66"
+  },
+  "S010000460": {
+    "name": "서울여자고등학교",
+    "students": 841,
+    "teachers": "75"
+  },
+  "S010000480": {
+    "name": "숭문고등학교",
+    "students": 612,
+    "teachers": "56"
+  },
+  "S010000564": {
+    "name": "홍익대학교사범대학부속여자고등학교",
+    "students": 736,
+    "teachers": "67"
+  },
+  "S010000583": {
+    "name": "서울디자인고등학교",
+    "students": 816,
+    "teachers": "117"
+  },
+  "S010000615": {
+    "name": "홍익디자인고등학교",
+    "students": 297,
+    "teachers": "36"
+  },
+  "S010000662": {
+    "name": "한세사이버보안고등학교",
+    "students": 195,
+    "teachers": "29"
+  },
+  "S010005365": {
+    "name": "상암고등학교",
+    "students": 851,
+    "teachers": "78"
+  },
+  "S010001006": {
+    "name": "서울갈산초등학교",
+    "students": 977,
+    "teachers": "57"
+  },
+  "S010001007": {
+    "name": "서울강서초등학교",
+    "students": 895,
+    "teachers": "63"
+  },
+  "S010001008": {
+    "name": "서울강신초등학교",
+    "students": 656,
+    "teachers": "44"
+  },
+  "S010001009": {
+    "name": "서울강월초등학교",
+    "students": 459,
+    "teachers": "35"
+  },
+  "S010001011": {
+    "name": "서울경인초등학교",
+    "students": 1141,
+    "teachers": "63"
+  },
+  "S010001012": {
+    "name": "서울계남초등학교",
+    "students": 720,
+    "teachers": "48"
+  },
+  "S010001015": {
+    "name": "서울남명초등학교",
+    "students": 518,
+    "teachers": "40"
+  },
+  "S010001023": {
+    "name": "서울목동초등학교",
+    "students": 1335,
+    "teachers": "83"
+  },
+  "S010001024": {
+    "name": "서울목원초등학교",
+    "students": 447,
+    "teachers": "36"
+  },
+  "S010001029": {
+    "name": "서울서정초등학교",
+    "students": 821,
+    "teachers": "55"
+  },
+  "S010001032": {
+    "name": "서울신강초등학교",
+    "students": 343,
+    "teachers": "30"
+  },
+  "S010001034": {
+    "name": "서울신남초등학교",
+    "students": 950,
+    "teachers": "60"
+  },
+  "S010001035": {
+    "name": "서울신목초등학교",
+    "students": 892,
+    "teachers": "58"
+  },
+  "S010001036": {
+    "name": "서울신서초등학교",
+    "students": 1109,
+    "teachers": "69"
+  },
+  "S010001037": {
+    "name": "서울신원초등학교",
+    "students": 380,
+    "teachers": "30"
+  },
+  "S010001040": {
+    "name": "서울양강초등학교",
+    "students": 504,
+    "teachers": "40"
+  },
+  "S010001041": {
+    "name": "서울양동초등학교",
+    "students": 313,
+    "teachers": "29"
+  },
+  "S010001042": {
+    "name": "서울양명초등학교",
+    "students": 588,
+    "teachers": "40"
+  },
+  "S010001043": {
+    "name": "서울양목초등학교",
+    "students": 553,
+    "teachers": "38"
+  },
+  "S010001044": {
+    "name": "서울양원초등학교",
+    "students": 207,
+    "teachers": "21"
+  },
+  "S010001046": {
+    "name": "서울양화초등학교",
+    "students": 586,
+    "teachers": "47"
+  },
+  "S010001050": {
+    "name": "서울영도초등학교",
+    "students": 1170,
+    "teachers": "73"
+  },
+  "S010001053": {
+    "name": "서울월촌초등학교",
+    "students": 1027,
+    "teachers": "71"
+  },
+  "S010001054": {
+    "name": "서울은정초등학교",
+    "students": 303,
+    "teachers": "28"
+  },
+  "S010001056": {
+    "name": "서울정목초등학교",
+    "students": 802,
+    "teachers": "54"
+  },
+  "S010001057": {
+    "name": "서울지향초등학교",
+    "students": 586,
+    "teachers": "42"
+  },
+  "S010002495": {
+    "name": "서울신기초등학교",
+    "students": 374,
+    "teachers": "30"
+  },
+  "S010005280": {
+    "name": "서울장수초등학교",
+    "students": 315,
+    "teachers": "23"
+  },
+  "S010005507": {
+    "name": "서울목운초등학교",
+    "students": 1612,
+    "teachers": "77"
+  },
+  "S010005548": {
+    "name": "서울신은초등학교",
+    "students": 449,
+    "teachers": "39"
+  },
+  "S010000967": {
+    "name": "강신중학교",
+    "students": 759,
+    "teachers": "69"
+  },
+  "S010000971": {
+    "name": "금옥중학교",
+    "students": 784,
+    "teachers": "77"
+  },
+  "S010000978": {
+    "name": "목동중학교",
+    "students": 1363,
+    "teachers": "104"
+  },
+  "S010000979": {
+    "name": "목일중학교",
+    "students": 1238,
+    "teachers": "93"
+  },
+  "S010000983": {
+    "name": "봉영여자중학교",
+    "students": 489,
+    "teachers": "35"
+  },
+  "S010000987": {
+    "name": "신남중학교",
+    "students": 609,
+    "teachers": "61"
+  },
+  "S010000988": {
+    "name": "신목중학교",
+    "students": 1292,
+    "teachers": "106"
+  },
+  "S010000989": {
+    "name": "신서중학교",
+    "students": 1130,
+    "teachers": "103"
+  },
+  "S010000990": {
+    "name": "신원중학교",
+    "students": 240,
+    "teachers": "31"
+  },
+  "S010000991": {
+    "name": "신월중학교",
+    "students": 801,
+    "teachers": "71"
+  },
+  "S010000994": {
+    "name": "양강중학교",
+    "students": 774,
+    "teachers": "75"
+  },
+  "S010000995": {
+    "name": "양동중학교",
+    "students": 589,
+    "teachers": "58"
+  },
+  "S010000996": {
+    "name": "양서중학교",
+    "students": 375,
+    "teachers": "46"
+  },
+  "S010000997": {
+    "name": "양정중학교",
+    "students": 494,
+    "teachers": "40"
+  },
+  "S010000998": {
+    "name": "양천중학교",
+    "students": 538,
+    "teachers": "57"
+  },
+  "S010001000": {
+    "name": "영도중학교",
+    "students": 275,
+    "teachers": "26"
+  },
+  "S010001001": {
+    "name": "월촌중학교",
+    "students": 1390,
+    "teachers": "105"
+  },
+  "S010005515": {
+    "name": "목운중학교",
+    "students": 1374,
+    "teachers": "105"
+  },
+  "S010000372": {
+    "name": "강서고등학교",
+    "students": 1007,
+    "teachers": "75"
+  },
+  "S010000396": {
+    "name": "광영고등학교",
+    "students": 888,
+    "teachers": "74"
+  },
+  "S010000397": {
+    "name": "광영여자고등학교",
+    "students": 935,
+    "teachers": "75"
+  },
+  "S010000401": {
+    "name": "금옥여자고등학교",
+    "students": 779,
+    "teachers": "77"
+  },
+  "S010000445": {
+    "name": "백암고등학교",
+    "students": 1048,
+    "teachers": "79"
+  },
+  "S010000485": {
+    "name": "신목고등학교",
+    "students": 1154,
+    "teachers": "98"
+  },
+  "S010000488": {
+    "name": "양정고등학교",
+    "students": 1022,
+    "teachers": "76"
+  },
+  "S010000489": {
+    "name": "양천고등학교",
+    "students": 945,
+    "teachers": "67"
+  },
+  "S010000490": {
+    "name": "목동고등학교",
+    "students": 1074,
+    "teachers": "85"
+  },
+  "S010000500": {
+    "name": "서울영상고등학교",
+    "students": 361,
+    "teachers": "40"
+  },
+  "S010000537": {
+    "name": "진명여자고등학교",
+    "students": 1310,
+    "teachers": "100"
+  },
+  "S010000549": {
+    "name": "한가람고등학교",
+    "students": 542,
+    "teachers": "49"
+  },
+  "S010000635": {
+    "name": "대일관광고등학교",
+    "students": 292,
+    "teachers": "48"
+  },
+  "S010000642": {
+    "name": "서울금융고등학교",
+    "students": 271,
+    "teachers": "64"
+  },
+  "S010005285": {
+    "name": "신서고등학교",
+    "students": 598,
+    "teachers": "60"
+  },
+  "S010001004": {
+    "name": "서울가곡초등학교",
+    "students": 708,
+    "teachers": "50"
+  },
+  "S010001005": {
+    "name": "서울가양초등학교",
+    "students": 187,
+    "teachers": "23"
+  },
+  "S010001010": {
+    "name": "서울개화초등학교",
+    "students": 78,
+    "teachers": "17"
+  },
+  "S010001013": {
+    "name": "서울공진초등학교",
+    "students": 1746,
+    "teachers": "104"
+  },
+  "S010001014": {
+    "name": "서울공항초등학교",
+    "students": 1450,
+    "teachers": "84"
+  },
+  "S010001016": {
+    "name": "서울내발산초등학교",
+    "students": 1178,
+    "teachers": "71"
+  },
+  "S010001017": {
+    "name": "서울등명초등학교",
+    "students": 84,
+    "teachers": "14"
+  },
+  "S010001018": {
+    "name": "서울등서초등학교",
+    "students": 360,
+    "teachers": "31"
+  },
+  "S010001019": {
+    "name": "서울등양초등학교",
+    "students": 169,
+    "teachers": "17"
+  },
+  "S010001020": {
+    "name": "서울등원초등학교",
+    "students": 143,
+    "teachers": "19"
+  },
+  "S010001021": {
+    "name": "서울등촌초등학교",
+    "students": 439,
+    "teachers": "36"
+  },
+  "S010001022": {
+    "name": "서울등현초등학교",
+    "students": 494,
+    "teachers": "35"
+  },
+  "S010001025": {
+    "name": "서울발산초등학교",
+    "students": 952,
+    "teachers": "71"
+  },
+  "S010001026": {
+    "name": "서울방화초등학교",
+    "students": 497,
+    "teachers": "39"
+  },
+  "S010001027": {
+    "name": "서울백석초등학교",
+    "students": 495,
+    "teachers": "37"
+  },
+  "S010001028": {
+    "name": "서울삼정초등학교",
+    "students": 213,
+    "teachers": "21"
+  },
+  "S010001030": {
+    "name": "서울송정초등학교",
+    "students": 703,
+    "teachers": "54"
+  },
+  "S010001031": {
+    "name": "서울송화초등학교",
+    "students": 1098,
+    "teachers": "76"
+  },
+  "S010001033": {
+    "name": "서울신곡초등학교",
+    "students": 556,
+    "teachers": "39"
+  },
+  "S010001038": {
+    "name": "서울신월초등학교",
+    "students": 573,
+    "teachers": "44"
+  },
+  "S010001039": {
+    "name": "서울신정초등학교",
+    "students": 1222,
+    "teachers": "95"
+  },
+  "S010001045": {
+    "name": "서울양천초등학교",
+    "students": 296,
+    "teachers": "25"
+  },
+  "S010001048": {
+    "name": "서울염동초등학교",
+    "students": 872,
+    "teachers": "59"
+  },
+  "S010001049": {
+    "name": "서울염창초등학교",
+    "students": 828,
+    "teachers": "59"
+  },
+  "S010001051": {
+    "name": "서울우장초등학교",
+    "students": 874,
+    "teachers": "63"
+  },
+  "S010001052": {
+    "name": "서울월정초등학교",
+    "students": 802,
+    "teachers": "57"
+  },
+  "S010001055": {
+    "name": "서울정곡초등학교",
+    "students": 134,
+    "teachers": "16"
+  },
+  "S010001058": {
+    "name": "서울치현초등학교",
+    "students": 461,
+    "teachers": "38"
+  },
+  "S010001059": {
+    "name": "서울탑산초등학교",
+    "students": 425,
+    "teachers": "41"
+  },
+  "S010001060": {
+    "name": "서울화곡초등학교",
+    "students": 745,
+    "teachers": "49"
+  },
+  "S010001061": {
+    "name": "유석초등학교",
+    "students": 346,
+    "teachers": "16"
+  },
+  "S010005253": {
+    "name": "서울염경초등학교",
+    "students": 823,
+    "teachers": "56"
+  },
+  "S010005259": {
+    "name": "서울화일초등학교",
+    "students": 592,
+    "teachers": "46"
+  },
+  "S010005496": {
+    "name": "서울수명초등학교",
+    "students": 843,
+    "teachers": "56"
+  },
+  "S010005546": {
+    "name": "서울등마초등학교",
+    "students": 704,
+    "teachers": "50"
+  },
+  "S010000968": {
+    "name": "경서중학교",
+    "students": 94,
+    "teachers": "21"
+  },
+  "S010000970": {
+    "name": "공항중학교",
+    "students": 537,
+    "teachers": "57"
+  },
+  "S010000972": {
+    "name": "덕원중학교",
+    "students": 736,
+    "teachers": "49"
+  },
+  "S010000973": {
+    "name": "등명중학교",
+    "students": 601,
+    "teachers": "54"
+  },
+  "S010000974": {
+    "name": "등원중학교",
+    "students": 322,
+    "teachers": "35"
+  },
+  "S010000975": {
+    "name": "등촌중학교",
+    "students": 409,
+    "teachers": "34"
+  },
+  "S010000976": {
+    "name": "마포중학교",
+    "students": 445,
+    "teachers": "38"
+  },
+  "S010000977": {
+    "name": "명덕여자중학교",
+    "students": 530,
+    "teachers": "35"
+  },
+  "S010000980": {
+    "name": "방원중학교",
+    "students": 301,
+    "teachers": "35"
+  },
+  "S010000981": {
+    "name": "방화중학교",
+    "students": 320,
+    "teachers": "40"
+  },
+  "S010000982": {
+    "name": "백석중학교",
+    "students": 539,
+    "teachers": "54"
+  },
+  "S010000984": {
+    "name": "삼정중학교",
+    "students": 281,
+    "teachers": "30"
+  },
+  "S010000985": {
+    "name": "성재중학교",
+    "students": 362,
+    "teachers": "39"
+  },
+  "S010000986": {
+    "name": "송정중학교",
+    "students": 159,
+    "teachers": "28"
+  },
+  "S010000992": {
+    "name": "신정여자중학교",
+    "students": 385,
+    "teachers": "36"
+  },
+  "S010000999": {
+    "name": "염창중학교",
+    "students": 757,
+    "teachers": "74"
+  },
+  "S010001002": {
+    "name": "화곡중학교",
+    "students": 542,
+    "teachers": "32"
+  },
+  "S010001003": {
+    "name": "화원중학교",
+    "students": 589,
+    "teachers": "53"
+  },
+  "S010005287": {
+    "name": "염경중학교",
+    "students": 536,
+    "teachers": "57"
+  },
+  "S010005497": {
+    "name": "수명중학교",
+    "students": 552,
+    "teachers": "51"
+  },
+  "S010005596": {
+    "name": "마곡중학교",
+    "students": 607,
+    "teachers": "66"
+  },
+  "S010006403": {
+    "name": "마곡하늬중학교",
+    "students": 725,
+    "teachers": "68"
+  },
+  "S010000380": {
+    "name": "경복여자고등학교",
+    "students": 635,
+    "teachers": "55"
+  },
+  "S010000389": {
+    "name": "공항고등학교",
+    "students": 663,
+    "teachers": "70"
+  },
+  "S010000413": {
+    "name": "대일고등학교",
+    "students": 1025,
+    "teachers": "85"
+  },
+  "S010000418": {
+    "name": "덕원여자고등학교",
+    "students": 899,
+    "teachers": "81"
+  },
+  "S010000429": {
+    "name": "마포고등학교",
+    "students": 770,
+    "teachers": "64"
+  },
+  "S010000431": {
+    "name": "명덕고등학교",
+    "students": 787,
+    "teachers": "63"
+  },
+  "S010000432": {
+    "name": "명덕여자고등학교",
+    "students": 1066,
+    "teachers": "84"
+  },
+  "S010000503": {
+    "name": "영일고등학교",
+    "students": 717,
+    "teachers": "63"
+  },
+  "S010000551": {
+    "name": "한광고등학교",
+    "students": 309,
+    "teachers": "28"
+  },
+  "S010000554": {
+    "name": "한서고등학교",
+    "students": 626,
+    "teachers": "61"
+  },
+  "S010000565": {
+    "name": "화곡고등학교",
+    "students": 713,
+    "teachers": "63"
+  },
+  "S010000573": {
+    "name": "명덕외국어고등학교",
+    "students": 716,
+    "teachers": "72"
+  },
+  "S010000578": {
+    "name": "서울디지털콘텐츠고등학교",
+    "students": 249,
+    "teachers": "52"
+  },
+  "S010000584": {
+    "name": "동양고등학교",
+    "students": 470,
+    "teachers": "48"
+  },
+  "S010000596": {
+    "name": "영등포공업고등학교",
+    "students": 314,
+    "teachers": "57"
+  },
+  "S010000610": {
+    "name": "서울신정고등학교",
+    "students": 357,
+    "teachers": "50"
+  },
+  "S010000622": {
+    "name": "덕원예술고등학교",
+    "students": 606,
+    "teachers": "37"
+  },
+  "S010000628": {
+    "name": "경복비즈니스고등학교",
+    "students": 307,
+    "teachers": "50"
+  },
+  "S010000646": {
+    "name": "서울백영고등학교",
+    "students": 325,
+    "teachers": "48"
+  },
+  "S010000655": {
+    "name": "서울홍신고등학교",
+    "students": 189,
+    "teachers": "40"
+  },
+  "S010005208": {
+    "name": "등촌고등학교",
+    "students": 540,
+    "teachers": "58"
+  },
+  "S010005270": {
+    "name": "세현고등학교",
+    "students": 457,
+    "teachers": "58"
+  },
+  "S010005582": {
+    "name": "수명고등학교",
+    "students": 549,
+    "teachers": "61"
+  },
+  "S010001199": {
+    "name": "서울개명초등학교",
+    "students": 315,
+    "teachers": "26"
+  },
+  "S010001200": {
+    "name": "서울개봉초등학교",
+    "students": 909,
+    "teachers": "68"
+  },
+  "S010001201": {
+    "name": "서울개웅초등학교",
+    "students": 450,
+    "teachers": "36"
+  },
+  "S010001202": {
+    "name": "서울고산초등학교",
+    "students": 388,
+    "teachers": "37"
+  },
+  "S010001203": {
+    "name": "서울고척초등학교",
+    "students": 505,
+    "teachers": "44"
+  },
+  "S010001204": {
+    "name": "서울구로남초등학교",
+    "students": 449,
+    "teachers": "36"
+  },
+  "S010001205": {
+    "name": "서울구로초등학교",
+    "students": 402,
+    "teachers": "35"
+  },
+  "S010001206": {
+    "name": "서울구일초등학교",
+    "students": 1009,
+    "teachers": "80"
+  },
+  "S010001216": {
+    "name": "서울덕의초등학교",
+    "students": 820,
+    "teachers": "54"
+  },
+  "S010001220": {
+    "name": "서울동구로초등학교",
+    "students": 351,
+    "teachers": "37"
+  },
+  "S010001222": {
+    "name": "서울매봉초등학교",
+    "students": 219,
+    "teachers": "26"
+  },
+  "S010001227": {
+    "name": "서울미래초등학교",
+    "students": 501,
+    "teachers": "38"
+  },
+  "S010001229": {
+    "name": "서울세곡초등학교",
+    "students": 442,
+    "teachers": "38"
+  },
+  "S010001231": {
+    "name": "서울신구로초등학교",
+    "students": 443,
+    "teachers": "37"
+  },
+  "S010001233": {
+    "name": "서울신도림초등학교",
+    "students": 1175,
+    "teachers": "75"
+  },
+  "S010001234": {
+    "name": "서울신미림초등학교",
+    "students": 819,
+    "teachers": "57"
+  },
+  "S010001243": {
+    "name": "서울영서초등학교",
+    "students": 608,
+    "teachers": "53"
+  },
+  "S010001246": {
+    "name": "서울영일초등학교",
+    "students": 280,
+    "teachers": "32"
+  },
+  "S010001248": {
+    "name": "서울오류남초등학교",
+    "students": 614,
+    "teachers": "50"
+  },
+  "S010001249": {
+    "name": "서울오류초등학교",
+    "students": 589,
+    "teachers": "43"
+  },
+  "S010001250": {
+    "name": "서울오정초등학교",
+    "students": 313,
+    "teachers": "26"
+  },
+  "S010001251": {
+    "name": "서울온수초등학교",
+    "students": 737,
+    "teachers": "53"
+  },
+  "S010005214": {
+    "name": "서울고원초등학교",
+    "students": 560,
+    "teachers": "38"
+  },
+  "S010005553": {
+    "name": "서울천왕초등학교",
+    "students": 560,
+    "teachers": "47"
+  },
+  "S010006431": {
+    "name": "서울하늘숲초등학교",
+    "students": 467,
+    "teachers": "36"
+  },
+  "S010006432": {
+    "name": "서울항동초등학교",
+    "students": 1406,
+    "teachers": "99"
+  },
+  "S010001166": {
+    "name": "개봉중학교",
+    "students": 385,
+    "teachers": "45"
+  },
+  "S010001167": {
+    "name": "개웅중학교",
+    "students": 442,
+    "teachers": "43"
+  },
+  "S010001168": {
+    "name": "고척중학교",
+    "students": 791,
+    "teachers": "72"
+  },
+  "S010001169": {
+    "name": "구로중학교",
+    "students": 411,
+    "teachers": "48"
+  },
+  "S010001170": {
+    "name": "구일중학교",
+    "students": 526,
+    "teachers": "42"
+  },
+  "S010001182": {
+    "name": "신도림중학교",
+    "students": 1047,
+    "teachers": "84"
+  },
+  "S010001188": {
+    "name": "영림중학교",
+    "students": 490,
+    "teachers": "49"
+  },
+  "S010001189": {
+    "name": "영서중학교",
+    "students": 522,
+    "teachers": "51"
+  },
+  "S010001191": {
+    "name": "오남중학교",
+    "students": 541,
+    "teachers": "58"
+  },
+  "S010001192": {
+    "name": "경인중학교",
+    "students": 596,
+    "teachers": "55"
+  },
+  "S010001193": {
+    "name": "오류중학교",
+    "students": 299,
+    "teachers": "37"
+  },
+  "S010001194": {
+    "name": "우신중학교",
+    "students": 271,
+    "teachers": "26"
+  },
+  "S010005571": {
+    "name": "천왕중학교",
+    "students": 898,
+    "teachers": "77"
+  },
+  "S010006401": {
+    "name": "항동중학교",
+    "students": 496,
+    "teachers": "42"
+  },
+  "S010000383": {
+    "name": "경인고등학교",
+    "students": 1139,
+    "teachers": "96"
+  },
+  "S010000388": {
+    "name": "고척고등학교",
+    "students": 785,
+    "teachers": "74"
+  },
+  "S010000398": {
+    "name": "구로고등학교",
+    "students": 955,
+    "teachers": "87"
+  },
+  "S010000399": {
+    "name": "구일고등학교",
+    "students": 772,
+    "teachers": "70"
+  },
+  "S010000508": {
+    "name": "오류고등학교",
+    "students": 516,
+    "teachers": "42"
+  },
+  "S010000513": {
+    "name": "우신고등학교",
+    "students": 746,
+    "teachers": "63"
+  },
+  "S010000582": {
+    "name": "덕일전자공업고등학교",
+    "students": 159,
+    "teachers": "31"
+  },
+  "S010000598": {
+    "name": "유한공업고등학교",
+    "students": 463,
+    "teachers": "64"
+  },
+  "S010000632": {
+    "name": "예림디자인고등학교",
+    "students": 359,
+    "teachers": "41"
+  },
+  "S010000641": {
+    "name": "서서울생활과학고등학교",
+    "students": 496,
+    "teachers": "64"
+  },
+  "S010005500": {
+    "name": "세종과학고등학교",
+    "students": 433,
+    "teachers": "87"
+  },
+  "S010005501": {
+    "name": "구현고등학교",
+    "students": 761,
+    "teachers": "75"
+  },
+  "S010005521": {
+    "name": "신도림고등학교",
+    "students": 582,
+    "teachers": "64"
+  },
+  "S010005584": {
+    "name": "서울공연예술고등학교",
+    "students": 725,
+    "teachers": "48"
+  },
+  "S010001197": {
+    "name": "동광초등학교",
+    "students": 487,
+    "teachers": "54"
+  },
+  "S010001198": {
+    "name": "서울가산초등학교",
+    "students": 286,
+    "teachers": "25"
+  },
+  "S010001207": {
+    "name": "서울금산초등학교",
+    "students": 262,
+    "teachers": "21"
+  },
+  "S010001208": {
+    "name": "서울금천초등학교",
+    "students": 136,
+    "teachers": "20"
+  },
+  "S010001219": {
+    "name": "서울독산초등학교",
+    "students": 483,
+    "teachers": "39"
+  },
+  "S010001221": {
+    "name": "서울두산초등학교",
+    "students": 571,
+    "teachers": "43"
+  },
+  "S010001223": {
+    "name": "서울문교초등학교",
+    "students": 246,
+    "teachers": "25"
+  },
+  "S010001225": {
+    "name": "서울문백초등학교",
+    "students": 545,
+    "teachers": "39"
+  },
+  "S010001226": {
+    "name": "서울문성초등학교",
+    "students": 383,
+    "teachers": "40"
+  },
+  "S010001228": {
+    "name": "서울백산초등학교",
+    "students": 223,
+    "teachers": "20"
+  },
+  "S010001230": {
+    "name": "서울시흥초등학교",
+    "students": 437,
+    "teachers": "39"
+  },
+  "S010001236": {
+    "name": "서울신흥초등학교",
+    "students": 462,
+    "teachers": "35"
+  },
+  "S010001237": {
+    "name": "서울안천초등학교",
+    "students": 192,
+    "teachers": "25"
+  },
+  "S010001239": {
+    "name": "서울영남초등학교",
+    "students": 209,
+    "teachers": "24"
+  },
+  "S010001254": {
+    "name": "서울정심초등학교",
+    "students": 277,
+    "teachers": "29"
+  },
+  "S010001255": {
+    "name": "서울탑동초등학교",
+    "students": 439,
+    "teachers": "34"
+  },
+  "S010005177": {
+    "name": "서울금동초등학교",
+    "students": 618,
+    "teachers": "42"
+  },
+  "S010006386": {
+    "name": "서울금나래초등학교",
+    "students": 947,
+    "teachers": "68"
+  },
+  "S010001165": {
+    "name": "가산중학교",
+    "students": 447,
+    "teachers": "48"
+  },
+  "S010001171": {
+    "name": "난곡중학교",
+    "students": 225,
+    "teachers": "29"
+  },
+  "S010001176": {
+    "name": "동일중학교",
+    "students": 504,
+    "teachers": "46"
+  },
+  "S010001178": {
+    "name": "문성중학교",
+    "students": 228,
+    "teachers": "27"
+  },
+  "S010001179": {
+    "name": "문일중학교",
+    "students": 351,
+    "teachers": "33"
+  },
+  "S010001180": {
+    "name": "세일중학교",
+    "students": 344,
+    "teachers": "30"
+  },
+  "S010001181": {
+    "name": "시흥중학교",
+    "students": 549,
+    "teachers": "53"
+  },
+  "S010001183": {
+    "name": "안천중학교",
+    "students": 444,
+    "teachers": "42"
+  },
+  "S010001196": {
+    "name": "한울중학교",
+    "students": 538,
+    "teachers": "49"
+  },
+  "S000005401": {
+    "name": "국립전통예술고등학교",
+    "students": 519,
+    "teachers": "87"
+  },
+  "S010000402": {
+    "name": "금천고등학교",
+    "students": 699,
+    "teachers": "63"
+  },
+  "S010000419": {
+    "name": "독산고등학교",
+    "students": 599,
+    "teachers": "61"
+  },
+  "S010000425": {
+    "name": "동일여자고등학교",
+    "students": 628,
+    "teachers": "63"
+  },
+  "S010000426": {
+    "name": "서울매그넷고등학교",
+    "students": 389,
+    "teachers": "57"
+  },
+  "S010000438": {
+    "name": "문일고등학교",
+    "students": 802,
+    "teachers": "69"
+  },
+  "S010001209": {
+    "name": "서울당산초등학교",
+    "students": 305,
+    "teachers": "30"
+  },
+  "S010001210": {
+    "name": "서울당서초등학교",
+    "students": 1189,
+    "teachers": "73"
+  },
+  "S010001211": {
+    "name": "서울당중초등학교",
+    "students": 570,
+    "teachers": "43"
+  },
+  "S010001212": {
+    "name": "서울대길초등학교",
+    "students": 374,
+    "teachers": "34"
+  },
+  "S010001213": {
+    "name": "서울대동초등학교",
+    "students": 334,
+    "teachers": "43"
+  },
+  "S010001214": {
+    "name": "서울대방초등학교",
+    "students": 1349,
+    "teachers": "95"
+  },
+  "S010001215": {
+    "name": "서울대영초등학교",
+    "students": 1004,
+    "teachers": "70"
+  },
+  "S010001217": {
+    "name": "서울도림초등학교",
+    "students": 327,
+    "teachers": "35"
+  },
+  "S010001218": {
+    "name": "서울도신초등학교",
+    "students": 212,
+    "teachers": "25"
+  },
+  "S010001224": {
+    "name": "서울문래초등학교",
+    "students": 1072,
+    "teachers": "68"
+  },
+  "S010001232": {
+    "name": "서울신대림초등학교",
+    "students": 358,
+    "teachers": "40"
+  },
+  "S010001235": {
+    "name": "서울신영초등학교",
+    "students": 428,
+    "teachers": "35"
+  },
+  "S010001238": {
+    "name": "서울여의도초등학교",
+    "students": 915,
+    "teachers": "72"
+  },
+  "S010001240": {
+    "name": "서울영동초등학교",
+    "students": 371,
+    "teachers": "37"
+  },
+  "S010001241": {
+    "name": "서울영등포초등학교",
+    "students": 268,
+    "teachers": "29"
+  },
+  "S010001242": {
+    "name": "서울영림초등학교",
+    "students": 213,
+    "teachers": "20"
+  },
+  "S010001244": {
+    "name": "서울영신초등학교",
+    "students": 848,
+    "teachers": "63"
+  },
+  "S010001245": {
+    "name": "서울영원초등학교",
+    "students": 493,
+    "teachers": "36"
+  },
+  "S010001247": {
+    "name": "서울영중초등학교",
+    "students": 411,
+    "teachers": "35"
+  },
+  "S010001252": {
+    "name": "서울우신초등학교",
+    "students": 222,
+    "teachers": "25"
+  },
+  "S010001253": {
+    "name": "서울윤중초등학교",
+    "students": 464,
+    "teachers": "32"
+  },
+  "S010005254": {
+    "name": "서울영문초등학교",
+    "students": 1122,
+    "teachers": "77"
+  },
+  "S010005372": {
+    "name": "서울선유초등학교",
+    "students": 297,
+    "teachers": "23"
+  },
+  "S010001172": {
+    "name": "당산서중학교",
+    "students": 463,
+    "teachers": "52"
+  },
+  "S010001173": {
+    "name": "당산중학교",
+    "students": 450,
+    "teachers": "43"
+  },
+  "S010001174": {
+    "name": "대림중학교",
+    "students": 451,
+    "teachers": "48"
+  },
+  "S010001175": {
+    "name": "대영중학교",
+    "students": 632,
+    "teachers": "57"
+  },
+  "S010001177": {
+    "name": "문래중학교",
+    "students": 605,
+    "teachers": "56"
+  },
+  "S010001184": {
+    "name": "선유중학교",
+    "students": 352,
+    "teachers": "38"
+  },
+  "S010001185": {
+    "name": "양화중학교",
+    "students": 604,
+    "teachers": "48"
+  },
+  "S010001186": {
+    "name": "여의도중학교",
+    "students": 552,
+    "teachers": "43"
+  },
+  "S010001187": {
+    "name": "영남중학교",
+    "students": 402,
+    "teachers": "53"
+  },
+  "S010001190": {
+    "name": "영원중학교",
+    "students": 464,
+    "teachers": "46"
+  },
+  "S010001195": {
+    "name": "윤중중학교",
+    "students": 460,
+    "teachers": "52"
+  },
+  "S010006402": {
+    "name": "신길중학교",
+    "students": 700,
+    "teachers": "62"
+  },
+  "S010000390": {
+    "name": "관악고등학교",
+    "students": 745,
+    "teachers": "67"
+  },
+  "S010000410": {
+    "name": "대영고등학교",
+    "students": 761,
+    "teachers": "72"
+  },
+  "S010000492": {
+    "name": "여의도고등학교",
+    "students": 742,
+    "teachers": "67"
+  },
+  "S010000493": {
+    "name": "여의도여자고등학교",
+    "students": 546,
+    "teachers": "58"
+  },
+  "S010000498": {
+    "name": "영등포여자고등학교",
+    "students": 462,
+    "teachers": "51"
+  },
+  "S010000501": {
+    "name": "영신고등학교",
+    "students": 664,
+    "teachers": "59"
+  },
+  "S010000526": {
+    "name": "장훈고등학교",
+    "students": 623,
+    "teachers": "61"
+  },
+  "S010000550": {
+    "name": "한강미디어고등학교",
+    "students": 482,
+    "teachers": "73"
+  },
+  "S010005261": {
+    "name": "선유고등학교",
+    "students": 559,
+    "teachers": "58"
+  },
+  "S010001576": {
+    "name": "서울강남초등학교",
+    "students": 698,
+    "teachers": "51"
+  },
+  "S010001583": {
+    "name": "서울남사초등학교",
+    "students": 467,
+    "teachers": "38"
+  },
+  "S010001584": {
+    "name": "서울남성초등학교",
+    "students": 469,
+    "teachers": "35"
+  },
+  "S010001585": {
+    "name": "서울노량진초등학교",
+    "students": 186,
+    "teachers": "30"
+  },
+  "S010001587": {
+    "name": "서울대림초등학교",
+    "students": 941,
+    "teachers": "71"
+  },
+  "S010001588": {
+    "name": "서울동작초등학교",
+    "students": 520,
+    "teachers": "43"
+  },
+  "S010001589": {
+    "name": "서울문창초등학교",
+    "students": 369,
+    "teachers": "35"
+  },
+  "S010001591": {
+    "name": "서울본동초등학교",
+    "students": 103,
+    "teachers": "17"
+  },
+  "S010001595": {
+    "name": "서울상도초등학교",
+    "students": 734,
+    "teachers": "57"
+  },
+  "S010001596": {
+    "name": "서울신길초등학교",
+    "students": 877,
+    "teachers": "56"
+  },
+  "S010001597": {
+    "name": "서울신남성초등학교",
+    "students": 472,
+    "teachers": "39"
+  },
+  "S010001600": {
+    "name": "서울신상도초등학교",
+    "students": 1351,
+    "teachers": "83"
+  },
+  "S010001603": {
+    "name": "서울영본초등학교",
+    "students": 699,
+    "teachers": "59"
+  },
+  "S010001604": {
+    "name": "서울영화초등학교",
+    "students": 379,
+    "teachers": "32"
+  },
+  "S010001607": {
+    "name": "서울은로초등학교",
+    "students": 913,
+    "teachers": "62"
+  },
+  "S010001611": {
+    "name": "서울행림초등학교",
+    "students": 193,
+    "teachers": "20"
+  },
+  "S010001612": {
+    "name": "서울흑석초등학교",
+    "students": 453,
+    "teachers": "45"
+  },
+  "S010001613": {
+    "name": "중앙대학교사범대학부속초등학교",
+    "students": 727,
+    "teachers": "38"
+  },
+  "S010005251": {
+    "name": "서울보라매초등학교",
+    "students": 1231,
+    "teachers": "80"
+  },
+  "S010005387": {
+    "name": "서울삼일초등학교",
+    "students": 864,
+    "teachers": "63"
+  },
+  "S010005567": {
+    "name": "서울상현초등학교",
+    "students": 633,
+    "teachers": "50"
+  },
+  "S010001545": {
+    "name": "강남중학교",
+    "students": 277,
+    "teachers": "30"
+  },
+  "S010001546": {
+    "name": "강현중학교",
+    "students": 348,
+    "teachers": "37"
+  },
+  "S010001549": {
+    "name": "국사봉중학교",
+    "students": 342,
+    "teachers": "42"
+  },
+  "S010001553": {
+    "name": "남성중학교",
+    "students": 271,
+    "teachers": "41"
+  },
+  "S010001555": {
+    "name": "대방중학교",
+    "students": 694,
+    "teachers": "55"
+  },
+  "S010001556": {
+    "name": "동양중학교",
+    "students": 343,
+    "teachers": "33"
+  },
+  "S010001557": {
+    "name": "동작중학교",
+    "students": 367,
+    "teachers": "33"
+  },
+  "S010001558": {
+    "name": "문창중학교",
+    "students": 356,
+    "teachers": "39"
+  },
+  "S010001562": {
+    "name": "사당중학교",
+    "students": 501,
+    "teachers": "40"
+  },
+  "S010001563": {
+    "name": "상도중학교",
+    "students": 443,
+    "teachers": "37"
+  },
+  "S010001564": {
+    "name": "상현중학교",
+    "students": 494,
+    "teachers": "53"
+  },
+  "S010001566": {
+    "name": "성남중학교",
+    "students": 507,
+    "teachers": "45"
+  },
+  "S010001571": {
+    "name": "영등포중학교",
+    "students": 238,
+    "teachers": "38"
+  },
+  "S010001573": {
+    "name": "장승중학교",
+    "students": 581,
+    "teachers": "56"
+  },
+  "S010001575": {
+    "name": "중앙대학교사범대학부속중학교",
+    "students": 636,
+    "teachers": "49"
+  },
+  "S010002352": {
+    "name": "숭의여자중학교",
+    "students": 445,
+    "teachers": "37"
+  },
+  "S010000378": {
+    "name": "경문고등학교",
+    "students": 658,
+    "teachers": "57"
+  },
+  "S010000427": {
+    "name": "동작고등학교",
+    "students": 732,
+    "teachers": "73"
+  },
+  "S010000468": {
+    "name": "성남고등학교",
+    "students": 1013,
+    "teachers": "79"
+  },
+  "S010000477": {
+    "name": "수도여자고등학교",
+    "students": 820,
+    "teachers": "73"
+  },
+  "S010000482": {
+    "name": "숭의여자고등학교",
+    "students": 689,
+    "teachers": "62"
+  },
+  "S010000497": {
+    "name": "영등포고등학교",
+    "students": 538,
+    "teachers": "59"
+  },
+  "S010000588": {
+    "name": "서울공업고등학교",
+    "students": 742,
+    "teachers": "120"
+  },
+  "S010002503": {
+    "name": "수도여자고등학교부설방송통신고등학교",
+    "students": 217,
+    "teachers": 0
+  },
+  "S010002504": {
+    "name": "영등포고등학교부설방송통신고등학교",
+    "students": 210,
+    "teachers": 0
+  },
+  "S010001577": {
+    "name": "서울관악초등학교",
+    "students": 515,
+    "teachers": "43"
+  },
+  "S010001578": {
+    "name": "서울구암초등학교",
+    "students": 1279,
+    "teachers": "89"
+  },
+  "S010001579": {
+    "name": "서울난곡초등학교",
+    "students": 285,
+    "teachers": "24"
+  },
+  "S010001580": {
+    "name": "서울난우초등학교",
+    "students": 608,
+    "teachers": "46"
+  },
+  "S010001581": {
+    "name": "서울난향초등학교",
+    "students": 696,
+    "teachers": "53"
+  },
+  "S010001582": {
+    "name": "서울남부초등학교",
+    "students": 441,
+    "teachers": "32"
+  },
+  "S010001586": {
+    "name": "서울당곡초등학교",
+    "students": 549,
+    "teachers": "38"
+  },
+  "S010001590": {
+    "name": "서울미성초등학교",
+    "students": 651,
+    "teachers": "53"
+  },
+  "S010001592": {
+    "name": "서울봉천초등학교",
+    "students": 625,
+    "teachers": "50"
+  },
+  "S010001593": {
+    "name": "서울사당초등학교",
+    "students": 489,
+    "teachers": "43"
+  },
+  "S010001594": {
+    "name": "서울삼성초등학교",
+    "students": 292,
+    "teachers": "24"
+  },
+  "S010001598": {
+    "name": "서울신림초등학교",
+    "students": 475,
+    "teachers": "39"
+  },
+  "S010001599": {
+    "name": "서울신봉초등학교",
+    "students": 256,
+    "teachers": "22"
+  },
+  "S010001601": {
+    "name": "서울신성초등학교",
+    "students": 454,
+    "teachers": "36"
+  },
+  "S010001602": {
+    "name": "서울신우초등학교",
+    "students": 275,
+    "teachers": "25"
+  },
+  "S010001605": {
+    "name": "서울원당초등학교",
+    "students": 148,
+    "teachers": "24"
+  },
+  "S010001606": {
+    "name": "서울원신초등학교",
+    "students": 151,
+    "teachers": "21"
+  },
+  "S010001608": {
+    "name": "서울은천초등학교",
+    "students": 838,
+    "teachers": "59"
+  },
+  "S010001609": {
+    "name": "서울인헌초등학교",
+    "students": 749,
+    "teachers": "53"
+  },
+  "S010001610": {
+    "name": "서울청룡초등학교",
+    "students": 329,
+    "teachers": "28"
+  },
+  "S010005179": {
+    "name": "서울봉현초등학교",
+    "students": 688,
+    "teachers": "55"
+  },
+  "S010005257": {
+    "name": "서울조원초등학교",
+    "students": 425,
+    "teachers": "36"
+  },
+  "S010001547": {
+    "name": "관악중학교",
+    "students": 280,
+    "teachers": "34"
+  },
+  "S010001548": {
+    "name": "광신중학교",
+    "students": 234,
+    "teachers": "24"
+  },
+  "S010001550": {
+    "name": "난우중학교",
+    "students": 504,
+    "teachers": "45"
+  },
+  "S010001551": {
+    "name": "남강중학교",
+    "students": 287,
+    "teachers": "30"
+  },
+  "S010001552": {
+    "name": "남서울중학교",
+    "students": 277,
+    "teachers": "33"
+  },
+  "S010001554": {
+    "name": "당곡중학교",
+    "students": 515,
+    "teachers": "53"
+  },
+  "S010001559": {
+    "name": "미성중학교",
+    "students": 434,
+    "teachers": "36"
+  },
+  "S010001560": {
+    "name": "봉림중학교",
+    "students": 253,
+    "teachers": "29"
+  },
+  "S010001561": {
+    "name": "봉원중학교",
+    "students": 457,
+    "teachers": "56"
+  },
+  "S010001565": {
+    "name": "서울문영여자중학교",
+    "students": 210,
+    "teachers": "28"
+  },
+  "S010001567": {
+    "name": "성보중학교",
+    "students": 353,
+    "teachers": "35"
+  },
+  "S010001568": {
+    "name": "신관중학교",
+    "students": 234,
+    "teachers": "32"
+  },
+  "S010001569": {
+    "name": "삼성중학교",
+    "students": 243,
+    "teachers": "32"
+  },
+  "S010001570": {
+    "name": "신림중학교",
+    "students": 291,
+    "teachers": "39"
+  },
+  "S010001572": {
+    "name": "인헌중학교",
+    "students": 427,
+    "teachers": "37"
+  },
+  "S010005211": {
+    "name": "구암중학교",
+    "students": 1076,
+    "teachers": "82"
+  },
+  "S010000394": {
+    "name": "광신고등학교",
+    "students": 527,
+    "teachers": "49"
+  },
+  "S010000403": {
+    "name": "남강고등학교",
+    "students": 673,
+    "teachers": "57"
+  },
+  "S010000406": {
+    "name": "당곡고등학교",
+    "students": 775,
+    "teachers": "72"
+  },
+  "S010000437": {
+    "name": "서울문영여자고등학교",
+    "students": 634,
+    "teachers": "58"
+  },
+  "S010000439": {
+    "name": "미림여자고등학교",
+    "students": 497,
+    "teachers": "47"
+  },
+  "S010000448": {
+    "name": "삼성고등학교",
+    "students": 292,
+    "teachers": "50"
+  },
+  "S010000458": {
+    "name": "서울미술고등학교",
+    "students": 501,
+    "teachers": "44"
+  },
+  "S010000470": {
+    "name": "성보고등학교",
+    "students": 645,
+    "teachers": "54"
+  },
+  "S010000484": {
+    "name": "신림고등학교",
+    "students": 479,
+    "teachers": "47"
+  },
+  "S010000499": {
+    "name": "영락고등학교",
+    "students": 535,
+    "teachers": "52"
+  },
+  "S010000519": {
+    "name": "인헌고등학교",
+    "students": 450,
+    "teachers": "51"
+  },
+  "S010000607": {
+    "name": "서울여자상업고등학교",
+    "students": 450,
+    "teachers": "57"
+  },
+  "S010000611": {
+    "name": "영락의료과학고등학교",
+    "students": 291,
+    "teachers": "46"
+  },
+  "S010000630": {
+    "name": "서울관광고등학교",
+    "students": 467,
+    "teachers": "57"
+  },
+  "S010000631": {
+    "name": "광신방송예술고등학교",
+    "students": 343,
+    "teachers": "42"
+  },
+  "S010000639": {
+    "name": "미림마이스터고등학교",
+    "students": 293,
+    "teachers": "45"
+  },
+  "S010005528": {
+    "name": "구암고등학교",
+    "students": 569,
+    "teachers": "56"
+  },
+  "S000003511": {
+    "name": "서울교육대학교부설초등학교",
+    "students": 611,
+    "teachers": "36"
+  },
+  "S010000753": {
+    "name": "서울반원초등학교",
+    "students": 1315,
+    "teachers": "78"
+  },
+  "S010000755": {
+    "name": "서울방배초등학교",
+    "students": 769,
+    "teachers": "53"
+  },
+  "S010000756": {
+    "name": "서울방일초등학교",
+    "students": 918,
+    "teachers": "57"
+  },
+  "S010000757": {
+    "name": "서울방현초등학교",
+    "students": 188,
+    "teachers": "18"
+  },
+  "S010000760": {
+    "name": "서울서래초등학교",
+    "students": 1255,
+    "teachers": "77"
+  },
+  "S010000761": {
+    "name": "서울서원초등학교",
+    "students": 1596,
+    "teachers": "87"
+  },
+  "S010000762": {
+    "name": "서울서이초등학교",
+    "students": 1293,
+    "teachers": "77"
+  },
+  "S010000763": {
+    "name": "서울서일초등학교",
+    "students": 468,
+    "teachers": "32"
+  },
+  "S010000764": {
+    "name": "서울서초초등학교",
+    "students": 930,
+    "teachers": "64"
+  },
+  "S010000767": {
+    "name": "서울신동초등학교",
+    "students": 1141,
+    "teachers": "76"
+  },
+  "S010000768": {
+    "name": "서울신중초등학교",
+    "students": 808,
+    "teachers": "54"
+  },
+  "S010000770": {
+    "name": "서울양재초등학교",
+    "students": 448,
+    "teachers": "34"
+  },
+  "S010000772": {
+    "name": "서울언남초등학교",
+    "students": 973,
+    "teachers": "67"
+  },
+  "S010000778": {
+    "name": "서울우암초등학교",
+    "students": 220,
+    "teachers": "22"
+  },
+  "S010000779": {
+    "name": "서울원명초등학교",
+    "students": 1147,
+    "teachers": "77"
+  },
+  "S010000780": {
+    "name": "서울원촌초등학교",
+    "students": 1006,
+    "teachers": "81"
+  },
+  "S010000781": {
+    "name": "서울이수초등학교",
+    "students": 506,
+    "teachers": "41"
+  },
+  "S010000783": {
+    "name": "서울잠원초등학교",
+    "students": 1881,
+    "teachers": "94"
+  },
+  "S010002365": {
+    "name": "계성초등학교",
+    "students": 652,
+    "teachers": "29"
+  },
+  "S010005495": {
+    "name": "서울매헌초등학교",
+    "students": 472,
+    "teachers": "40"
+  },
+  "S010005549": {
+    "name": "서울우면초등학교",
+    "students": 640,
+    "teachers": "41"
+  },
+  "S010005830": {
+    "name": "서울우솔초등학교",
+    "students": 488,
+    "teachers": "32"
+  },
+  "S010000700": {
+    "name": "경원중학교",
+    "students": 1033,
+    "teachers": "78"
+  },
+  "S010000710": {
+    "name": "동덕여자중학교",
+    "students": 401,
+    "teachers": "44"
+  },
+  "S010000712": {
+    "name": "방배중학교",
+    "students": 639,
+    "teachers": "65"
+  },
+  "S010000714": {
+    "name": "서문여자중학교",
+    "students": 606,
+    "teachers": "49"
+  },
+  "S010000715": {
+    "name": "서운중학교",
+    "students": 1125,
+    "teachers": "86"
+  },
+  "S010000716": {
+    "name": "서일중학교",
+    "students": 1030,
+    "teachers": "72"
+  },
+  "S010000717": {
+    "name": "서초중학교",
+    "students": 619,
+    "teachers": "59"
+  },
+  "S010000718": {
+    "name": "세화여자중학교",
+    "students": 643,
+    "teachers": "63"
+  },
+  "S010000722": {
+    "name": "신동중학교",
+    "students": 828,
+    "teachers": "63"
+  },
+  "S010000723": {
+    "name": "신반포중학교",
+    "students": 938,
+    "teachers": "64"
+  },
+  "S010000725": {
+    "name": "언남중학교",
+    "students": 344,
+    "teachers": "44"
+  },
+  "S010000729": {
+    "name": "영동중학교",
+    "students": 1040,
+    "teachers": "81"
+  },
+  "S010000730": {
+    "name": "원촌중학교",
+    "students": 1198,
+    "teachers": "84"
+  },
+  "S010000732": {
+    "name": "이수중학교",
+    "students": 507,
+    "teachers": "53"
+  },
+  "S010006334": {
+    "name": "내곡중학교",
+    "students": 424,
+    "teachers": "52"
+  },
+  "S010000421": {
+    "name": "동덕여자고등학교",
+    "students": 892,
+    "teachers": "79"
+  },
+  "S010000440": {
+    "name": "반포고등학교",
+    "students": 808,
+    "teachers": "88"
+  },
+  "S010000452": {
+    "name": "상문고등학교",
+    "students": 1251,
+    "teachers": "88"
+  },
+  "S010000455": {
+    "name": "서문여자고등학교",
+    "students": 918,
+    "teachers": "77"
+  },
+  "S010000456": {
+    "name": "서울고등학교",
+    "students": 1244,
+    "teachers": "108"
+  },
+  "S010000463": {
+    "name": "서초고등학교",
+    "students": 858,
+    "teachers": "89"
+  },
+  "S010000473": {
+    "name": "세화고등학교",
+    "students": 1064,
+    "teachers": "82"
+  },
+  "S010000474": {
+    "name": "세화여자고등학교",
+    "students": 1070,
+    "teachers": "86"
+  },
+  "S010000487": {
+    "name": "양재고등학교",
+    "students": 883,
+    "teachers": "80"
+  },
+  "S010000491": {
+    "name": "언남고등학교",
+    "students": 661,
+    "teachers": "69"
+  },
+  "S010000542": {
+    "name": "청담고등학교",
+    "students": 463,
+    "teachers": "71"
+  },
+  "S010000657": {
+    "name": "서울웹툰애니메이션고등학교",
+    "students": 121,
+    "teachers": "38"
+  },
+  "S010000737": {
+    "name": "서울개원초등학교",
+    "students": 868,
+    "teachers": "62"
+  },
+  "S010000738": {
+    "name": "서울개일초등학교",
+    "students": 967,
+    "teachers": "54"
+  },
+  "S010000739": {
+    "name": "서울개포초등학교",
+    "students": 903,
+    "teachers": "63"
+  },
+  "S010000741": {
+    "name": "서울구룡초등학교",
+    "students": 628,
+    "teachers": "46"
+  },
+  "S010000742": {
+    "name": "서울논현초등학교",
+    "students": 227,
+    "teachers": "27"
+  },
+  "S010000743": {
+    "name": "서울대곡초등학교",
+    "students": 1244,
+    "teachers": "78"
+  },
+  "S010000744": {
+    "name": "서울대도초등학교",
+    "students": 2038,
+    "teachers": "98"
+  },
+  "S010000745": {
+    "name": "서울대모초등학교",
+    "students": 827,
+    "teachers": "51"
+  },
+  "S010000746": {
+    "name": "서울대왕초등학교",
+    "students": 499,
+    "teachers": "44"
+  },
+  "S010000747": {
+    "name": "서울대진초등학교",
+    "students": 219,
+    "teachers": "25"
+  },
+  "S010000748": {
+    "name": "서울대청초등학교",
+    "students": 92,
+    "teachers": "16"
+  },
+  "S010000749": {
+    "name": "서울대치초등학교",
+    "students": 1525,
+    "teachers": "81"
+  },
+  "S010000750": {
+    "name": "서울대현초등학교",
+    "students": 1117,
+    "teachers": "68"
+  },
+  "S010000751": {
+    "name": "서울도곡초등학교",
+    "students": 860,
+    "teachers": "60"
+  },
+  "S010000752": {
+    "name": "서울도성초등학교",
+    "students": 1759,
+    "teachers": "103"
+  },
+  "S010000758": {
+    "name": "서울봉은초등학교",
+    "students": 409,
+    "teachers": "40"
+  },
+  "S010000759": {
+    "name": "서울삼릉초등학교",
+    "students": 486,
+    "teachers": "36"
+  },
+  "S010000765": {
+    "name": "서울수서초등학교",
+    "students": 126,
+    "teachers": "24"
+  },
+  "S010000766": {
+    "name": "서울신구초등학교",
+    "students": 443,
+    "teachers": "37"
+  },
+  "S010000769": {
+    "name": "서울압구정초등학교",
+    "students": 826,
+    "teachers": "57"
+  },
+  "S010000771": {
+    "name": "서울양전초등학교",
+    "students": 329,
+    "teachers": "27"
+  },
+  "S010000773": {
+    "name": "서울언북초등학교",
+    "students": 1539,
+    "teachers": "98"
+  },
+  "S010000774": {
+    "name": "서울언주초등학교",
+    "students": 1370,
+    "teachers": "90"
+  },
+  "S010000775": {
+    "name": "서울역삼초등학교",
+    "students": 311,
+    "teachers": "29"
+  },
+  "S010000776": {
+    "name": "서울영희초등학교",
+    "students": 264,
+    "teachers": "22"
+  },
+  "S010000777": {
+    "name": "서울왕북초등학교",
+    "students": 815,
+    "teachers": "57"
+  },
+  "S010000782": {
+    "name": "서울일원초등학교",
+    "students": 1381,
+    "teachers": "82"
+  },
+  "S010000784": {
+    "name": "서울청담초등학교",
+    "students": 462,
+    "teachers": "34"
+  },
+  "S010000785": {
+    "name": "서울포이초등학교",
+    "students": 455,
+    "teachers": "39"
+  },
+  "S010000786": {
+    "name": "서울학동초등학교",
+    "students": 431,
+    "teachers": "31"
+  },
+  "S010005828": {
+    "name": "서울율현초등학교",
+    "students": 898,
+    "teachers": "71"
+  },
+  "S010005831": {
+    "name": "서울자곡초등학교",
+    "students": 600,
+    "teachers": "45"
+  },
+  "S010005832": {
+    "name": "서울세명초등학교",
+    "students": 760,
+    "teachers": "50"
+  },
+  "S010006510": {
+    "name": "서울개현초등학교",
+    "students": 561,
+    "teachers": "44"
+  },
+  "S010000698": {
+    "name": "개원중학교",
+    "students": 886,
+    "teachers": "67"
+  },
+  "S010000699": {
+    "name": "개포중학교",
+    "students": 729,
+    "teachers": "68"
+  },
+  "S010000701": {
+    "name": "구룡중학교",
+    "students": 837,
+    "teachers": "71"
+  },
+  "S010000702": {
+    "name": "압구정중학교",
+    "students": 393,
+    "teachers": "43"
+  },
+  "S010000704": {
+    "name": "단국대학교사범대학부속중학교",
+    "students": 614,
+    "teachers": "33"
+  },
+  "S010000705": {
+    "name": "대명중학교",
+    "students": 1009,
+    "teachers": "65"
+  },
+  "S010000706": {
+    "name": "대왕중학교",
+    "students": 889,
+    "teachers": "66"
+  },
+  "S010000707": {
+    "name": "대청중학교",
+    "students": 1086,
+    "teachers": "71"
+  },
+  "S010000708": {
+    "name": "대치중학교",
+    "students": 553,
+    "teachers": "60"
+  },
+  "S010000709": {
+    "name": "도곡중학교",
+    "students": 760,
+    "teachers": "59"
+  },
+  "S010000713": {
+    "name": "봉은중학교",
+    "students": 274,
+    "teachers": "33"
+  },
+  "S010000719": {
+    "name": "수서중학교",
+    "students": 541,
+    "teachers": "57"
+  },
+  "S010000720": {
+    "name": "숙명여자중학교",
+    "students": 910,
+    "teachers": "57"
+  },
+  "S010000721": {
+    "name": "신구중학교",
+    "students": 260,
+    "teachers": "28"
+  },
+  "S010000724": {
+    "name": "신사중학교",
+    "students": 340,
+    "teachers": "34"
+  },
+  "S010000726": {
+    "name": "언북중학교",
+    "students": 315,
+    "teachers": "34"
+  },
+  "S010000727": {
+    "name": "언주중학교",
+    "students": 959,
+    "teachers": "71"
+  },
+  "S010000728": {
+    "name": "역삼중학교",
+    "students": 1185,
+    "teachers": "82"
+  },
+  "S010000731": {
+    "name": "은성중학교",
+    "students": 484,
+    "teachers": "30"
+  },
+  "S010000733": {
+    "name": "중동중학교",
+    "students": 951,
+    "teachers": "60"
+  },
+  "S010000734": {
+    "name": "진선여자중학교",
+    "students": 994,
+    "teachers": "56"
+  },
+  "S010000735": {
+    "name": "청담중학교",
+    "students": 348,
+    "teachers": "30"
+  },
+  "S010000736": {
+    "name": "휘문중학교",
+    "students": 815,
+    "teachers": "45"
+  },
+  "S010005829": {
+    "name": "세곡중학교",
+    "students": 1070,
+    "teachers": "84"
+  },
+  "S000003540": {
+    "name": "국립국악고등학교",
+    "students": 437,
+    "teachers": "48"
+  },
+  "S010000373": {
+    "name": "개포고등학교",
+    "students": 704,
+    "teachers": "68"
+  },
+  "S010000375": {
+    "name": "경기고등학교",
+    "students": 1067,
+    "teachers": "93"
+  },
+  "S010000376": {
+    "name": "경기여자고등학교",
+    "students": 1153,
+    "teachers": "109"
+  },
+  "S010000400": {
+    "name": "압구정고등학교",
+    "students": 531,
+    "teachers": "67"
+  },
+  "S010000405": {
+    "name": "단국대학교사범대학부속고등학교",
+    "students": 1150,
+    "teachers": "82"
+  },
+  "S010000416": {
+    "name": "대진디자인고등학교",
+    "students": 444,
+    "teachers": "67"
+  },
+  "S010000459": {
+    "name": "서울세종고등학교",
+    "students": 561,
+    "teachers": "53"
+  },
+  "S010000479": {
+    "name": "숙명여자고등학교",
+    "students": 1228,
+    "teachers": "94"
+  },
+  "S010000495": {
+    "name": "영동고등학교",
+    "students": 776,
+    "teachers": "74"
+  },
+  "S010000514": {
+    "name": "은광여자고등학교",
+    "students": 747,
+    "teachers": "63"
+  },
+  "S010000531": {
+    "name": "중동고등학교",
+    "students": 1083,
+    "teachers": "81"
+  },
+  "S010000532": {
+    "name": "중산고등학교",
+    "students": 956,
+    "teachers": "74"
+  },
+  "S010000534": {
+    "name": "중앙대학교사범대학부속고등학교",
+    "students": 1063,
+    "teachers": "81"
+  },
+  "S010000538": {
+    "name": "진선여자고등학교",
+    "students": 934,
+    "teachers": "73"
+  },
+  "S010000548": {
+    "name": "풍문고등학교",
+    "students": 945,
+    "teachers": "75"
+  },
+  "S010000559": {
+    "name": "현대고등학교",
+    "students": 1061,
+    "teachers": "77"
+  },
+  "S010000568": {
+    "name": "휘문고등학교",
+    "students": 1243,
+    "teachers": "79"
+  },
+  "S010000577": {
+    "name": "서울로봇고등학교",
+    "students": 399,
+    "teachers": "78"
+  },
+  "S010000581": {
+    "name": "단국대학교부속소프트웨어고등학교",
+    "students": 290,
+    "teachers": "41"
+  },
+  "S010000594": {
+    "name": "수도전기공업고등학교",
+    "students": 530,
+    "teachers": "98"
+  },
+  "S010002525": {
+    "name": "경기여자고등학교부설방송통신고등학교",
+    "students": 246,
+    "teachers": 0
+  },
+  "S010000897": {
+    "name": "서울가동초등학교",
+    "students": 745,
+    "teachers": "56"
+  },
+  "S010000898": {
+    "name": "서울가락초등학교",
+    "students": 1229,
+    "teachers": "88"
+  },
+  "S010000899": {
+    "name": "서울가원초등학교",
+    "students": 623,
+    "teachers": "44"
+  },
+  "S010000900": {
+    "name": "서울가주초등학교",
+    "students": 790,
+    "teachers": "57"
+  },
+  "S010000904": {
+    "name": "서울거여초등학교",
+    "students": 706,
+    "teachers": "52"
+  },
+  "S010000905": {
+    "name": "서울거원초등학교",
+    "students": 595,
+    "teachers": "44"
+  },
+  "S010000910": {
+    "name": "서울남천초등학교",
+    "students": 277,
+    "teachers": "28"
+  },
+  "S010000913": {
+    "name": "서울마천초등학교",
+    "students": 707,
+    "teachers": "46"
+  },
+  "S010000918": {
+    "name": "서울문덕초등학교",
+    "students": 516,
+    "teachers": "44"
+  },
+  "S010000919": {
+    "name": "서울문정초등학교",
+    "students": 663,
+    "teachers": "62"
+  },
+  "S010000920": {
+    "name": "서울방산초등학교",
+    "students": 611,
+    "teachers": "41"
+  },
+  "S010000921": {
+    "name": "서울방이초등학교",
+    "students": 524,
+    "teachers": "40"
+  },
+  "S010000922": {
+    "name": "서울삼전초등학교",
+    "students": 613,
+    "teachers": "49"
+  },
+  "S010000924": {
+    "name": "서울석촌초등학교",
+    "students": 637,
+    "teachers": "48"
+  },
+  "S010000929": {
+    "name": "서울세륜초등학교",
+    "students": 603,
+    "teachers": "41"
+  },
+  "S010000930": {
+    "name": "서울송전초등학교",
+    "students": 761,
+    "teachers": "52"
+  },
+  "S010000931": {
+    "name": "서울송파초등학교",
+    "students": 520,
+    "teachers": "37"
+  },
+  "S010000932": {
+    "name": "서울신가초등학교",
+    "students": 596,
+    "teachers": "45"
+  },
+  "S010000935": {
+    "name": "서울신천초등학교",
+    "students": 413,
+    "teachers": "37"
+  },
+  "S010000936": {
+    "name": "서울아주초등학교",
+    "students": 360,
+    "teachers": "30"
+  },
+  "S010000937": {
+    "name": "서울영풍초등학교",
+    "students": 640,
+    "teachers": "54"
+  },
+  "S010000938": {
+    "name": "서울오금초등학교",
+    "students": 633,
+    "teachers": "48"
+  },
+  "S010000939": {
+    "name": "서울오륜초등학교",
+    "students": 484,
+    "teachers": "38"
+  },
+  "S010000941": {
+    "name": "서울잠동초등학교",
+    "students": 823,
+    "teachers": "53"
+  },
+  "S010000942": {
+    "name": "서울잠신초등학교",
+    "students": 1416,
+    "teachers": "85"
+  },
+  "S010000943": {
+    "name": "서울잠실초등학교",
+    "students": 920,
+    "teachers": "74"
+  },
+  "S010000944": {
+    "name": "서울잠일초등학교",
+    "students": 1638,
+    "teachers": "89"
+  },
+  "S010000945": {
+    "name": "서울잠전초등학교",
+    "students": 477,
+    "teachers": "40"
+  },
+  "S010000946": {
+    "name": "서울중대초등학교",
+    "students": 996,
+    "teachers": "71"
+  },
+  "S010000950": {
+    "name": "서울토성초등학교",
+    "students": 658,
+    "teachers": "48"
+  },
+  "S010000951": {
+    "name": "서울평화초등학교",
+    "students": 167,
+    "teachers": "20"
+  },
+  "S010000952": {
+    "name": "서울풍납초등학교",
+    "students": 320,
+    "teachers": "35"
+  },
+  "S010000953": {
+    "name": "서울풍성초등학교",
+    "students": 279,
+    "teachers": "28"
+  },
+  "S010005384": {
+    "name": "서울버들초등학교",
+    "students": 925,
+    "teachers": "58"
+  },
+  "S010005386": {
+    "name": "서울문현초등학교",
+    "students": 787,
+    "teachers": "57"
+  },
+  "S010005503": {
+    "name": "서울개롱초등학교",
+    "students": 319,
+    "teachers": "32"
+  },
+  "S010005504": {
+    "name": "서울잠현초등학교",
+    "students": 834,
+    "teachers": "51"
+  },
+  "S010005599": {
+    "name": "서울위례솔초등학교",
+    "students": 973,
+    "teachers": "75"
+  },
+  "S010006043": {
+    "name": "서울송례초등학교",
+    "students": 1384,
+    "teachers": "86"
+  },
+  "S010006211": {
+    "name": "서울위례별초등학교",
+    "students": 1624,
+    "teachers": "105"
+  },
+  "S010006433": {
+    "name": "서울해누리초등학교",
+    "students": 706,
+    "teachers": "50"
+  },
+  "S010000856": {
+    "name": "가락중학교",
+    "students": 454,
+    "teachers": "44"
+  },
+  "S010000857": {
+    "name": "가원중학교",
+    "students": 423,
+    "teachers": "41"
+  },
+  "S010000859": {
+    "name": "거원중학교",
+    "students": 408,
+    "teachers": "45"
+  },
+  "S010000865": {
+    "name": "문정중학교",
+    "students": 397,
+    "teachers": "45"
+  },
+  "S010000866": {
+    "name": "방산중학교",
+    "students": 458,
+    "teachers": "46"
+  },
+  "S010000867": {
+    "name": "방이중학교",
+    "students": 323,
+    "teachers": "39"
+  },
+  "S010000868": {
+    "name": "배명중학교",
+    "students": 453,
+    "teachers": "45"
+  },
+  "S010000870": {
+    "name": "보성중학교",
+    "students": 333,
+    "teachers": "37"
+  },
+  "S010000871": {
+    "name": "보인중학교",
+    "students": 481,
+    "teachers": "43"
+  },
+  "S010000873": {
+    "name": "석촌중학교",
+    "students": 297,
+    "teachers": "35"
+  },
+  "S010000876": {
+    "name": "세륜중학교",
+    "students": 349,
+    "teachers": "34"
+  },
+  "S010000877": {
+    "name": "송파중학교",
+    "students": 861,
+    "teachers": "80"
+  },
+  "S010000880": {
+    "name": "신천중학교",
+    "students": 1078,
+    "teachers": "69"
+  },
+  "S010000881": {
+    "name": "아주중학교",
+    "students": 487,
+    "teachers": "46"
+  },
+  "S010000882": {
+    "name": "영파여자중학교",
+    "students": 279,
+    "teachers": "36"
+  },
+  "S010000883": {
+    "name": "오금중학교",
+    "students": 318,
+    "teachers": "33"
+  },
+  "S010000884": {
+    "name": "오륜중학교",
+    "students": 478,
+    "teachers": "54"
+  },
+  "S010000885": {
+    "name": "오주중학교",
+    "students": 451,
+    "teachers": "44"
+  },
+  "S010000886": {
+    "name": "잠실여자중학교",
+    "students": 397,
+    "teachers": "38"
+  },
+  "S010000887": {
+    "name": "잠신중학교",
+    "students": 1073,
+    "teachers": "86"
+  },
+  "S010000888": {
+    "name": "잠실중학교",
+    "students": 1230,
+    "teachers": "92"
+  },
+  "S010000889": {
+    "name": "정신여자중학교",
+    "students": 977,
+    "teachers": "73"
+  },
+  "S010000892": {
+    "name": "풍납중학교",
+    "students": 333,
+    "teachers": "35"
+  },
+  "S010000893": {
+    "name": "풍성중학교",
+    "students": 324,
+    "teachers": "29"
+  },
+  "S010004058": {
+    "name": "서울체육중학교",
+    "students": 163,
+    "teachers": "23"
+  },
+  "S010005520": {
+    "name": "문현중학교",
+    "students": 525,
+    "teachers": "46"
+  },
+  "S010005593": {
+    "name": "위례솔중학교",
+    "students": 672,
+    "teachers": "70"
+  },
+  "S010006041": {
+    "name": "송례중학교",
+    "students": 1288,
+    "teachers": "106"
+  },
+  "S010006434": {
+    "name": "해누리중학교",
+    "students": 710,
+    "teachers": "67"
+  },
+  "S010000370": {
+    "name": "가락고등학교",
+    "students": 760,
+    "teachers": "63"
+  },
+  "S010000441": {
+    "name": "배명고등학교",
+    "students": 787,
+    "teachers": "71"
+  },
+  "S010000446": {
+    "name": "보성고등학교",
+    "students": 802,
+    "teachers": "73"
+  },
+  "S010000461": {
+    "name": "서울체육고등학교",
+    "students": 332,
+    "teachers": "45"
+  },
+  "S010000496": {
+    "name": "영동일고등학교",
+    "students": 895,
+    "teachers": "78"
+  },
+  "S010000504": {
+    "name": "영파여자고등학교",
+    "students": 820,
+    "teachers": "72"
+  },
+  "S010000507": {
+    "name": "오금고등학교",
+    "students": 825,
+    "teachers": "73"
+  },
+  "S010000522": {
+    "name": "잠신고등학교",
+    "students": 695,
+    "teachers": "74"
+  },
+  "S010000523": {
+    "name": "잠실고등학교",
+    "students": 546,
+    "teachers": "60"
+  },
+  "S010000524": {
+    "name": "잠실여자고등학교",
+    "students": 931,
+    "teachers": "79"
+  },
+  "S010000528": {
+    "name": "정신여자고등학교",
+    "students": 876,
+    "teachers": "79"
+  },
+  "S010000539": {
+    "name": "창덕여자고등학교",
+    "students": 432,
+    "teachers": "60"
+  },
+  "S010000593": {
+    "name": "서울인공지능고등학교",
+    "students": 296,
+    "teachers": "64"
+  },
+  "S010000612": {
+    "name": "일신여자상업고등학교",
+    "students": 371,
+    "teachers": "51"
+  },
+  "S010000636": {
+    "name": "덕수고등학교",
+    "students": 885,
+    "teachers": "88"
+  },
+  "S010000640": {
+    "name": "보인고등학교",
+    "students": 1107,
+    "teachers": "80"
+  },
+  "S010005182": {
+    "name": "방산고등학교",
+    "students": 812,
+    "teachers": "75"
+  },
+  "S010005498": {
+    "name": "문정고등학교",
+    "students": 743,
+    "teachers": "69"
+  },
+  "S010005524": {
+    "name": "문현고등학교",
+    "students": 611,
+    "teachers": "64"
+  },
+  "S010005566": {
+    "name": "잠일고등학교",
+    "students": 433,
+    "teachers": "55"
+  },
+  "S010000901": {
+    "name": "서울강덕초등학교",
+    "students": 1200,
+    "teachers": "76"
+  },
+  "S010000902": {
+    "name": "서울강동초등학교",
+    "students": 514,
+    "teachers": "41"
+  },
+  "S010000903": {
+    "name": "서울강일초등학교",
+    "students": 609,
+    "teachers": "42"
+  },
+  "S010000906": {
+    "name": "서울고덕초등학교",
+    "students": 612,
+    "teachers": "45"
+  },
+  "S010000907": {
+    "name": "서울고명초등학교",
+    "students": 807,
+    "teachers": "58"
+  },
+  "S010000908": {
+    "name": "서울고일초등학교",
+    "students": 1900,
+    "teachers": "95"
+  },
+  "S010000909": {
+    "name": "서울길동초등학교",
+    "students": 679,
+    "teachers": "50"
+  },
+  "S010000911": {
+    "name": "서울대명초등학교",
+    "students": 743,
+    "teachers": "51"
+  },
+  "S010000912": {
+    "name": "서울둔촌초등학교",
+    "students": 0,
+    "teachers": "61"
+  },
+  "S010000914": {
+    "name": "서울명덕초등학교",
+    "students": 1710,
+    "teachers": "92"
+  },
+  "S010000915": {
+    "name": "서울명원초등학교",
+    "students": 711,
+    "teachers": "44"
+  },
+  "S010000916": {
+    "name": "서울명일초등학교",
+    "students": 969,
+    "teachers": "67"
+  },
+  "S010000917": {
+    "name": "서울묘곡초등학교",
+    "students": 1388,
+    "teachers": "92"
+  },
+  "S010000923": {
+    "name": "서울상일초등학교",
+    "students": 161,
+    "teachers": "22"
+  },
+  "S010000925": {
+    "name": "서울선린초등학교",
+    "students": 415,
+    "teachers": "38"
+  },
+  "S010000926": {
+    "name": "서울선사초등학교",
+    "students": 523,
+    "teachers": "36"
+  },
+  "S010000927": {
+    "name": "서울성내초등학교",
+    "students": 781,
+    "teachers": "68"
+  },
+  "S010000928": {
+    "name": "서울성일초등학교",
+    "students": 993,
+    "teachers": "75"
+  },
+  "S010000933": {
+    "name": "서울신명초등학교",
+    "students": 404,
+    "teachers": "38"
+  },
+  "S010000934": {
+    "name": "서울신암초등학교",
+    "students": 672,
+    "teachers": "49"
+  },
+  "S010000940": {
+    "name": "서울위례초등학교",
+    "students": 0,
+    "teachers": "61"
+  },
+  "S010000947": {
+    "name": "서울천동초등학교",
+    "students": 724,
+    "teachers": "53"
+  },
+  "S010000948": {
+    "name": "서울천일초등학교",
+    "students": 256,
+    "teachers": "32"
+  },
+  "S010000949": {
+    "name": "서울천호초등학교",
+    "students": 613,
+    "teachers": "49"
+  },
+  "S010000954": {
+    "name": "서울한산초등학교",
+    "students": 661,
+    "teachers": "47"
+  },
+  "S010005527": {
+    "name": "서울강명초등학교",
+    "students": 558,
+    "teachers": "42"
+  },
+  "S010005600": {
+    "name": "서울고현초등학교",
+    "students": 1352,
+    "teachers": "79"
+  },
+  "S010006385": {
+    "name": "서울강솔초등학교",
+    "students": 556,
+    "teachers": "40"
+  },
+  "S010006543": {
+    "name": "서울강빛초등학교",
+    "students": 879,
+    "teachers": "53"
+  },
+  "S010000858": {
+    "name": "강일중학교",
+    "students": 675,
+    "teachers": "59"
+  },
+  "S010000860": {
+    "name": "고덕중학교",
+    "students": 1428,
+    "teachers": "106"
+  },
+  "S010000861": {
+    "name": "동북중학교",
+    "students": 230,
+    "teachers": "36"
+  },
+  "S010000862": {
+    "name": "동신중학교",
+    "students": 435,
+    "teachers": "47"
+  },
+  "S010000863": {
+    "name": "둔촌중학교",
+    "students": 249,
+    "teachers": "45"
+  },
+  "S010000864": {
+    "name": "명일중학교",
+    "students": 1039,
+    "teachers": "77"
+  },
+  "S010000869": {
+    "name": "배재중학교",
+    "students": 850,
+    "teachers": "53"
+  },
+  "S010000872": {
+    "name": "상일중학교",
+    "students": 515,
+    "teachers": "33"
+  },
+  "S010000874": {
+    "name": "성내중학교",
+    "students": 481,
+    "teachers": "54"
+  },
+  "S010000875": {
+    "name": "성덕여자중학교",
+    "students": 472,
+    "teachers": "45"
+  },
+  "S010000878": {
+    "name": "신명중학교",
+    "students": 494,
+    "teachers": "53"
+  },
+  "S010000879": {
+    "name": "신암중학교",
+    "students": 524,
+    "teachers": "49"
+  },
+  "S010000890": {
+    "name": "천일중학교",
+    "students": 486,
+    "teachers": "50"
+  },
+  "S010000891": {
+    "name": "천호중학교",
+    "students": 458,
+    "teachers": "48"
+  },
+  "S010000895": {
+    "name": "한산중학교",
+    "students": 320,
+    "teachers": "65"
+  },
+  "S010000896": {
+    "name": "한영중학교",
+    "students": 734,
+    "teachers": "45"
+  },
+  "S010005526": {
+    "name": "강명중학교",
+    "students": 753,
+    "teachers": "66"
+  },
+  "S010005540": {
+    "name": "강동중학교",
+    "students": 577,
+    "teachers": "58"
+  },
+  "S010006545": {
+    "name": "강빛중학교",
+    "students": 312,
+    "teachers": "45"
+  },
+  "S010000371": {
+    "name": "강동고등학교",
+    "students": 731,
+    "teachers": "55"
+  },
+  "S010000392": {
+    "name": "광문고등학교",
+    "students": 1179,
+    "teachers": "84"
+  },
+  "S010000423": {
+    "name": "동북고등학교",
+    "students": 896,
+    "teachers": "72"
+  },
+  "S010000428": {
+    "name": "둔촌고등학교",
+    "students": 691,
+    "teachers": "70"
+  },
+  "S010000434": {
+    "name": "명일여자고등학교",
+    "students": 585,
+    "teachers": "59"
+  },
+  "S010000443": {
+    "name": "배재고등학교",
+    "students": 1283,
+    "teachers": "83"
+  },
+  "S010000453": {
+    "name": "상일여자고등학교",
+    "students": 806,
+    "teachers": "72"
+  },
+  "S010000558": {
+    "name": "한영고등학교",
+    "students": 1202,
+    "teachers": "86"
+  },
+  "S010000576": {
+    "name": "한영외국어고등학교",
+    "students": 692,
+    "teachers": "59"
+  },
+  "S010000586": {
+    "name": "상일미디어고등학교",
+    "students": 571,
+    "teachers": "71"
+  },
+  "S010000606": {
+    "name": "서울컨벤션고등학교",
+    "students": 581,
+    "teachers": "69"
+  },
+  "S010000609": {
+    "name": "성덕고등학교",
+    "students": 715,
+    "teachers": "70"
+  },
+  "S010005522": {
+    "name": "강일고등학교",
+    "students": 600,
+    "teachers": "61"
+  },
+  "S010005563": {
+    "name": "선사고등학교",
+    "students": 675,
+    "teachers": "69"
+  }
+}
