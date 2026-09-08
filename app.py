@@ -38,15 +38,25 @@ def extract_district(address: str) -> str:
     return m.group(1) if m else "기타"
 
 
+def extract_dong(address: str) -> str:
+    """지번주소에서 동 정보를 추출 (예: '서울특별시 강남구 신사동 550-11' → '신사동')"""
+    if not address:
+        return "기타"
+    m = re.search(r"서울특별시\s+\S+\s+(\S+동)\s", address)
+    return m.group(1) if m else "기타"
+
+
 def normalize_school(raw: dict, school_type: str) -> dict:
     road = (raw.get("address_road") or raw.get("소재지도로명주소") or "").strip()
     jiban = (raw.get("address_jiban") or raw.get("소재지지번주소") or "").strip()
     district = (raw.get("district") or extract_district(road or jiban)).strip() or "기타"
+    dong = (raw.get("dong") or extract_dong(jiban)).strip() or "기타"
     return {
         "id": (raw.get("id") or raw.get("학교ID") or "").strip(),
         "name": (raw.get("name") or raw.get("학교명") or "").strip(),
         "school_type": raw.get("school_type", school_type),
         "district": district,
+        "dong": dong,
         "address_road": road,
         "address_jiban": jiban,
         "lat": float(raw["lat"] if "lat" in raw else raw["위도"]) if (raw.get("lat") or raw.get("위도")) else None,
@@ -71,6 +81,20 @@ def load_schools() -> list[dict]:
 def load_districts() -> list[str]:
     districts = sorted({s["district"] for s in load_schools() if s.get("district") and s["district"] != "기타"})
     return districts
+
+
+def load_dongs_by_district() -> dict[str, list[str]]:
+    """구별 동 목록을 반환 (예: {"강남구": ["신사동", "역삼동", ...], ...})"""
+    schools = load_schools()
+    dongs_map: dict[str, set[str]] = {}
+    for s in schools:
+        district = s.get("district", "기타")
+        dong = s.get("dong", "기타")
+        if district != "기타" and dong != "기타":
+            if district not in dongs_map:
+                dongs_map[district] = set()
+            dongs_map[district].add(dong)
+    return {d: sorted(list(dongs)) for d, dongs in dongs_map.items()}
 
 
 HTML_TEMPLATE = r"""
@@ -103,14 +127,18 @@ HTML_TEMPLATE = r"""
   .filter-btn:hover:not(.active) { background:#e8f4fd; }
   .control-row { margin-bottom:8px; }
   .control-label { display:block; font-size:11px; color:#666; margin-bottom:4px; }
-  #district-select, #search-box {
+  #district-select, #dong-select, #search-box {
     width:100%; padding:8px 10px; border:1px solid #ccc; border-radius:6px;
     font-size:13px; outline:none;
   }
   #district-select { margin-bottom:8px; }
+  #dong-select { margin-bottom:8px; }
   #search-box { margin-bottom:8px; }
-  #district-select:focus, #search-box:focus {
+  #district-select:focus, #dong-select:focus, #search-box:focus {
     border-color:#4a90d9; box-shadow:0 0 0 2px rgba(74,144,217,0.2);
+  }
+  #dong-select:disabled {
+    background:#f5f5f5; color:#999;
   }
   .legend { font-size:11px; color:#666; margin:8px 0 10px; display:flex; gap:12px; flex-wrap:wrap; }
   .legend span::before {
@@ -193,12 +221,19 @@ HTML_TEMPLATE = r"""
       {% endfor %}
     </select>
   </div>
+  <div class="control-row">
+    <label class="control-label" for="dong-select">동 단위 조회</label>
+    <select id="dong-select" disabled>
+      <option value="all">전체 동 (구를 먼저 선택)</option>
+    </select>
+  </div>
   <input id="search-box" type="text" placeholder="학교명 검색 (예: 서울, 강남)" />
   <ul id="school-list"></ul>
 </div>
 
 <script>
 const schools = {{ schools | tojson }};
+const dongsByDistrict = {{ dongs_by_district | tojson }};
 
 const map = L.map('map', { center:[37.54, 126.99], zoom:12, zoomControl:true });
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -232,7 +267,7 @@ schools.forEach(s => {
       <span style="background:#${s.type === '사립' ? 'e74c3c' : '27ae60'};color:#fff;padding:1px 5px;border-radius:3px;font-size:10px;margin-left:4px;">${s.type || '공립'}</span>
       <hr style="margin:6px 0;border:none;border-top:1px solid #eee;">
       <div style="font-size:12px;color:#555;">
-        <div>📍 ${s.district}</div>
+        <div>📍 ${s.district} ${s.dong || ''}</div>
         <div style="color:#777;font-size:11px;">${s.address_road || s.address_jiban || ''}</div>
         ${establishedYear ? `<div style="margin-top:4px;">🏫 설립: ${establishedYear}</div>` : ''}
       </div>
@@ -272,7 +307,26 @@ schools.forEach(s => {
 const listEl = document.getElementById('school-list');
 const countEl = document.getElementById('count');
 const districtSelect = document.getElementById('district-select');
+const dongSelect = document.getElementById('dong-select');
 const searchBox = document.getElementById('search-box');
+
+function updateDongOptions(district) {
+  dongSelect.innerHTML = '';
+  if (district === 'all') {
+    dongSelect.innerHTML = '<option value="all">전체 동 (구를 먼저 선택)</option>';
+    dongSelect.disabled = true;
+  } else {
+    const dongs = dongsByDistrict[district] || [];
+    dongSelect.innerHTML = '<option value="all">전체 동</option>';
+    dongs.forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d;
+      opt.textContent = d;
+      dongSelect.appendChild(opt);
+    });
+    dongSelect.disabled = false;
+  }
+}
 
 function renderList(list) {
   listEl.innerHTML = '';
@@ -283,7 +337,7 @@ function renderList(list) {
         ${s.name}
         <span class="type-badge ${s.school_type}">${s.school_type === 'elementary' ? '초' : s.school_type === 'middle' ? '중' : '고'}</span>
       </span>
-      <span class="addr">${s.district}<br>${s.address_road ? s.address_road.slice(0,16) : ''}</span>
+      <span class="addr">${s.district} ${s.dong || ''}<br>${s.address_road ? s.address_road.slice(0,16) : ''}</span>
     `;
     li.addEventListener('click', () => {
       map.setView([s.lat, s.lng], 15);
@@ -312,12 +366,17 @@ filterBtns.forEach(btn => {
   });
 });
 
-districtSelect.addEventListener('change', applyFilters);
+districtSelect.addEventListener('change', () => {
+  updateDongOptions(districtSelect.value);
+  applyFilters();
+});
+dongSelect.addEventListener('change', applyFilters);
 searchBox.addEventListener('input', applyFilters);
 
 function applyFilters() {
   const q = searchBox.value.trim().toLowerCase();
   const selectedDistrict = districtSelect.value;
+  const selectedDong = dongSelect.value;
   let filtered = schools;
 
   if (activeType !== 'all') {
@@ -326,10 +385,14 @@ function applyFilters() {
   if (selectedDistrict !== 'all') {
     filtered = filtered.filter(s => s.district === selectedDistrict);
   }
+  if (selectedDong !== 'all') {
+    filtered = filtered.filter(s => s.dong === selectedDong);
+  }
   if (q) {
     filtered = filtered.filter(s =>
       s.name.toLowerCase().includes(q) ||
       s.district.toLowerCase().includes(q) ||
+      (s.dong || '').toLowerCase().includes(q) ||
       (s.address_road || '').toLowerCase().includes(q)
     );
   }
@@ -842,6 +905,7 @@ def index():
         HTML_TEMPLATE,
         schools=schools,
         districts=load_districts(),
+        dongs_by_district=load_dongs_by_district(),
         colors=TYPE_COLORS,
         total_count=len(schools),
     )
@@ -851,11 +915,14 @@ def api_schools():
     schools = load_schools()
     school_type = request.args.get("type", "all")
     district = request.args.get("district", "all")
+    dong = request.args.get("dong", "all")
 
     if school_type != "all":
         schools = [s for s in schools if s["school_type"] == school_type]
     if district != "all":
         schools = [s for s in schools if s["district"] == district]
+    if dong != "all":
+        schools = [s for s in schools if s["dong"] == dong]
 
     counts = {t: 0 for t in TYPE_ORDER}
     for s in load_schools():
@@ -868,6 +935,7 @@ def api_schools():
         "middle_count": counts["middle"],
         "high_count": counts["high"],
         "districts": load_districts(),
+        "dongs_by_district": load_dongs_by_district(),
     })
 
 
